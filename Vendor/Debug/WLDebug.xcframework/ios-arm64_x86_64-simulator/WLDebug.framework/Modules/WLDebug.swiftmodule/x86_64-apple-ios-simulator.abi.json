@@ -1,0 +1,4266 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "CombineExt",
+        "printedName": "CombineExt",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Debug",
+        "printedName": "Debug",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "overridenAppearance",
+            "printedName": "overridenAppearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WLConfig.AppearanceConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppearanceConfiguration",
+                    "printedName": "WLConfig.AppearanceConfiguration",
+                    "usr": "s:8WLConfig23AppearanceConfigurationP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7WLDebug5DebugO19overridenAppearance8WLConfig0D13Configuration_pSgvpZ",
+            "mangledName": "$s7WLDebug5DebugO19overridenAppearance8WLConfig0D13Configuration_pSgvpZ",
+            "moduleName": "WLDebug",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WLConfig.AppearanceConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppearanceConfiguration",
+                        "printedName": "WLConfig.AppearanceConfiguration",
+                        "usr": "s:8WLConfig23AppearanceConfigurationP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7WLDebug5DebugO19overridenAppearance8WLConfig0D13Configuration_pSgvgZ",
+                "mangledName": "$s7WLDebug5DebugO19overridenAppearance8WLConfig0D13Configuration_pSgvgZ",
+                "moduleName": "WLDebug",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7WLDebug5DebugO",
+        "mangledName": "$s7WLDebug5DebugO",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLPersistence",
+        "printedName": "WLPersistence",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLPersistence",
+        "printedName": "WLPersistence",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLPersistence",
+        "printedName": "WLPersistence",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLPersistence",
+        "printedName": "WLPersistence",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Function",
+        "name": "registerProviderFactories",
+        "printedName": "registerProviderFactories()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7WLDebug25registerProviderFactoriesyyF",
+        "mangledName": "$s7WLDebug25registerProviderFactoriesyyF",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RswiftResources",
+        "printedName": "RswiftResources",
+        "declKind": "Import",
+        "moduleName": "WLDebug"
+      },
+      {
+        "kind": "Var",
+        "name": "R",
+        "printedName": "R",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "_R",
+            "printedName": "WLDebug._R",
+            "usr": "s:7WLDebug2_RV"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7WLDebug1RAA2_RVvp",
+        "mangledName": "$s7WLDebug1RAA2_RVvp",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_R",
+                "printedName": "WLDebug._R",
+                "usr": "s:7WLDebug2_RV"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:7WLDebug1RAA2_RVvg",
+            "mangledName": "$s7WLDebug1RAA2_RVvg",
+            "moduleName": "WLDebug",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_R",
+        "printedName": "_R",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7WLDebug2_RV6bundleSo8NSBundleCvp",
+            "mangledName": "$s7WLDebug2_RV6bundleSo8NSBundleCvp",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7WLDebug2_RV6bundleSo8NSBundleCvg",
+                "mangledName": "$s7WLDebug2_RV6bundleSo8NSBundleCvg",
+                "moduleName": "WLDebug",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_R",
+                "printedName": "WLDebug._R",
+                "usr": "s:7WLDebug2_RV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7WLDebug2_RV6bundleACSo8NSBundleC_tcfc",
+            "mangledName": "$s7WLDebug2_RV6bundleACSo8NSBundleC_tcfc",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "string",
+                "printedName": "WLDebug._R.string",
+                "usr": "s:7WLDebug2_RV6stringV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7WLDebug2_RV6stringAcDVvp",
+            "mangledName": "$s7WLDebug2_RV6stringAcDVvp",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "string",
+                    "printedName": "WLDebug._R.string",
+                    "usr": "s:7WLDebug2_RV6stringV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7WLDebug2_RV6stringAcDVvg",
+                "mangledName": "$s7WLDebug2_RV6stringAcDVvg",
+                "moduleName": "WLDebug",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "file",
+            "printedName": "file",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "file",
+                "printedName": "WLDebug._R.file",
+                "usr": "s:7WLDebug2_RV4fileV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7WLDebug2_RV4fileAcDVvp",
+            "mangledName": "$s7WLDebug2_RV4fileAcDVvp",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "file",
+                    "printedName": "WLDebug._R.file",
+                    "usr": "s:7WLDebug2_RV4fileV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7WLDebug2_RV4fileAcDVvg",
+                "mangledName": "$s7WLDebug2_RV4fileAcDVvg",
+                "moduleName": "WLDebug",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "string",
+                "printedName": "WLDebug._R.string",
+                "usr": "s:7WLDebug2_RV6stringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7WLDebug2_RV6string6bundleAcDVSo8NSBundleC_tF",
+            "mangledName": "$s7WLDebug2_RV6string6bundleAcDVSo8NSBundleC_tF",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "string",
+                "printedName": "WLDebug._R.string",
+                "usr": "s:7WLDebug2_RV6stringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Locale",
+                "printedName": "Foundation.Locale",
+                "usr": "s:10Foundation6LocaleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7WLDebug2_RV6string6localeAcDV10Foundation6LocaleV_tF",
+            "mangledName": "$s7WLDebug2_RV6string6localeAcDV10Foundation6LocaleV_tF",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(preferredLanguages:locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "string",
+                "printedName": "WLDebug._R.string",
+                "usr": "s:7WLDebug2_RV6stringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Locale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Locale",
+                    "printedName": "Foundation.Locale",
+                    "usr": "s:10Foundation6LocaleV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7WLDebug2_RV6string18preferredLanguages6localeAcDVSaySSG_10Foundation6LocaleVSgtF",
+            "mangledName": "$s7WLDebug2_RV6string18preferredLanguages6localeAcDVSaySSG_10Foundation6LocaleVSgtF",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "file",
+            "printedName": "file(bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "file",
+                "printedName": "WLDebug._R.file",
+                "usr": "s:7WLDebug2_RV4fileV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7WLDebug2_RV4file6bundleAcDVSo8NSBundleC_tF",
+            "mangledName": "$s7WLDebug2_RV4file6bundleAcDVSo8NSBundleC_tF",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7WLDebug2_RV8validateyyKF",
+            "mangledName": "$s7WLDebug2_RV8validateyyKF",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "project",
+            "printedName": "project",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "developmentRegion",
+                "printedName": "developmentRegion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV7projectV17developmentRegionSSvp",
+                "mangledName": "$s7WLDebug2_RV7projectV17developmentRegionSSvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV7projectV17developmentRegionSSvg",
+                    "mangledName": "$s7WLDebug2_RV7projectV17developmentRegionSSvg",
+                    "moduleName": "WLDebug",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:7WLDebug2_RV7projectV",
+            "mangledName": "$s7WLDebug2_RV7projectV",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "bundle",
+                "printedName": "bundle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV6stringV6bundleSo8NSBundleCvp",
+                "mangledName": "$s7WLDebug2_RV6stringV6bundleSo8NSBundleCvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV6stringV6bundleSo8NSBundleCvg",
+                    "mangledName": "$s7WLDebug2_RV6stringV6bundleSo8NSBundleCvg",
+                    "moduleName": "WLDebug",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "preferredLanguages",
+                "printedName": "preferredLanguages",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV6stringV18preferredLanguagesSaySSGSgvp",
+                "mangledName": "$s7WLDebug2_RV6stringV18preferredLanguagesSaySSGSgvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV6stringV18preferredLanguagesSaySSGSgvg",
+                    "mangledName": "$s7WLDebug2_RV6stringV18preferredLanguagesSaySSGSgvg",
+                    "moduleName": "WLDebug",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "locale",
+                "printedName": "locale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Locale?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Locale",
+                        "printedName": "Foundation.Locale",
+                        "usr": "s:10Foundation6LocaleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV6stringV6locale10Foundation6LocaleVSgvp",
+                "mangledName": "$s7WLDebug2_RV6stringV6locale10Foundation6LocaleVSgvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Locale?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Locale",
+                            "printedName": "Foundation.Locale",
+                            "usr": "s:10Foundation6LocaleV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV6stringV6locale10Foundation6LocaleVSgvg",
+                    "mangledName": "$s7WLDebug2_RV6stringV6locale10Foundation6LocaleVSgvg",
+                    "moduleName": "WLDebug",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(bundle:preferredLanguages:locale:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "string",
+                    "printedName": "WLDebug._R.string",
+                    "usr": "s:7WLDebug2_RV6stringV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Locale?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Locale",
+                        "printedName": "Foundation.Locale",
+                        "usr": "s:10Foundation6LocaleV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7WLDebug2_RV6stringV6bundle18preferredLanguages6localeAESo8NSBundleC_SaySSGSg10Foundation6LocaleVSgtcfc",
+                "mangledName": "$s7WLDebug2_RV6stringV6bundle18preferredLanguages6localeAESo8NSBundleC_SaySSGSg10Foundation6LocaleVSgtcfc",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "debug",
+                "printedName": "debug",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "debug",
+                    "printedName": "WLDebug._R.string.debug",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV6stringV5debugAeFVvp",
+                "mangledName": "$s7WLDebug2_RV6stringV5debugAeFVvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "debug",
+                        "printedName": "WLDebug._R.string.debug",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV6stringV5debugAeFVvg",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugAeFVvg",
+                    "moduleName": "WLDebug",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "debug",
+                "printedName": "debug(preferredLanguages:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "debug",
+                    "printedName": "WLDebug._R.string.debug",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7WLDebug2_RV6stringV5debug18preferredLanguagesAeFVSaySSG_tF",
+                "mangledName": "$s7WLDebug2_RV6stringV5debug18preferredLanguagesAeFVSaySSG_tF",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "debug",
+                "printedName": "debug",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "source",
+                    "printedName": "source",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Source",
+                        "printedName": "RswiftResources.StringResource.Source",
+                        "usr": "s:15RswiftResources14StringResourceV6SourceO"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV6source15RswiftResources14StringResourceV6SourceOvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV6source15RswiftResources14StringResourceV6SourceOvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Source",
+                            "printedName": "RswiftResources.StringResource.Source",
+                            "usr": "s:15RswiftResources14StringResourceV6SourceO"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV6source15RswiftResources14StringResourceV6SourceOvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV6source15RswiftResources14StringResourceV6SourceOvg",
+                        "moduleName": "WLDebug",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(source:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "debug",
+                        "printedName": "WLDebug._R.string.debug",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Source",
+                        "printedName": "RswiftResources.StringResource.Source",
+                        "usr": "s:15RswiftResources14StringResourceV6SourceO"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV6sourceAG15RswiftResources14StringResourceV6SourceO_tcfc",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV6sourceAG15RswiftResources14StringResourceV6SourceO_tcfc",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_ads_desc",
+                    "printedName": "debug_ads_desc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C9_ads_desc15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C9_ads_desc15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C9_ads_desc15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C9_ads_desc15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_base_color",
+                    "printedName": "debug_appearance_base_color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C22_appearance_base_color15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C22_appearance_base_color15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C22_appearance_base_color15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C22_appearance_base_color15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_corner_style",
+                    "printedName": "debug_appearance_corner_style",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C24_appearance_corner_style15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C24_appearance_corner_style15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C24_appearance_corner_style15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C24_appearance_corner_style15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_icon_style",
+                    "printedName": "debug_appearance_icon_style",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C22_appearance_icon_style15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C22_appearance_icon_style15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C22_appearance_icon_style15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C22_appearance_icon_style15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_palette",
+                    "printedName": "debug_appearance_palette",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C19_appearance_palette15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C19_appearance_palette15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C19_appearance_palette15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C19_appearance_palette15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_reset_descr",
+                    "printedName": "debug_appearance_reset_descr",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C23_appearance_reset_descr15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C23_appearance_reset_descr15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C23_appearance_reset_descr15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C23_appearance_reset_descr15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_reset_title",
+                    "printedName": "debug_appearance_reset_title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C23_appearance_reset_title15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C23_appearance_reset_title15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C23_appearance_reset_title15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C23_appearance_reset_title15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_settings_desc",
+                    "printedName": "debug_appearance_settings_desc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C25_appearance_settings_desc15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C25_appearance_settings_desc15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C25_appearance_settings_desc15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C25_appearance_settings_desc15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_appearance_settings_title",
+                    "printedName": "debug_appearance_settings_title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C26_appearance_settings_title15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C26_appearance_settings_title15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C26_appearance_settings_title15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C26_appearance_settings_title15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_approval_required",
+                    "printedName": "debug_approval_required",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C18_approval_required15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C18_approval_required15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C18_approval_required15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C18_approval_required15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_cancel",
+                    "printedName": "debug_cancel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C7_cancel15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C7_cancel15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C7_cancel15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C7_cancel15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_cleanup_storage",
+                    "printedName": "debug_cleanup_storage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C16_cleanup_storage15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C16_cleanup_storage15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C16_cleanup_storage15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C16_cleanup_storage15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_disable_ads",
+                    "printedName": "debug_disable_ads",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C12_disable_ads15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C12_disable_ads15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C12_disable_ads15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C12_disable_ads15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_ads",
+                    "printedName": "debug_enable_ads",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C11_enable_ads15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C11_enable_ads15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C11_enable_ads15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C11_enable_ads15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_pseudo_rtl",
+                    "printedName": "debug_enable_pseudo_rtl",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C18_enable_pseudo_rtl15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C18_enable_pseudo_rtl15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C18_enable_pseudo_rtl15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C18_enable_pseudo_rtl15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_pseudo_rtl_desc",
+                    "printedName": "debug_enable_pseudo_rtl_desc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C23_enable_pseudo_rtl_desc15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C23_enable_pseudo_rtl_desc15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C23_enable_pseudo_rtl_desc15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C23_enable_pseudo_rtl_desc15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_pseudo_rtl_disable",
+                    "printedName": "debug_enable_pseudo_rtl_disable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C26_enable_pseudo_rtl_disable15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C26_enable_pseudo_rtl_disable15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C26_enable_pseudo_rtl_disable15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C26_enable_pseudo_rtl_disable15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_pseudo_rtl_disable_desc",
+                    "printedName": "debug_enable_pseudo_rtl_disable_desc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C31_enable_pseudo_rtl_disable_desc15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C31_enable_pseudo_rtl_disable_desc15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C31_enable_pseudo_rtl_disable_desc15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C31_enable_pseudo_rtl_disable_desc15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_pseudo_rtl_with_mirored_text",
+                    "printedName": "debug_enable_pseudo_rtl_with_mirored_text",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C36_enable_pseudo_rtl_with_mirored_text15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C36_enable_pseudo_rtl_with_mirored_text15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C36_enable_pseudo_rtl_with_mirored_text15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C36_enable_pseudo_rtl_with_mirored_text15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_enable_pseudo_rtl_with_mirored_text_desc",
+                    "printedName": "debug_enable_pseudo_rtl_with_mirored_text_desc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C41_enable_pseudo_rtl_with_mirored_text_desc15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C41_enable_pseudo_rtl_with_mirored_text_desc15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C41_enable_pseudo_rtl_with_mirored_text_desc15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C41_enable_pseudo_rtl_with_mirored_text_desc15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_force_crash_desc",
+                    "printedName": "debug_force_crash_desc",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C17_force_crash_desc15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C17_force_crash_desc15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C17_force_crash_desc15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C17_force_crash_desc15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_force_crash_title",
+                    "printedName": "debug_force_crash_title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C18_force_crash_title15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C18_force_crash_title15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C18_force_crash_title15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C18_force_crash_title15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_force_crash_warning",
+                    "printedName": "debug_force_crash_warning",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C20_force_crash_warning15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C20_force_crash_warning15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C20_force_crash_warning15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C20_force_crash_warning15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_needs_application_restart",
+                    "printedName": "debug_needs_application_restart",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C26_needs_application_restart15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C26_needs_application_restart15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C26_needs_application_restart15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C26_needs_application_restart15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_ok",
+                    "printedName": "debug_ok",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C3_ok15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C3_ok15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C3_ok15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C3_ok15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_push_token",
+                    "printedName": "debug_push_token",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C11_push_token15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C11_push_token15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C11_push_token15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C11_push_token15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_save",
+                    "printedName": "debug_save",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C5_save15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C5_save15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C5_save15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C5_save15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_title",
+                    "printedName": "debug_title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C6_title15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C6_title15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C6_title15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C6_title15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "debug_version",
+                    "printedName": "debug_version",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringResource",
+                        "printedName": "RswiftResources.StringResource",
+                        "usr": "s:15RswiftResources14StringResourceV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:7WLDebug2_RV6stringV5debugV0C8_version15RswiftResources14StringResourceVvp",
+                    "mangledName": "$s7WLDebug2_RV6stringV5debugV0C8_version15RswiftResources14StringResourceVvp",
+                    "moduleName": "WLDebug",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StringResource",
+                            "printedName": "RswiftResources.StringResource",
+                            "usr": "s:15RswiftResources14StringResourceV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:7WLDebug2_RV6stringV5debugV0C8_version15RswiftResources14StringResourceVvg",
+                        "mangledName": "$s7WLDebug2_RV6stringV5debugV0C8_version15RswiftResources14StringResourceVvg",
+                        "moduleName": "WLDebug",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:7WLDebug2_RV6stringV5debugV",
+                "mangledName": "$s7WLDebug2_RV6stringV5debugV",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:7WLDebug2_RV6stringV",
+            "mangledName": "$s7WLDebug2_RV6stringV",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "file",
+            "printedName": "file",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "bundle",
+                "printedName": "bundle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV4fileV6bundleSo8NSBundleCvp",
+                "mangledName": "$s7WLDebug2_RV4fileV6bundleSo8NSBundleCvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV4fileV6bundleSo8NSBundleCvg",
+                    "mangledName": "$s7WLDebug2_RV4fileV6bundleSo8NSBundleCvg",
+                    "moduleName": "WLDebug",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(bundle:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "file",
+                    "printedName": "WLDebug._R.file",
+                    "usr": "s:7WLDebug2_RV4fileV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7WLDebug2_RV4fileV6bundleAESo8NSBundleC_tcfc",
+                "mangledName": "$s7WLDebug2_RV4fileV6bundleAESo8NSBundleC_tcfc",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "privacyInfoXcprivacy",
+                "printedName": "privacyInfoXcprivacy",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileResource",
+                    "printedName": "RswiftResources.FileResource",
+                    "usr": "s:15RswiftResources12FileResourceV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7WLDebug2_RV4fileV20privacyInfoXcprivacy15RswiftResources12FileResourceVvp",
+                "mangledName": "$s7WLDebug2_RV4fileV20privacyInfoXcprivacy15RswiftResources12FileResourceVvp",
+                "moduleName": "WLDebug",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileResource",
+                        "printedName": "RswiftResources.FileResource",
+                        "usr": "s:15RswiftResources12FileResourceV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7WLDebug2_RV4fileV20privacyInfoXcprivacy15RswiftResources12FileResourceVvg",
+                    "mangledName": "$s7WLDebug2_RV4fileV20privacyInfoXcprivacy15RswiftResources12FileResourceVvg",
+                    "moduleName": "WLDebug",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:7WLDebug2_RV4fileV",
+            "mangledName": "$s7WLDebug2_RV4fileV",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7WLDebug2_RV",
+        "mangledName": "$s7WLDebug2_RV",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenProvider",
+        "printedName": "ScreenProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScreenProvider",
+                "printedName": "WLDebug.ScreenProvider",
+                "usr": "s:7WLDebug14ScreenProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7WLDebug14ScreenProviderC6sharedACvpZ",
+            "mangledName": "$s7WLDebug14ScreenProviderC6sharedACvpZ",
+            "moduleName": "WLDebug",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenProvider",
+                    "printedName": "WLDebug.ScreenProvider",
+                    "usr": "s:7WLDebug14ScreenProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7WLDebug14ScreenProviderC6sharedACvgZ",
+                "mangledName": "$s7WLDebug14ScreenProviderC6sharedACvgZ",
+                "moduleName": "WLDebug",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "debugViewController",
+            "printedName": "debugViewController(pushTokenProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7WLDebug14ScreenProviderC19debugViewController09pushTokenC0So06UIViewF0CSSSgyc_tF",
+            "mangledName": "$s7WLDebug14ScreenProviderC19debugViewController09pushTokenC0So06UIViewF0CSSSgyc_tF",
+            "moduleName": "WLDebug",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7WLDebug14ScreenProviderC",
+        "mangledName": "$s7WLDebug14ScreenProviderC",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLPersistence",
+        "printedName": "WLPersistence",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLPersistence",
+        "printedName": "WLPersistence",
+        "declKind": "Import",
+        "moduleName": "WLDebug",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewController\/AppearanceEditorVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 722,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewController\/AppearanceEditorVC.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 18,
+      "value": "\"WLDebug.AppearanceEditorVC\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewModel\/AppearanceEditorVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2482,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewModel\/AppearanceEditorVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2843,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewModel\/AppearanceEditorVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewModel\/AppearanceEditorVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/AppearanceEditor\/ViewModel\/AppearanceEditorVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3499,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/ColorPalette+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "\"LAB\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/ColorPalette+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 5,
+      "value": "\"HSV\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/ColorSelection\/ViewController\/ColorSelectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/ColorSelection\/ViewController\/ColorSelectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 16,
+      "value": "\"WLDebug.ColorSelectionVC\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/CornerStyle+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 7,
+      "value": "\"Sharp\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/CornerStyle+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 9,
+      "value": "\"Default\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/CornerStyle+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 7,
+      "value": "\"Round\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Model Layer\/DebugAppearance\/DebugAppearance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2130,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Model Layer\/DebugAppearance\/DebugAppearance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2165,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Model Layer\/DebugAppearance\/DebugAppearance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2199,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Model Layer\/DebugAppearance\/DebugAppearance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2234,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/DebugCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1642,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewController\/DebugVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1058,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewController\/DebugVC.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 7,
+      "value": "\"WLDebug.DebugVC\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "StringLiteral",
+      "offset": 2828,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "StringLiteral",
+      "offset": 2844,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "StringLiteral",
+      "offset": 2862,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3545,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5306,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5586,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5818,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Presentation Layer\/Debug\/Screens\/Debug\/ViewModel\/DebugVM.swift",
+      "kind": "StringLiteral",
+      "offset": 6281,
+      "length": 30,
+      "value": "\"Force crash for Сrashlytics\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/IconStyle+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 8,
+      "value": "\"Filled\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/IconStyle+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 6,
+      "value": "\"Line\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/TravelConfig\/IconStyle+Title.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 6,
+      "value": "\"Tint\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 130,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent->WLDebugServicesComponent->WLDebugCoordinatorsComponent->DebugCoordinatorComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 163,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent->WLDebugServicesComponent->WLDebugCoordinatorsComponent->DebugCoordinatorComponent->AppearanceEditorModuleComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 161,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent->WLDebugServicesComponent->WLDebugCoordinatorsComponent->DebugCoordinatorComponent->ColorSelectionModuleComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 152,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent->WLDebugServicesComponent->WLDebugCoordinatorsComponent->DebugCoordinatorComponent->DebugModuleComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1782,
+      "length": 47,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2020,
+      "length": 73,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent->WLDebugServicesComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2288,
+      "length": 25,
+      "value": "\"^->WLDebugRootComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2478,
+      "length": 103,
+      "value": "\"^->WLDebugRootComponent->WLDebugCoreComponent->WLDebugServicesComponent->WLDebugCoordinatorsComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3003,
+      "length": 54,
+      "value": "\"WLDebug.DebugCoordinatorDependencyc526682c67575862a1c7Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3514,
+      "length": 60,
+      "value": "\"WLDebug.AppearanceEditorModuleDependency0d65990bcbc5630b5609Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4031,
+      "length": 58,
+      "value": "\"WLDebug.ColorSelectionModuleDependencyda9ee8dbd5a3f77dee74Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4824,
+      "length": 49,
+      "value": "\"WLDebug.DebugModuleDependency174f593ab9f7a3cef121Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5272,
+      "length": 49,
+      "value": "\"WLDebug.WLDebugCoreDependency74c828c6efbc5a950f2eProvider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5669,
+      "length": 53,
+      "value": "\"WLDebug.WLDebugServicesDependency70c2658afd6d481168beProvider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6112,
+      "length": 57,
+      "value": "\"WLDebug.WLDebugCoordinatorsDependencyb052655bb1d25498b579Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1869,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 16,
+      "value": "\"debug_ads_desc\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2537,
+      "length": 42,
+      "value": "\"Enable or disable advertising everywhere\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 29,
+      "value": "\"debug_appearance_base_color\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 12,
+      "value": "\"Base color\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3152,
+      "length": 31,
+      "value": "\"debug_appearance_corner_style\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3196,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 14,
+      "value": "\"Corner style\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3488,
+      "length": 29,
+      "value": "\"debug_appearance_icon_style\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3530,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3573,
+      "length": 12,
+      "value": "\"Icon style\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3811,
+      "length": 26,
+      "value": "\"debug_appearance_palette\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3850,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3893,
+      "length": 9,
+      "value": "\"Palette\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4162,
+      "length": 30,
+      "value": "\"debug_appearance_reset_descr\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4205,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4248,
+      "length": 35,
+      "value": "\"Reset appearance to default value\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4515,
+      "length": 30,
+      "value": "\"debug_appearance_reset_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4558,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4601,
+      "length": 7,
+      "value": "\"Reset\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4871,
+      "length": 32,
+      "value": "\"debug_appearance_settings_desc\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4916,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4959,
+      "length": 34,
+      "value": "\"Configure application appearance\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5245,
+      "length": 33,
+      "value": "\"debug_appearance_settings_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5291,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5334,
+      "length": 21,
+      "value": "\"Appearance settings\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5589,
+      "length": 25,
+      "value": "\"debug_approval_required\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5627,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5670,
+      "length": 19,
+      "value": "\"Approval required\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5890,
+      "length": 14,
+      "value": "\"debug_cancel\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5917,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 5960,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6202,
+      "length": 23,
+      "value": "\"debug_cleanup_storage\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6238,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6281,
+      "length": 23,
+      "value": "\"Cleanup local storage\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6520,
+      "length": 19,
+      "value": "\"debug_disable_ads\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6552,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6595,
+      "length": 13,
+      "value": "\"Disable ads\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6821,
+      "length": 18,
+      "value": "\"debug_enable_ads\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6852,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 6895,
+      "length": 12,
+      "value": "\"Enable ads\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7136,
+      "length": 25,
+      "value": "\"debug_enable_pseudo_rtl\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7174,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7217,
+      "length": 14,
+      "value": "\"RTL (pseudo)\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7502,
+      "length": 30,
+      "value": "\"debug_enable_pseudo_rtl_desc\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7545,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7588,
+      "length": 48,
+      "value": "\"• RTL mode\n• Mirrored UI\n• LTR strings\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7885,
+      "length": 33,
+      "value": "\"debug_enable_pseudo_rtl_disable\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7931,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 7974,
+      "length": 18,
+      "value": "\"Disable RTL mode\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8248,
+      "length": 38,
+      "value": "\"debug_enable_pseudo_rtl_disable_desc\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8299,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8342,
+      "length": 15,
+      "value": "\"Back to stock\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8627,
+      "length": 43,
+      "value": "\"debug_enable_pseudo_rtl_with_mirored_text\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8683,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8726,
+      "length": 19,
+      "value": "\"Full RTL (pseudo)\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9052,
+      "length": 48,
+      "value": "\"debug_enable_pseudo_rtl_with_mirored_text_desc\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9113,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9156,
+      "length": 48,
+      "value": "\"• RTL mode\n• Mirrored UI\n• RTL strings\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9454,
+      "length": 24,
+      "value": "\"debug_force_crash_desc\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9491,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9534,
+      "length": 37,
+      "value": "\"Perform force crash for crashlytics\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9799,
+      "length": 25,
+      "value": "\"debug_force_crash_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9837,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9880,
+      "length": 13,
+      "value": "\"Force crash\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10127,
+      "length": 27,
+      "value": "\"debug_force_crash_warning\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10167,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10210,
+      "length": 15,
+      "value": "\"Are you sure?\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10502,
+      "length": 33,
+      "value": "\"debug_needs_application_restart\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10548,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10591,
+      "length": 46,
+      "value": "\"This action requires an application restart.\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10826,
+      "length": 10,
+      "value": "\"debug_ok\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10849,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10892,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11109,
+      "length": 18,
+      "value": "\"debug_push_token\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11140,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11183,
+      "length": 12,
+      "value": "\"Push token\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11390,
+      "length": 12,
+      "value": "\"debug_save\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11415,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11458,
+      "length": 6,
+      "value": "\"Save\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11662,
+      "length": 13,
+      "value": "\"debug_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11688,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11731,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11942,
+      "length": 15,
+      "value": "\"debug_version\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11970,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 12013,
+      "length": 9,
+      "value": "\"Version\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 12415,
+      "length": 13,
+      "value": "\"PrivacyInfo\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 12445,
+      "length": 11,
+      "value": "\"xcprivacy\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 13,
+      "value": "\"AppleLocale\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 16,
+      "value": "\"AppleLanguages\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 20,
+      "value": "\"AppleTextDirection\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 36,
+      "value": "\"NSForceRightToLeftWritingDirection\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 36,
+      "value": "\"NSForceRightToLeftLocalizedStrings\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 13,
+      "value": "\"AppleLocale\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 16,
+      "value": "\"AppleLanguages\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 20,
+      "value": "\"AppleTextDirection\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 36,
+      "value": "\"NSForceRightToLeftWritingDirection\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 36,
+      "value": "\"NSForceRightToLeftLocalizedStrings\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 7,
+      "value": "\"ar_AE\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "Array",
+      "offset": 638,
+      "length": 6,
+      "value": "[\"ar\"]"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 794,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 834,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1009,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLDebug\/Sources\/Extensions\/Foundation\/UserDefaults\/UserDefaults+Locale.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1051,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
