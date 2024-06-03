@@ -1,4 +1,0 @@
-framework module WLDebug {
-  header "WLDebug-Swift.h"
-  requires objc
-}
