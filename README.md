@@ -1,11 +1,23 @@
-# TravelApp WhiteLabel iOS SDK
+# Travelpayouts SDK
 
-Для подключения SDK к вашему проекту необходиомо модифицировать ваш `Podfile` следующим образом:
-- Включить сборку зависимостей в отдельные фреймворки
+Create your own iOS app for searching tickets and hotels or integrate the SDK into your travel app and earn commissions from sales through the app.
+
+[Travelpayouts.com](Travelpayouts.com)
+
+[What is Travelpayouts?](https://support.travelpayouts.com/hc/en-us/articles/203955593-What-is-Travelpayouts-and-how-does-it-work)
+
+Integration of the SDK is possible via CocoaPods. If you do not use this dependency manager, please contact us at support@travelpayouts.com, and we will send you information on how to connect the Travelpayouts SDK locally.
+
+
+# Integrating Travelpayouts SDK iOS via CocoaPods
+
+To integrate the SDK into your project, you need to modify your `Podfile` as follows:
+
+- Enable building dependencies into separate frameworks:
   ```ruby
   use_frameworks!
   ```
-- В коде постобработчика задать настроку `BUILD_LIBRARY_FOR_DISTRIBUTION = YES`, для зависимостей
+- In the post-install hook, set `BUILD_LIBRARY_FOR_DISTRIBUTION = YES` for dependencies:
   ```ruby
   post_install do |installer|
   	installer.pods_project.targets.each do |target|
@@ -17,21 +29,21 @@
   end
   ```
 
-## Подключение модулей
-- Авиабилеты
+## Integrating Modules
+- Flights
   ```ruby
   pod 'WLSDK/Flights'
   ```
-- Бронирование отелей
+- Hotel Booking
   ```ruby
   pod 'WLSDK/Hotels'
   ```
-- Модуль с информацией и настройками
+- Information and Settings Module
   ```ruby
   pod 'WLSDK/Information'
   ```
 
-## Пример Podfile
+## Sample Podfile
 ```ruby
 use_frameworks!
 
