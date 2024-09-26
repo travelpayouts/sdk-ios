@@ -974,6 +974,9 @@ public struct _R {
       public var price_not_availalble: RswiftResources.StringResource {
         get
       }
+      public var progress_bar_title: RswiftResources.StringResource {
+        get
+      }
       public var without_cancellation_title: RswiftResources.StringResource {
         get
       }
@@ -1001,12 +1004,6 @@ public struct _R {
         get
       }
       public var location_troubles_title: RswiftResources.StringResource {
-        get
-      }
-      public var map_location_button_title: RswiftResources.StringResource {
-        get
-      }
-      public var my_location_button_title: RswiftResources.StringResource {
         get
       }
       public var restricred_location_access_message: RswiftResources.StringResource {
@@ -1054,9 +1051,7 @@ public struct _R {
 }
 @_hasMissingDesignatedInitializers final public class ScreenProvider {
   public static let shared: WLHotels.ScreenProvider
-  final public var hotelsViewController: UIKit.UIViewController {
-    get
-  }
+  final public func hotelsViewController() -> UIKit.UIViewController
   final public func enable()
   @objc deinit
 }

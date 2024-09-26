@@ -455,12 +455,13 @@ SWIFT_CLASS("_TtC15WLUserInterface19CommonFavoritesView")
 
 @class NSBundle;
 
-SWIFT_CLASS("_TtC15WLUserInterface24CoordinatorViewContoller")
-@interface CoordinatorViewContoller : UIViewController
+SWIFT_CLASS("_TtC15WLUserInterface25CoordinatorViewController")
+@interface CoordinatorViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 SWIFT_CLASS("_TtCC15WLUserInterface10PriceChart10DataSource")
@@ -686,8 +687,13 @@ SWIFT_CLASS("_TtC15WLUserInterface7MapView")
 SWIFT_CLASS("_TtC15WLUserInterface20ModalScreenWrapperVC")
 @interface ModalScreenWrapperVC : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UIPresentationController;
+
+@interface ModalScreenWrapperVC (SWIFT_EXTENSION(WLUserInterface)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 
@@ -803,17 +809,8 @@ SWIFT_CLASS("_TtC15WLUserInterface19PagingIndicatorView")
 
 
 
-SWIFT_CLASS("_TtC15WLUserInterface34TransparentBarNavigationController")
-@interface TransparentBarNavigationController : UINavigationController
-- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=5.0);
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC15WLUserInterface28PanModalNavigationController")
-@interface PanModalNavigationController : TransparentBarNavigationController
+@interface PanModalNavigationController : UINavigationController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
@@ -884,6 +881,7 @@ SWIFT_CLASS("_TtC15WLUserInterface30PanModalPresentationController")
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithPresentedViewController:(UIViewController * _Nonnull)presentedViewController presentingViewController:(UIViewController * _Nullable)presentingViewController OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -992,7 +990,9 @@ SWIFT_CLASS("_TtC15WLUserInterface11ProgressBar")
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)didMoveToWindow;
 @end
+
 
 
 SWIFT_CLASS("_TtC15WLUserInterface17SelectableControl")
@@ -1164,6 +1164,7 @@ SWIFT_CLASS("_TtC15WLUserInterface11StepperView")
 
 SWIFT_CLASS("_TtC15WLUserInterface8TextCell")
 @interface TextCell : BaseCollectionViewCell
+- (void)prepareForReuse;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1204,7 +1205,6 @@ SWIFT_CLASS("_TtC15WLUserInterface25TouchesPassCollectionView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 SWIFT_CLASS("_TtC15WLUserInterface13TwoTitlesView")
@@ -1787,12 +1787,13 @@ SWIFT_CLASS("_TtC15WLUserInterface19CommonFavoritesView")
 
 @class NSBundle;
 
-SWIFT_CLASS("_TtC15WLUserInterface24CoordinatorViewContoller")
-@interface CoordinatorViewContoller : UIViewController
+SWIFT_CLASS("_TtC15WLUserInterface25CoordinatorViewController")
+@interface CoordinatorViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 SWIFT_CLASS("_TtCC15WLUserInterface10PriceChart10DataSource")
@@ -2018,8 +2019,13 @@ SWIFT_CLASS("_TtC15WLUserInterface7MapView")
 SWIFT_CLASS("_TtC15WLUserInterface20ModalScreenWrapperVC")
 @interface ModalScreenWrapperVC : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UIPresentationController;
+
+@interface ModalScreenWrapperVC (SWIFT_EXTENSION(WLUserInterface)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 
@@ -2135,17 +2141,8 @@ SWIFT_CLASS("_TtC15WLUserInterface19PagingIndicatorView")
 
 
 
-SWIFT_CLASS("_TtC15WLUserInterface34TransparentBarNavigationController")
-@interface TransparentBarNavigationController : UINavigationController
-- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=5.0);
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC15WLUserInterface28PanModalNavigationController")
-@interface PanModalNavigationController : TransparentBarNavigationController
+@interface PanModalNavigationController : UINavigationController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
@@ -2216,6 +2213,7 @@ SWIFT_CLASS("_TtC15WLUserInterface30PanModalPresentationController")
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithPresentedViewController:(UIViewController * _Nonnull)presentedViewController presentingViewController:(UIViewController * _Nullable)presentingViewController OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -2324,7 +2322,9 @@ SWIFT_CLASS("_TtC15WLUserInterface11ProgressBar")
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)didMoveToWindow;
 @end
+
 
 
 SWIFT_CLASS("_TtC15WLUserInterface17SelectableControl")
@@ -2496,6 +2496,7 @@ SWIFT_CLASS("_TtC15WLUserInterface11StepperView")
 
 SWIFT_CLASS("_TtC15WLUserInterface8TextCell")
 @interface TextCell : BaseCollectionViewCell
+- (void)prepareForReuse;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -2536,7 +2537,6 @@ SWIFT_CLASS("_TtC15WLUserInterface25TouchesPassCollectionView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 SWIFT_CLASS("_TtC15WLUserInterface13TwoTitlesView")

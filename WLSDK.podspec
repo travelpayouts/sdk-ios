@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
     s.name                  = 'WLSDK'
-    s.version               = '1.2.1'
+    s.version               = '1.3.0'
     s.summary               = 'Integrate flight search and booking framework in your apps.'
   
     s.description           = <<-DESC
@@ -14,15 +14,15 @@ Pod::Spec.new do |s|
     s.homepage              = 'https://github.com/travelpayouts/sdk-ios'
     s.license               = { :type => "Commercial" }
     s.author                = { 'Travelpayouts' => 'support@travelpayouts.com' }
-    s.source                = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
+    s.source                = { :git => 'https://github.com/travelpayouts/sdk-ios.git', :tag => s.version.to_s }
     s.swift_version         = '5.9'
-    s.default_subspec       = 'Core'
+    s.default_subspec       = 'Core', 'Flights', 'Hotels', 'Information'
     s.ios.deployment_target = '14.0'
 
     s.subspec 'Core' do |core|
         core.ios.vendored_frameworks = 'Vendor/Core/*.xcframework'
 
-        core.dependency 'Apollo', '>= 1.9.3', '< 2.0.0'
+        core.dependency 'Apollo', '>= 1.9.3', '< 1.14.0'
         core.dependency 'AvailableHapticFeedback', '>= 1.0.4', '< 1.1.0'
         core.dependency 'ClusterKit', '>= 0.5.0', '< 1.0.0'
         core.dependency 'CombineCocoa', '>= 0.4.0', '< 1.0.0'

@@ -2112,8 +2112,7 @@
         "mangledName": "$s13WLPersistence25registerProviderFactoriesyyF",
         "moduleName": "WLPersistence",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
       },
@@ -5611,196 +5610,189 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/DebugSettings\/DebugSettings.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/DebugSettings\/DebugSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Services\/DeviceIdentificationService.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Services\/DeviceIdentificationService.swift",
       "kind": "IntegerLiteral",
       "offset": 1020,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 18,
       "value": "\"CFBundleIconName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 18,
       "value": "\"CFBundleIconName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 21,
       "value": "\"CFBundlePrimaryIcon\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 21,
       "value": "\"CFBundlePrimaryIcon\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 15,
       "value": "\"CFBundleIcons\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 766,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 15,
       "value": "\"CFBundleIcons\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 766,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Keychain\/KeychainKey\/KeychainKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Keychain\/KeychainKey\/KeychainKey.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 8,
       "value": "\"common\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 312,
+      "offset": 1438,
       "length": 59,
       "value": "\"^->WLPersistenceRootComponent->WLPersistenceCoreComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 568,
+      "offset": 1576,
       "length": 31,
       "value": "\"^->WLPersistenceRootComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 918,
-      "length": 55,
-      "value": "\"WLPersistence.WLPersistenceCoreDependencycaa1922b05552d010ea6Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/PriceDisplayType\/PriceDisplayType.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/PriceDisplayType\/PriceDisplayType.swift",
       "kind": "BooleanLiteral",
       "offset": 425,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/Entities\/PriceDisplayType\/PriceDisplayType.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/PriceDisplayType\/PriceDisplayType.swift",
       "kind": "BooleanLiteral",
       "offset": 461,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1108,
       "length": 13,
       "value": "\"UserDefault\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1151,
       "length": 12,
       "value": "\"FlightsKey\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1192,
       "length": 11,
       "value": "\"HotelsKey\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1239,
       "length": 15,
       "value": "\"DebugSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1283,
       "length": 11,
       "value": "\"CommonKey\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1333,
       "length": 18,

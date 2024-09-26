@@ -1874,8 +1874,7 @@
         "mangledName": "$s8WLShared25registerProviderFactoriesyyF",
         "moduleName": "WLShared",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
       },
@@ -2417,105 +2416,84 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Presentation Layer\/SharedUI\/FavoriteScreensCoordinator.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Presentation Layer\/SharedUI\/FavoriteScreensCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 1510,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
       "kind": "Array",
       "offset": 733,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
       "kind": "IntegerLiteral",
       "offset": 422,
       "length": 3,
       "value": "750"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
       "kind": "IntegerLiteral",
       "offset": 487,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 383,
+      "offset": 3301,
       "length": 113,
       "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent->WLSharedServicesComponent->FavoriteScreensCoordinatorComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 3493,
       "length": 49,
       "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 3621,
       "length": 26,
       "value": "\"^->WLSharedRootComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 3709,
       "length": 76,
       "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent->WLSharedServicesComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 1944,
-      "length": 64,
-      "value": "\"WLShared.FavoriteScreensCoordinatorDependencyaa1ea8c27cc460909ce2Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 2414,
-      "length": 50,
-      "value": "\"WLShared.WLSharedCoreDependencyb1456a95b4d7379bfcd3Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 2818,
-      "length": 54,
-      "value": "\"WLShared.WLSharedServicesDependencya213fdce414e0ce3a010Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 4,

@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLSupport
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
+import CombineCocoa
 import Foundation
 import NeedleFoundation
 import Swift
@@ -67,6 +68,9 @@ public enum TrackableScreenSource {
   public var hashValue: Swift.Int {
     get
   }
+}
+extension UIKit.UIColor {
+  convenience public init(lightHex: Swift.String, darkHex: Swift.String)
 }
 public enum WhiteLabel {
   public static func configure(with configuration: WLConfig.Configuration)

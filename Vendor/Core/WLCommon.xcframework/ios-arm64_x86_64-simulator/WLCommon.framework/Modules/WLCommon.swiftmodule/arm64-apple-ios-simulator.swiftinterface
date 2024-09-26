@@ -26,8 +26,8 @@ extension CoreFoundation.CGSize : Swift.Hashable {
     get
   }
 }
-extension Swift.Sequence {
-  public func count(transforms: (Self.Element) -> Swift.Int...) -> Swift.Int
+extension Combine.Publisher {
+  public func throttle<S>(interval: Foundation.TimeInterval, scheduler: S = DispatchQueue.main, latest: Swift.Bool = true) -> Combine.Publishers.Throttle<Self, S> where S : Combine.Scheduler
 }
 extension UIKit.UIEdgeInsets : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)

@@ -726,8 +726,7 @@
         "mangledName": "$s9WLSupport25registerProviderFactoriesyyF",
         "moduleName": "WLSupport",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
       },
@@ -1082,6 +1081,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NeedleFoundation",
         "printedName": "NeedleFoundation",
         "declKind": "Import",
@@ -1207,8 +1226,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WLSupport",
         "declAttributes": [
@@ -1219,6 +1238,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "CombineCocoa",
+        "printedName": "CombineCocoa",
         "declKind": "Import",
         "moduleName": "WLSupport"
       },
@@ -1340,99 +1366,198 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(lightHex:darkHex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC9WLSupportE8lightHex04darkD0ABSS_SStcfc",
+            "mangledName": "$sSo7UIColorC9WLSupportE8lightHex04darkD0ABSS_SStcfc",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Model Layer\/ConfigurableTabBar\/ConfigurableTabBar.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Model Layer\/ConfigurableTabBar\/ConfigurableTabBar.swift",
       "kind": "BooleanLiteral",
       "offset": 576,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 3052,
       "length": 117,
       "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent->WLSupportCoordinatorsComponent->WebContainerCoordinatorComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 3248,
       "length": 146,
       "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent->WLSupportCoordinatorsComponent->WebContainerCoordinatorComponent->WebContainerModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 3473,
       "length": 83,
       "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent->WLSupportCoordinatorsComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 3635,
       "length": 27,
       "value": "\"^->WLSupportRootComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1477,
+      "offset": 3724,
       "length": 51,
       "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 1945,
-      "length": 61,
-      "value": "\"WLSupport.WebContainerCoordinatorDependency8a8b9442a909fa491582Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 2445,
-      "length": 56,
-      "value": "\"WLSupport.WebContainerModuleDependency1650967f29e755d57b05Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 2878,
-      "length": 59,
-      "value": "\"WLSupport.WLSupportCoordinatorsDependencyb0785e077233445bbf61Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 3269,
-      "length": 51,
-      "value": "\"WLSupport.WLSupportCoreDependencyf8ddebb4e7f89cd23a34Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.ScreenState.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.ScreenState.swift",
       "kind": "BooleanLiteral",
       "offset": 635,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 463,
+      "offset": 1049,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.swift",
       "kind": "StringLiteral",
-      "offset": 282,
+      "offset": 297,
       "length": 14,
       "value": "\"WLSupport.WebContainerVC\""
     }

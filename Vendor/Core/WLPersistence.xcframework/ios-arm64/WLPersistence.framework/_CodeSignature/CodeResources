@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GgEhdTwa4ACK22T/FTYTxtdilx4=
+		WV5TvmXB8m86AKfNVlfM391XgHI=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tl+ot118raA+jkLsPHdPGkqKhbE=
+		dF4Cm3LF6Git1i1j9xMtVkG6mmc=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zfMURDWKdz+XZhqfFnvRz4MzawE=
+		UejB3DOBEG0FUFLM3ldktf0zmt0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+VykBfH822i1/ldhmGk7Wmb2n8PvJAgDGuhUcpF/Log=
+			EwFYzZnD9Cw0jqmWwcsKZpqSir2bu/ZlxP4veJc6pSs=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOET7+YRz+O5tU96J8+BBAAbnTBCcGbfLtEdQjueDzI=
+			LL+S0FWlK+/NIkEFcd0LV2cm3cE8KKfIpbMGsaqS3ts=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

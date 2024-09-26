@@ -2953,8 +2953,7 @@
         "mangledName": "$s13WLInformation25registerProviderFactoriesyyF",
         "moduleName": "WLInformation",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
       },
@@ -7454,6 +7453,31 @@
                 "children": [
                   {
                     "kind": "Function",
+                    "name": "title",
+                    "printedName": "title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV5titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV5titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "application_version",
                     "printedName": "application_version(_:)",
                     "children": [
@@ -7473,31 +7497,6 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19application_versionyS2SF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19application_versionyS2SF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "title",
-                    "printedName": "title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV5titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV5titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -7596,31 +7595,6 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "title",
-                    "printedName": "title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV5titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV5titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "search_bar_placeholder",
                     "printedName": "search_bar_placeholder()",
                     "children": [
@@ -7634,6 +7608,31 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV22search_bar_placeholderSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV22search_bar_placeholderSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "title",
+                    "printedName": "title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV5titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV5titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -7757,31 +7756,6 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "all_currencies_button",
-                    "printedName": "all_currencies_button()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV31InformationDefaultCurrencyTableV21all_currencies_buttonSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV31InformationDefaultCurrencyTableV21all_currencies_buttonSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "load_currencies_error_description",
                     "printedName": "load_currencies_error_description()",
                     "children": [
@@ -7795,6 +7769,31 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV31InformationDefaultCurrencyTableV33load_currencies_error_descriptionSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV31InformationDefaultCurrencyTableV33load_currencies_error_descriptionSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "all_currencies_button",
+                    "printedName": "all_currencies_button()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV31InformationDefaultCurrencyTableV21all_currencies_buttonSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV31InformationDefaultCurrencyTableV21all_currencies_buttonSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -7868,6 +7867,31 @@
                 "children": [
                   {
                     "kind": "Function",
+                    "name": "information_feedback_mail_subject",
+                    "printedName": "information_feedback_mail_subject()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV33information_feedback_mail_subjectSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV33information_feedback_mail_subjectSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "confidentiality_cell_title",
                     "printedName": "confidentiality_cell_title()",
                     "children": [
@@ -7918,8 +7942,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "favourites_cell_title",
-                    "printedName": "favourites_cell_title()",
+                    "name": "personal_section_title",
+                    "printedName": "personal_section_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7929,33 +7953,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV21favourites_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV21favourites_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "aboutApp_cell_title",
-                    "printedName": "aboutApp_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV19aboutApp_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV19aboutApp_cell_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -7993,8 +7992,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "personal_section_title",
-                    "printedName": "personal_section_title()",
+                    "name": "connectWithUs_cell_title",
+                    "printedName": "connectWithUs_cell_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8004,33 +8003,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "title",
-                    "printedName": "title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8068,8 +8042,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "connectWithUs_cell_title",
-                    "printedName": "connectWithUs_cell_title()",
+                    "name": "aboutApp_cell_title",
+                    "printedName": "aboutApp_cell_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8079,8 +8053,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV19aboutApp_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV19aboutApp_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8093,8 +8067,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "shareApp_cell_title",
-                    "printedName": "shareApp_cell_title()",
+                    "name": "title",
+                    "printedName": "title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8104,8 +8078,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV19shareApp_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV19shareApp_cell_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8143,8 +8117,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "information_feedback_mail_subject",
-                    "printedName": "information_feedback_mail_subject()",
+                    "name": "favourites_cell_title",
+                    "printedName": "favourites_cell_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8154,8 +8128,33 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV33information_feedback_mail_subjectSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV33information_feedback_mail_subjectSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV21favourites_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV21favourites_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "shareApp_cell_title",
+                    "printedName": "shareApp_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV19shareApp_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV19shareApp_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8186,56 +8185,6 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "hotels_section_title",
-                    "printedName": "hotels_section_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "priceForOneNight_cell_title",
-                    "printedName": "priceForOneNight_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "priceForOnePassenger_cell_title",
                     "printedName": "priceForOnePassenger_cell_title()",
                     "children": [
@@ -8249,56 +8198,6 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV31priceForOnePassenger_cell_titleSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV31priceForOnePassenger_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "title",
-                    "printedName": "title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV5titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV5titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "currency_cell_title",
-                    "printedName": "currency_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8336,6 +8235,81 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "aviaTickets_section_title",
+                    "printedName": "aviaTickets_section_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "currency_cell_title",
+                    "printedName": "currency_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "hotels_section_title",
+                    "printedName": "hotels_section_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "priceForAllNights_cell_title",
                     "printedName": "priceForAllNights_cell_title()",
                     "children": [
@@ -8361,8 +8335,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "aviaTickets_section_title",
-                    "printedName": "aviaTickets_section_title()",
+                    "name": "priceForOneNight_cell_title",
+                    "printedName": "priceForOneNight_cell_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8372,8 +8346,33 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "title",
+                    "printedName": "title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV5titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV5titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8404,8 +8403,8 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "country_cell_title",
-                    "printedName": "country_cell_title()",
+                    "name": "description_cell_title",
+                    "printedName": "description_cell_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8415,8 +8414,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV18country_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV18country_cell_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV22description_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV22description_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8479,6 +8478,31 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "country_cell_title",
+                    "printedName": "country_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV18country_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV18country_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "title",
                     "printedName": "title()",
                     "children": [
@@ -8492,31 +8516,6 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV5titleSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV5titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "description_cell_title",
-                    "printedName": "description_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV22description_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV22description_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -10008,1820 +10007,1708 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/ViewController\/AboutAppVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/ViewController\/AboutAppVC.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 10,
       "value": "\"WLInformation.AboutAppVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/View\/TitleView\/AboutAppView.TitleView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/View\/TitleView\/AboutAppView.TitleView.swift",
       "kind": "StringLiteral",
       "offset": 917,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/View\/AboutAppView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/View\/AboutAppView.swift",
       "kind": "BooleanLiteral",
       "offset": 2521,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/View\/AboutAppView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/AboutApp\/View\/AboutAppView.swift",
       "kind": "BooleanLiteral",
       "offset": 2570,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Confidentiality\/Screens\/Confidentiality\/ViewController\/ConfidentialityVC.ScreenState.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Confidentiality\/Screens\/Confidentiality\/ViewController\/ConfidentialityVC.ScreenState.swift",
       "kind": "BooleanLiteral",
       "offset": 649,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Confidentiality\/Screens\/Confidentiality\/ViewController\/ConfidentialityVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Confidentiality\/Screens\/Confidentiality\/ViewController\/ConfidentialityVC.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 17,
       "value": "\"WLInformation.ConfidentialityVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewController\/CountryPickerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewController\/CountryPickerVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1028,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewController\/CountryPickerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewController\/CountryPickerVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewController\/CountryPickerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewController\/CountryPickerVC.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 15,
       "value": "\"WLInformation.CountryPickerVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
       "kind": "Array",
       "offset": 1750,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
       "kind": "BooleanLiteral",
       "offset": 6225,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
       "kind": "IntegerLiteral",
       "offset": 6458,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/ViewModel\/CountryPickerVM.swift",
       "kind": "StringLiteral",
       "offset": 6487,
       "length": 29,
       "value": "\"CountryPickerVM.searchQueue\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/View\/CountryPickerView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/View\/CountryPickerView.swift",
       "kind": "BooleanLiteral",
       "offset": 1508,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/View\/CountryPickerView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/View\/CountryPickerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1907,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/View\/CountryPickerView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CountryPicker\/View\/CountryPickerView.swift",
       "kind": "IntegerLiteral",
       "offset": 2123,
       "length": 2,
       "value": "96"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Extensions\/Currency\/Currency+Constants.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Extensions\/Currency\/Currency+Constants.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 5,
       "value": "\"RUB\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Extensions\/Currency\/Currency+Constants.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Extensions\/Currency\/Currency+Constants.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Extensions\/Currency\/Currency+Constants.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Extensions\/Currency\/Currency+Constants.swift",
       "kind": "StringLiteral",
       "offset": 680,
       "length": 5,
       "value": "\"EUR\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewController\/CurrencyPickerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewController\/CurrencyPickerVC.swift",
       "kind": "BooleanLiteral",
       "offset": 986,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewController\/CurrencyPickerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewController\/CurrencyPickerVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1568,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewController\/CurrencyPickerVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewController\/CurrencyPickerVC.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 16,
       "value": "\"WLInformation.CurrencyPickerVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewModel\/CurrencyPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewModel\/CurrencyPickerVM.swift",
       "kind": "Array",
       "offset": 2151,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewModel\/CurrencyPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewModel\/CurrencyPickerVM.swift",
       "kind": "IntegerLiteral",
       "offset": 5020,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewModel\/CurrencyPickerVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/ViewModel\/CurrencyPickerVM.swift",
       "kind": "StringLiteral",
       "offset": 5049,
       "length": 30,
       "value": "\"CurrencyPickerVM.searchQueue\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/View\/CurrencyPickerView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/CurrencyPicker\/View\/CurrencyPickerView.swift",
       "kind": "BooleanLiteral",
       "offset": 1513,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/DefaultCurrency\/ViewController\/DefaultCurrencyVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/DefaultCurrency\/ViewController\/DefaultCurrencyVC.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 17,
       "value": "\"WLInformation.DefaultCurrencyVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/DefaultCurrency\/ViewModel\/DefaultCurrencyVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/DefaultCurrency\/ViewModel\/DefaultCurrencyVM.swift",
       "kind": "Array",
       "offset": 1875,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/DefaultCurrency\/View\/DefaultCurrencyView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/DefaultCurrency\/View\/DefaultCurrencyView.swift",
       "kind": "BooleanLiteral",
       "offset": 1083,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/InformationCoordinatorComponent.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/InformationCoordinatorComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1868,
+      "offset": 1856,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/ViewController\/InformationVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/ViewController\/InformationVC.swift",
       "kind": "BooleanLiteral",
       "offset": 620,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/ViewController\/InformationVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/ViewController\/InformationVC.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 13,
       "value": "\"WLInformation.InformationVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/ViewModel\/InformationVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/ViewModel\/InformationVM.swift",
       "kind": "BooleanLiteral",
       "offset": 4322,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/View\/InformationView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/Information\/View\/InformationView.swift",
       "kind": "BooleanLiteral",
       "offset": 1077,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 14375,
       "length": 161,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->ConfidentialityCoordinatorComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 14615,
       "length": 193,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->ConfidentialityCoordinatorComponent->ConfidentialityModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 14887,
       "length": 193,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->CurrenciesPickerCoordinatorComponent->CurrencyPickerModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1659,
+      "offset": 15159,
       "length": 152,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->InformationModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 15390,
       "length": 153,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->PriceDisplayModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 15622,
       "length": 156,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->DefaultCurrencyModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2716,
+      "offset": 15857,
       "length": 194,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->CurrenciesPickerCoordinatorComponent->DefaultCurrencyModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3111,
+      "offset": 16130,
       "length": 149,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->AboutAppModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3454,
+      "offset": 16358,
       "length": 157,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->RegionalSettingsModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3813,
+      "offset": 16594,
       "length": 154,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->CountryPickerModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 4166,
+      "offset": 16827,
       "length": 189,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->CountryPickerCoordinatorComponent->CountryPickerModuleComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 4554,
+      "offset": 17095,
       "length": 124,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 4880,
+      "offset": 17298,
       "length": 162,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->CurrenciesPickerCoordinatorComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 5249,
+      "offset": 17539,
       "length": 159,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent->InformationCoordinatorComponent->CountryPickerCoordinatorComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 5612,
+      "offset": 17777,
       "length": 59,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 5868,
+      "offset": 17915,
       "length": 31,
       "value": "\"^->WLInformationRootComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
       "kind": "StringLiteral",
-      "offset": 6064,
+      "offset": 18008,
       "length": 91,
       "value": "\"^->WLInformationRootComponent->WLInformationCoreComponent->WLInformationServicesComponent\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 6630,
-      "length": 64,
-      "value": "\"WLInformation.ConfidentialityCoordinatorDependency3ec85b54a8093e3cef50Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 7189,
-      "length": 59,
-      "value": "\"WLInformation.ConfidentialityModuleDependencya040b171df3560b4ee6aProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 8068,
-      "length": 58,
-      "value": "\"WLInformation.CurrencyPickerModuleDependencyfd38351a178c90eca131Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 8663,
-      "length": 55,
-      "value": "\"WLInformation.InformationModuleDependency2e4cca0bf20ef4d046e0Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 9613,
-      "length": 56,
-      "value": "\"WLInformation.PriceDisplayModuleDependencyf98ed1ef31604e62f89fProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 10541,
-      "length": 59,
-      "value": "\"WLInformation.DefaultCurrencyModuleDependencye24fbe0e1bb64b03771aProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 11044,
-      "length": 59,
-      "value": "\"WLInformation.DefaultCurrencyModuleDependencyf82b9c851f289197f7dfProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 11945,
-      "length": 52,
-      "value": "\"WLInformation.AboutAppModuleDependency43524ee50ee31ebd2f4cProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 12975,
-      "length": 60,
-      "value": "\"WLInformation.RegionalSettingsModuleDependency3a4a7d5f6405a8a0f089Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 13896,
-      "length": 57,
-      "value": "\"WLInformation.CountryPickerModuleDependency1c58a9af2764a11fe03fProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 14390,
-      "length": 57,
-      "value": "\"WLInformation.CountryPickerModuleDependency61053404a0f0f1e5c9f1Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 14965,
-      "length": 60,
-      "value": "\"WLInformation.InformationCoordinatorDependency97d064f5b3de2402bce6Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 15497,
-      "length": 65,
-      "value": "\"WLInformation.CurrenciesPickerCoordinatorDependency32491af4248d4ceaaa4aProvider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 16030,
-      "length": 62,
-      "value": "\"WLInformation.CountryPickerCoordinatorDependency0a8be1ee1ee178dc8477Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 16443,
-      "length": 55,
-      "value": "\"WLInformation.WLInformationCoreDependency6e995a1edb46ddd0f939Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 16882,
-      "length": 59,
-      "value": "\"WLInformation.WLInformationServicesDependency0f45ad741cc350939e99Provider\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewModel\/PriceDisplayPickerRowCellModel.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewModel\/PriceDisplayPickerRowCellModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1032,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewController\/PriceDisplayVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewController\/PriceDisplayVC.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 14,
       "value": "\"WLInformation.PriceDisplayVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewModel\/PriceDisplayVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewModel\/PriceDisplayVM.swift",
       "kind": "Dictionary",
       "offset": 2068,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewModel\/PriceDisplayVM.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/ViewModel\/PriceDisplayVM.swift",
       "kind": "Dictionary",
       "offset": 2199,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/View\/PriceDisplayView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/PriceDisplay\/View\/PriceDisplayView.swift",
       "kind": "BooleanLiteral",
       "offset": 1136,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 28,
       "value": "\"InformationConfidentiality\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 26,
       "value": "\"InformationCountryPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 27,
       "value": "\"InformationCurrencyPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 23,
       "value": "\"InformationFavourites\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 28,
       "value": "\"InformationConfidentiality\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 26,
       "value": "\"InformationCountryPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 27,
       "value": "\"InformationCurrencyPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 23,
       "value": "\"InformationFavourites\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1600,
-      "length": 21,
-      "value": "\"application_version\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 1558,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 21,
+      "value": "\"application_version\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 21,
       "value": "\"action_button_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
       "offset": 2960,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3444,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 3839,
+      "offset": 3459,
       "length": 24,
       "value": "\"search_bar_placeholder\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 4361,
+      "offset": 3886,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 4776,
+      "offset": 4374,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4789,
       "length": 24,
       "value": "\"search_bar_placeholder\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 5296,
+      "offset": 5309,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 5702,
-      "length": 23,
-      "value": "\"all_currencies_button\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 6283,
+      "offset": 5858,
       "length": 35,
       "value": "\"load_currencies_error_description\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 6823,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 7323,
-      "length": 28,
-      "value": "\"confidentiality_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 7762,
-      "length": 20,
-      "value": "\"rateApp_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 8172,
+      "offset": 6320,
       "length": 23,
-      "value": "\"favourites_cell_title\""
+      "value": "\"all_currencies_button\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 8590,
-      "length": 21,
-      "value": "\"aboutApp_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 9032,
-      "length": 29,
-      "value": "\"regionalSettings_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 9467,
-      "length": 24,
-      "value": "\"personal_section_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 9871,
+      "offset": 6836,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 10247,
-      "length": 21,
-      "value": "\"other_section_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 10672,
-      "length": 26,
-      "value": "\"connectWithUs_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 11116,
-      "length": 21,
-      "value": "\"shareApp_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 11540,
-      "length": 25,
-      "value": "\"priceDisplay_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 11972,
+      "offset": 7326,
       "length": 35,
       "value": "\"information_feedback_mail_subject\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12501,
-      "length": 22,
-      "value": "\"hotels_section_title\""
+      "offset": 7788,
+      "length": 28,
+      "value": "\"confidentiality_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12940,
+      "offset": 8227,
+      "length": 20,
+      "value": "\"rateApp_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 8644,
+      "length": 24,
+      "value": "\"personal_section_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9092,
       "length": 29,
-      "value": "\"priceForOneNight_cell_title\""
+      "value": "\"regionalSettings_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 13407,
+      "offset": 9533,
+      "length": 26,
+      "value": "\"connectWithUs_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 9947,
+      "length": 21,
+      "value": "\"other_section_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10361,
+      "length": 21,
+      "value": "\"aboutApp_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 10759,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11155,
+      "length": 25,
+      "value": "\"priceDisplay_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 11575,
+      "length": 23,
+      "value": "\"favourites_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 12013,
+      "length": 21,
+      "value": "\"shareApp_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 12546,
       "length": 33,
       "value": "\"priceForOnePassenger_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 13853,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 14245,
-      "length": 21,
-      "value": "\"currency_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 14706,
+      "offset": 13031,
       "length": 34,
       "value": "\"priceForAllPassengers_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15175,
-      "length": 30,
-      "value": "\"priceForAllNights_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 15627,
+      "offset": 13491,
       "length": 27,
       "value": "\"aviaTickets_section_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16164,
-      "length": 20,
-      "value": "\"country_cell_title\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 16590,
+      "offset": 13923,
       "length": 21,
       "value": "\"currency_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17038,
-      "length": 25,
-      "value": "\"app_language_cell_title\""
+      "offset": 14342,
+      "length": 22,
+      "value": "\"hotels_section_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17490,
+      "offset": 14787,
+      "length": 30,
+      "value": "\"priceForAllNights_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 15242,
+      "length": 29,
+      "value": "\"priceForOneNight_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 15680,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18035,
+      "offset": 16323,
       "length": 24,
       "value": "\"description_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 16757,
+      "length": 21,
+      "value": "\"currency_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 17205,
+      "length": 25,
+      "value": "\"app_language_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 17653,
+      "length": 20,
+      "value": "\"country_cell_title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.configStrings.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 18095,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 1002,
       "length": 4,
       "value": "\"ru\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 1777,
       "length": 28,
       "value": "\"InformationConfidentiality\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 1981,
       "length": 26,
       "value": "\"InformationCountryPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 2185,
       "length": 27,
       "value": "\"InformationCurrencyPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 2392,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 2590,
       "length": 23,
       "value": "\"InformationFavourites\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 2771,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 2962,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 3169,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 3404,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 3648,
       "length": 28,
       "value": "\"InformationConfidentiality\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 3895,
       "length": 26,
       "value": "\"InformationCountryPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 4142,
       "length": 27,
       "value": "\"InformationCurrencyPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 4392,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 4633,
       "length": 23,
       "value": "\"InformationFavourites\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 4857,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 5091,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 5341,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 6086,
       "length": 21,
       "value": "\"action_button_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 6120,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 6177,
       "length": 27,
       "value": "\"Посетить сайт\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 6563,
       "length": 21,
       "value": "\"application_version\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 6597,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 6654,
       "length": 38,
       "value": "\"Версия приложения %@\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 7001,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 7021,
       "length": 21,
       "value": "\"InformationAboutApp\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 7078,
       "length": 25,
       "value": "\"О приложении\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 7774,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 7794,
       "length": 28,
       "value": "\"InformationConfidentiality\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 7858,
       "length": 38,
       "value": "\"Конфиденциальность\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 8571,
       "length": 24,
       "value": "\"search_bar_placeholder\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 8608,
       "length": 26,
       "value": "\"InformationCountryPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 8670,
       "length": 12,
       "value": "\"Поиск\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 8980,
+      "offset": 8995,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 9000,
+      "offset": 9015,
       "length": 26,
       "value": "\"InformationCountryPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 9062,
-      "length": 14,
-      "value": "\"Страна\""
+      "offset": 9077,
+      "length": 29,
+      "value": "\"Страна \/ Регион\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 9772,
+      "offset": 9802,
       "length": 24,
       "value": "\"search_bar_placeholder\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 9809,
+      "offset": 9839,
       "length": 27,
       "value": "\"InformationCurrencyPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 9872,
+      "offset": 9902,
       "length": 31,
       "value": "\"Название валюты\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 10208,
+      "offset": 10238,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 10228,
+      "offset": 10258,
       "length": 27,
       "value": "\"InformationCurrencyPicker\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 10291,
+      "offset": 10321,
       "length": 21,
       "value": "\"Все валюты\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 10998,
+      "offset": 11028,
       "length": 23,
       "value": "\"all_currencies_button\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 11034,
+      "offset": 11064,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 11098,
+      "offset": 11128,
       "length": 21,
       "value": "\"Все валюты\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 11620,
+      "offset": 11650,
       "length": 35,
       "value": "\"load_currencies_error_description\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 11668,
+      "offset": 11698,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 11732,
+      "offset": 11762,
       "length": 162,
       "value": "\"Не удалось подобрать валюту по вашему местоположению. Установлена валюта\nпо умолчанию\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12192,
+      "offset": 12222,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12212,
+      "offset": 12242,
       "length": 28,
       "value": "\"InformationDefaultCurrency\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12276,
+      "offset": 12306,
       "length": 14,
       "value": "\"Валюта\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12933,
+      "offset": 12963,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 12953,
+      "offset": 12983,
       "length": 23,
       "value": "\"InformationFavourites\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 13012,
+      "offset": 13042,
       "length": 20,
       "value": "\"Избранное\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 13697,
+      "offset": 13727,
       "length": 21,
       "value": "\"aboutApp_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 13731,
+      "offset": 13761,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 13784,
+      "offset": 13814,
       "length": 25,
       "value": "\"О приложении\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 14172,
+      "offset": 14202,
       "length": 28,
       "value": "\"confidentiality_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 14213,
+      "offset": 14243,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 14266,
+      "offset": 14296,
       "length": 37,
       "value": "\"Kонфиденциальность\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 14657,
+      "offset": 14687,
       "length": 26,
       "value": "\"connectWithUs_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 14696,
+      "offset": 14726,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 14749,
+      "offset": 14779,
       "length": 32,
       "value": "\"Связаться с нами\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15117,
+      "offset": 15147,
       "length": 23,
       "value": "\"favourites_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15153,
+      "offset": 15183,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15206,
+      "offset": 15236,
       "length": 20,
       "value": "\"Избранное\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15587,
+      "offset": 15617,
       "length": 35,
       "value": "\"information_feedback_mail_subject\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15635,
+      "offset": 15665,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 15688,
+      "offset": 15718,
       "length": 21,
       "value": "\"Whitelabel feedback\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16035,
+      "offset": 16065,
       "length": 21,
       "value": "\"other_section_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16069,
+      "offset": 16099,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16122,
+      "offset": 16152,
       "length": 14,
       "value": "\"Другое\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16480,
+      "offset": 16510,
       "length": 24,
       "value": "\"personal_section_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16517,
+      "offset": 16547,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16570,
+      "offset": 16600,
       "length": 26,
       "value": "\"Персональное\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16947,
+      "offset": 16977,
       "length": 25,
       "value": "\"priceDisplay_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 16985,
+      "offset": 17015,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17038,
+      "offset": 17068,
       "length": 31,
       "value": "\"Отображение цен\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17416,
+      "offset": 17446,
       "length": 20,
       "value": "\"rateApp_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17449,
+      "offset": 17479,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17502,
+      "offset": 17532,
       "length": 37,
       "value": "\"Оценить приложение\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17912,
+      "offset": 17942,
       "length": 29,
       "value": "\"regionalSettings_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 17954,
+      "offset": 17984,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18007,
+      "offset": 18037,
       "length": 45,
       "value": "\"Региональные настройки\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18409,
+      "offset": 18439,
       "length": 21,
       "value": "\"shareApp_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18443,
+      "offset": 18473,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18496,
+      "offset": 18526,
       "length": 45,
       "value": "\"Поделиться приложением\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18847,
+      "offset": 18877,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18867,
+      "offset": 18897,
       "length": 17,
       "value": "\"InformationMain\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 18920,
+      "offset": 18950,
       "length": 22,
       "value": "\"Информация\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 19631,
+      "offset": 19661,
       "length": 27,
       "value": "\"aviaTickets_section_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 19671,
+      "offset": 19701,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 19732,
+      "offset": 19762,
       "length": 22,
       "value": "\"Авиабилеты\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20080,
+      "offset": 20110,
       "length": 21,
       "value": "\"currency_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20114,
+      "offset": 20144,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20175,
+      "offset": 20205,
       "length": 14,
       "value": "\"Валюта\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20515,
+      "offset": 20545,
       "length": 22,
       "value": "\"hotels_section_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20550,
+      "offset": 20580,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20611,
+      "offset": 20641,
       "length": 12,
       "value": "\"Отели\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 20984,
+      "offset": 21014,
       "length": 30,
       "value": "\"priceForAllNights_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 21027,
+      "offset": 21057,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 21088,
+      "offset": 21118,
       "length": 31,
       "value": "\"Цены за все ночи\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 21502,
+      "offset": 21532,
       "length": 34,
       "value": "\"priceForAllPassengers_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 21549,
+      "offset": 21579,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 21610,
+      "offset": 21640,
       "length": 45,
       "value": "\"Цены за всех пассажиров\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22009,
+      "offset": 22039,
       "length": 29,
       "value": "\"priceForOneNight_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22051,
+      "offset": 22081,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22112,
+      "offset": 22142,
       "length": 26,
       "value": "\"Цены за 1 ночь\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22510,
+      "offset": 22540,
       "length": 33,
       "value": "\"priceForOnePassenger_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22556,
+      "offset": 22586,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22617,
+      "offset": 22647,
       "length": 36,
       "value": "\"Цены за 1 пассажира\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22968,
+      "offset": 22998,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 22988,
+      "offset": 23018,
       "length": 25,
       "value": "\"InformationPriceDisplay\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 23049,
+      "offset": 23079,
       "length": 31,
       "value": "\"Отображение цен\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 23782,
+      "offset": 23812,
       "length": 25,
       "value": "\"app_language_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 23820,
+      "offset": 23850,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 23885,
+      "offset": 23915,
       "length": 31,
       "value": "\"Язык приложения\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 24240,
+      "offset": 24285,
       "length": 20,
       "value": "\"country_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 24273,
+      "offset": 24318,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 24338,
-      "length": 14,
-      "value": "\"Страна\""
+      "offset": 24383,
+      "length": 29,
+      "value": "\"Страна \/ Регион\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 24678,
+      "offset": 24738,
       "length": 21,
       "value": "\"currency_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 24712,
+      "offset": 24772,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 24777,
+      "offset": 24837,
       "length": 14,
       "value": "\"Валюта\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 25276,
+      "offset": 25336,
       "length": 24,
       "value": "\"description_cell_title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 25313,
+      "offset": 25373,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 25378,
+      "offset": 25438,
       "length": 167,
       "value": "\"Региональные настройки нужны для отображения подходящих билетов и правил въезда в страну\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 25874,
+      "offset": 25934,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 25894,
+      "offset": 25954,
       "length": 29,
       "value": "\"InformationRegionalSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
-      "offset": 25959,
+      "offset": 26019,
       "length": 45,
       "value": "\"Региональные настройки\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/RegionalSettings\/ViewModel\/CellModels\/RegionalSettingsCellModel.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/RegionalSettings\/ViewModel\/CellModels\/RegionalSettingsCellModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1662,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/RegionalSettings\/ViewController\/RegionalSettingsVC.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/RegionalSettings\/ViewController\/RegionalSettingsVC.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 18,
       "value": "\"WLInformation.RegionalSettingsVC\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/RegionalSettings\/View\/RegionalSettingsView.swift",
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLInformation\/Sources\/Presentation Layer\/Information\/Screens\/RegionalSettings\/View\/RegionalSettingsView.swift",
       "kind": "BooleanLiteral",
       "offset": 1056,
       "length": 5,

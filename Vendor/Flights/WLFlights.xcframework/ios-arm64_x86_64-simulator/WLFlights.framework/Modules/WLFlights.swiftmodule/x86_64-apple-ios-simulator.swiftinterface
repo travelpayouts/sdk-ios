@@ -410,6 +410,9 @@ public struct _R {
       public var morning_slider_preset_title: RswiftResources.StringResource {
         get
       }
+      public var one_transfer_max_switch_row_cell_title: RswiftResources.StringResource {
+        get
+      }
       public var price_slider_cell_title: RswiftResources.StringResource {
         get
       }
@@ -750,6 +753,9 @@ public struct _R {
       public var price_chart_button_title: RswiftResources.StringResource {
         get
       }
+      public var progress_bar_title: RswiftResources.StringResource {
+        get
+      }
       public var should_update_alert_later_button_title: RswiftResources.StringResource {
         get
       }
@@ -838,9 +844,7 @@ public struct _R {
 }
 @_hasMissingDesignatedInitializers final public class ScreenProvider {
   public static let shared: WLFlights.ScreenProvider
-  final public var flightsViewController: UIKit.UIViewController {
-    get
-  }
+  final public func flightsViewController() -> UIKit.UIViewController
   final public func enable()
   @objc deinit
 }
