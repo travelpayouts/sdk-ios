@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "WLShared",
+    "printedName": "WLShared",
     "children": [
       {
         "kind": "Import",
@@ -445,6 +445,22 @@
                 "isFromExtension": true,
                 "spi_group_names": [
                   "CleverPumpkinInternal"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               }
             ],
@@ -455,6 +471,22 @@
             "isFromExtension": true,
             "spi_group_names": [
               "CleverPumpkinInternal"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -716,6 +748,22 @@
                 "isFromExtension": true,
                 "spi_group_names": [
                   "CleverPumpkinInternal"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               }
             ],
@@ -726,6 +774,22 @@
             "isFromExtension": true,
             "spi_group_names": [
               "CleverPumpkinInternal"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -740,6 +804,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -884,6 +964,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1080,6 +1176,9 @@
                 "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensCoordinator>",
                 "protocolReq": true,
                 "implicit": true,
+                "declAttributes": [
+                  "SPIAccessControl"
+                ],
                 "spi_group_names": [
                   "CleverPumpkinInternal"
                 ],
@@ -1104,6 +1203,20 @@
           "CleverPumpkinInternal"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Coordinator",
@@ -1153,7 +1266,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FavoriteScreensCoordinator",
-                "printedName": "WLShared.FavoriteScreensCoordinator",
+                "printedName": "any WLShared.FavoriteScreensCoordinator",
                 "usr": "s:8WLShared26FavoriteScreensCoordinatorP"
               },
               {
@@ -1188,6 +1301,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1308,17 +1437,17 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(WLUserInterface.Routable) -> WLUserInterface.EmbeddedCoordinator?",
+                "printedName": "(any WLUserInterface.Routable) -> (any WLUserInterface.EmbeddedCoordinator)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "WLUserInterface.EmbeddedCoordinator?",
+                    "printedName": "(any WLUserInterface.EmbeddedCoordinator)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "EmbeddedCoordinator",
-                        "printedName": "WLUserInterface.EmbeddedCoordinator",
+                        "printedName": "any WLUserInterface.EmbeddedCoordinator",
                         "usr": "s:15WLUserInterface19EmbeddedCoordinatorP"
                       }
                     ],
@@ -1327,7 +1456,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Routable",
-                    "printedName": "WLUserInterface.Routable",
+                    "printedName": "any WLUserInterface.Routable",
                     "usr": "s:15WLUserInterface8RoutableP"
                   }
                 ]
@@ -1357,6 +1486,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1455,17 +1600,17 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(WLUserInterface.Routable) -> WLUserInterface.EmbeddedCoordinator?",
+                "printedName": "(any WLUserInterface.Routable) -> (any WLUserInterface.EmbeddedCoordinator)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "WLUserInterface.EmbeddedCoordinator?",
+                    "printedName": "(any WLUserInterface.EmbeddedCoordinator)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "EmbeddedCoordinator",
-                        "printedName": "WLUserInterface.EmbeddedCoordinator",
+                        "printedName": "any WLUserInterface.EmbeddedCoordinator",
                         "usr": "s:15WLUserInterface19EmbeddedCoordinatorP"
                       }
                     ],
@@ -1474,7 +1619,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Routable",
-                    "printedName": "WLUserInterface.Routable",
+                    "printedName": "any WLUserInterface.Routable",
                     "usr": "s:15WLUserInterface8RoutableP"
                   }
                 ]
@@ -1511,6 +1656,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "FavoriteScreensService",
             "printedName": "FavoriteScreensService",
             "usr": "s:8WLShared22FavoriteScreensServiceP",
@@ -1543,6 +1702,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1822,6 +1997,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2094,6 +2285,22 @@
             "moduleName": "WLShared",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -2103,6 +2310,22 @@
         "moduleName": "WLShared",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2186,7 +2409,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FavoriteScreensCoordinatorProvider",
-                "printedName": "WLShared.FavoriteScreensCoordinatorProvider",
+                "printedName": "any WLShared.FavoriteScreensCoordinatorProvider",
                 "usr": "s:8WLShared34FavoriteScreensCoordinatorProviderP"
               }
             ],
@@ -2211,7 +2434,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "FavoriteScreensCoordinatorProvider",
-                    "printedName": "WLShared.FavoriteScreensCoordinatorProvider",
+                    "printedName": "any WLShared.FavoriteScreensCoordinatorProvider",
                     "usr": "s:8WLShared34FavoriteScreensCoordinatorProviderP"
                   }
                 ],
@@ -2237,7 +2460,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FavoriteScreensService",
-                "printedName": "WLShared.FavoriteScreensService",
+                "printedName": "any WLShared.FavoriteScreensService",
                 "usr": "s:8WLShared22FavoriteScreensServiceP"
               }
             ],
@@ -2261,7 +2484,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "FavoriteScreensService",
-                    "printedName": "WLShared.FavoriteScreensService",
+                    "printedName": "any WLShared.FavoriteScreensService",
                     "usr": "s:8WLShared22FavoriteScreensServiceP"
                   }
                 ],
@@ -2287,7 +2510,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CrossModuleMessagingService",
-                "printedName": "WLShared.CrossModuleMessagingService",
+                "printedName": "any WLShared.CrossModuleMessagingService",
                 "usr": "s:8WLShared27CrossModuleMessagingServiceP"
               }
             ],
@@ -2311,7 +2534,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CrossModuleMessagingService",
-                    "printedName": "WLShared.CrossModuleMessagingService",
+                    "printedName": "any WLShared.CrossModuleMessagingService",
                     "usr": "s:8WLShared27CrossModuleMessagingServiceP"
                   }
                 ],
@@ -2342,7 +2565,23 @@
         "spi_group_names": [
           "CleverPumpkinInternal"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2416,13 +2655,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Presentation Layer\/SharedUI\/FavoriteScreensCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1510,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
       "kind": "Array",
       "offset": 733,
@@ -2435,62 +2667,6 @@
       "offset": 821,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
-      "kind": "IntegerLiteral",
-      "offset": 422,
-      "length": 3,
-      "value": "750"
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
-      "kind": "IntegerLiteral",
-      "offset": 456,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
-      "kind": "IntegerLiteral",
-      "offset": 487,
-      "length": 3,
-      "value": "250"
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 3301,
-      "length": 113,
-      "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent->WLSharedServicesComponent->FavoriteScreensCoordinatorComponent\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 3493,
-      "length": 49,
-      "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 3621,
-      "length": 26,
-      "value": "\"^->WLSharedRootComponent\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 3709,
-      "length": 76,
-      "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent->WLSharedServicesComponent\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/R.generated.swift",

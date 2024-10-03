@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLInformation
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name WLInformation
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import Foundation
 import NeedleFoundation
@@ -32,7 +32,7 @@ extension WLInformation.InformationScreenConfiguration {
     public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: WLInformation.InformationScreenConfiguration.OptionalItem, b: WLInformation.InformationScreenConfiguration.OptionalItem) -> Swift.Bool
     public typealias AllCases = [WLInformation.InformationScreenConfiguration.OptionalItem]
-    public static var allCases: [WLInformation.InformationScreenConfiguration.OptionalItem] {
+    nonisolated public static var allCases: [WLInformation.InformationScreenConfiguration.OptionalItem] {
       get
     }
     public func encode(to encoder: any Swift.Encoder) throws
@@ -72,7 +72,7 @@ public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable
   public init?(rawValue: Swift.String)
   public typealias AllCases = [WLInformation.LocalizationTable]
   public typealias RawValue = Swift.String
-  public static var allCases: [WLInformation.LocalizationTable] {
+  nonisolated public static var allCases: [WLInformation.LocalizationTable] {
     get
   }
   public var rawValue: Swift.String {

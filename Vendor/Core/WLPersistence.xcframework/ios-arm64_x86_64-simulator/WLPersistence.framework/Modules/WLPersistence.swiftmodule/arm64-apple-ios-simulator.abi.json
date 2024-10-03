@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "WLPersistence",
+    "printedName": "WLPersistence",
     "children": [
       {
         "kind": "Import",
@@ -129,6 +129,9 @@
                 "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
                 "sugared_genericSig": "<C where C : Swift.Decodable, C : Swift.Encodable>",
                 "implicit": true,
+                "declAttributes": [
+                  "SPIAccessControl"
+                ],
                 "spi_group_names": [
                   "CleverPumpkinInternal"
                 ],
@@ -276,6 +279,22 @@
             "isFromExtension": true,
             "spi_group_names": [
               "CleverPumpkinInternal"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -293,6 +312,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -501,7 +536,23 @@
         "spi_group_names": [
           "CleverPumpkinInternal"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -580,6 +631,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -681,6 +748,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1011,7 +1094,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1112,7 +1195,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -1197,7 +1280,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Decoder",
-                        "printedName": "Swift.Decoder",
+                        "printedName": "any Swift.Decoder",
                         "usr": "s:s7DecoderP"
                       }
                     ],
@@ -1224,6 +1307,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "Decodable",
                     "printedName": "Decodable",
                     "usr": "s:Se",
@@ -1241,6 +1338,20 @@
               "CleverPumpkinInternal"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -1263,6 +1374,20 @@
           "CleverPumpkinInternal"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1673,6 +1798,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1749,6 +1888,20 @@
           "CleverPumpkinInternal"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -1904,6 +2057,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2070,6 +2239,20 @@
           "CleverPumpkinInternal"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "KeychainStorage",
@@ -2428,6 +2611,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2882,6 +3081,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "PriceDisplayService",
             "printedName": "PriceDisplayService",
             "usr": "s:13WLPersistence19PriceDisplayServiceP",
@@ -3108,6 +3321,9 @@
             "moduleName": "WLPersistence",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "spi_group_names": [
               "CleverPumpkinInternal"
             ],
@@ -3159,7 +3375,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3187,7 +3403,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3264,6 +3480,20 @@
           "CleverPumpkinInternal"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3405,7 +3635,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "PriceDisplayService",
-                "printedName": "WLPersistence.PriceDisplayService",
+                "printedName": "any WLPersistence.PriceDisplayService",
                 "usr": "s:13WLPersistence19PriceDisplayServiceP"
               }
             ],
@@ -3430,7 +3660,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "PriceDisplayService",
-                    "printedName": "WLPersistence.PriceDisplayService",
+                    "printedName": "any WLPersistence.PriceDisplayService",
                     "usr": "s:13WLPersistence19PriceDisplayServiceP"
                   }
                 ],
@@ -3456,7 +3686,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DeviceIdentificationService",
-                "printedName": "WLPersistence.DeviceIdentificationService",
+                "printedName": "any WLPersistence.DeviceIdentificationService",
                 "usr": "s:13WLPersistence27DeviceIdentificationServiceP"
               }
             ],
@@ -3480,7 +3710,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DeviceIdentificationService",
-                    "printedName": "WLPersistence.DeviceIdentificationService",
+                    "printedName": "any WLPersistence.DeviceIdentificationService",
                     "usr": "s:13WLPersistence27DeviceIdentificationServiceP"
                   }
                 ],
@@ -3506,7 +3736,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InfoDictionaryReader",
-                "printedName": "WLPersistence.InfoDictionaryReader",
+                "printedName": "any WLPersistence.InfoDictionaryReader",
                 "usr": "s:13WLPersistence20InfoDictionaryReaderP"
               }
             ],
@@ -3530,7 +3760,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "InfoDictionaryReader",
-                    "printedName": "WLPersistence.InfoDictionaryReader",
+                    "printedName": "any WLPersistence.InfoDictionaryReader",
                     "usr": "s:13WLPersistence20InfoDictionaryReaderP"
                   }
                 ],
@@ -3561,7 +3791,23 @@
         "spi_group_names": [
           "CleverPumpkinInternal"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3678,6 +3924,9 @@
                 "genericSig": "<τ_0_0>",
                 "sugared_genericSig": "<T>",
                 "implicit": true,
+                "declAttributes": [
+                  "SPIAccessControl"
+                ],
                 "spi_group_names": [
                   "CleverPumpkinInternal"
                 ],
@@ -3752,6 +4001,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4289,6 +4554,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4506,6 +4785,20 @@
               "CleverPumpkinInternal"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -4805,6 +5098,20 @@
               "CleverPumpkinInternal"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -5146,6 +5453,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -5367,7 +5688,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -5395,7 +5716,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -5420,6 +5741,20 @@
               "CleverPumpkinInternal"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -5461,6 +5796,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5573,6 +5924,22 @@
         ],
         "spi_group_names": [
           "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5631,60 +5998,11 @@
       "value": "\"CFBundleIconName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 18,
-      "value": "\"CFBundleIconName\""
-    },
-    {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 21,
       "value": "\"CFBundlePrimaryIcon\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
-      "kind": "StringLiteral",
-      "offset": 462,
-      "length": 21,
-      "value": "\"CFBundlePrimaryIcon\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 15,
-      "value": "\"CFBundleIcons\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 21,
-      "value": "\"CFBundleDisplayName\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 14,
-      "value": "\"CFBundleName\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
-      "kind": "StringLiteral",
-      "offset": 766,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
@@ -5727,34 +6045,6 @@
       "offset": 657,
       "length": 8,
       "value": "\"common\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 1438,
-      "length": 59,
-      "value": "\"^->WLPersistenceRootComponent->WLPersistenceCoreComponent\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Generated\/Needle.generated.swift",
-      "kind": "StringLiteral",
-      "offset": 1576,
-      "length": 31,
-      "value": "\"^->WLPersistenceRootComponent\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/PriceDisplayType\/PriceDisplayType.swift",
-      "kind": "BooleanLiteral",
-      "offset": 425,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/PriceDisplayType\/PriceDisplayType.swift",
-      "kind": "BooleanLiteral",
-      "offset": 461,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",

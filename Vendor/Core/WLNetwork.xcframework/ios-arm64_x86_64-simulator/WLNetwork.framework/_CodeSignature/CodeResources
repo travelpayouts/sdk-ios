@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/WLNetwork-Swift.h</key>
 		<data>
-		OC0Ay1X5xbh0NCwkmOpZv9nuowk=
+		8YmrgpghP5W/wsbKKNOZ8+ZXs4U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SlIbEaWbhDREU0CTxZbBacQtHHQ=
+		m/NljWOm0AEKvwyVhR989DQDyDk=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UsWBAEPccZQTcVhKlpDU6D4huqI=
+		XqjsosszVPdcCMEWFOIrT7dRVEU=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jAlFq4WhR0QKYcxAPVkU4xidKH0=
+		ELKWQntKsr++6NgfxVfqCw2WRvM=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ynkrAjKg9QaNfB7z4XIpVke8+Zc=
+		wUrrCM+1qtq5dG06m7T/AC8bnlQ=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3Wq/wmmNsOLBqks6Rkp29AMjsB4=
+		Iv1Z+LrM/aAzZez9YWp2lnmSm5Y=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GU3BSUXEY8ncM4tw1anGzufRXTU=
+		lMmhHajE90lK9U6snGwOh0isZpg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,42 +47,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqdJ29t4ZZJXp/LeFyTKRN+5PLxeaJG7+qKWYJUQv7o=
+			deAsMg/d6c2TFnNk8pttLhRb5uP4yp6/6EwMy7JdM18=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBM5sDzobtVbbhWJ9L4BqOt/IvmEmP4e2mMT86kGyms=
+			pdVWWavO0Kyq5UZ134WaFCwsFpUE+rywooG6njBazSo=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			01hhyrJp6kT7S6yIIW2OiwWqPGRl66qRV2X4sjFuWqE=
+			SyUABzTChkBf+n3ScnVUnf2XhLzDXSyDHv32r58dYU4=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AzRev69k+0NX30+zn0Avx/mXp+GKDUHBQ3XHRqAEX4g=
+			PyUsXRJ1nHBxotJ7WOTQ0KpWPrDt4wAYg64W/FfI02w=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			whOBeiOMpJd3wH11sYUP6ZCFmRNuqVKkKGm4+kWlrZo=
+			z34WDjL56Snk9ogbAGt6agKNABFpfe7pZ5bVdSkck3A=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gt9EhmfDqpr4BTUqokxFLyRyHLUVKUgUE2sjkZOLeV0=
+			d5Q/JErMRIZ4B/7bGseTwWcEB6thBo0iWCQlmtEkcFE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

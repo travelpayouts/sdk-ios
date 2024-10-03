@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/WLHotels-Swift.h</key>
 		<data>
-		GFTE2BDS73gw+CbRvKvrwdrjj8Q=
+		pXG13Mt5IrlWDs2PqX83hJAnc+8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lPWIxHCtHXTMK2xuYF7PRYGQNCk=
+		sZnvsg2sjDuMGJUTB5hoGfS3/Yo=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0n4/7SwdGIKCu2aWrwoLTyHHcGM=
+		rSJ8pAilOHNV7Uo27MKGdOejH/g=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M7FGc0DCyUrB7F6uGtYf0L3Umxs=
+		xqbLQp1fBQ9JiQLzYpQwHtA6zS8=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3YZmnNLHUV9dhWyh1oZXGc/NxHk=
+		Aa1jl0EQ4OWSq0S7IWKe9RNSVtI=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aE0GK8jbnpKwvfuu8s7d2/7LW0I=
+		99jR1on4jcqTa2fPjfmDB/GktXg=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		68sVLcj8X48h3iv7YXQuFBvrc30=
+		4/DhFLtejhVECk3bqoKVg3Hv+e4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -5902,42 +5902,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KrfBRVZxe9Blq7QQpzpA6yPJEofYneCJ8w3aZwlLqgc=
+			uQaNpXjnGXm20o7x4Dr5lYjEM6li35XsVjSjZVrCsds=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SqolEvO5ndfEcHlyRFUABU5NlHsX9PZm09KGd3fUfag=
+			glEvWjpjQB5w+WfaMEe6SU65bAK1Y8MxkRCgrQC3EBs=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WnGPrnd4Ch1QKOj7upv5UmVV6YEo2+8gdIpytIxUcSM=
+			1D0rmR1NWHuwZcYV4eDOJjKZ0ayySvW80dMsf2WcRCY=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QCKN71NgCoZiGQ8EkNkGRqMoPpYmFJc5VXmXKqXhXWc=
+			ET5LYM6accwtgzi+SmZPF83MbsOL+JeHkod1z5zcBdM=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhYAm4FXw3o9Qsq3KFT0vFdHRC6c2mrdmYB2Bld6WOI=
+			RYKxhDLcD1/WWFBwBI1M/NTvvpM96WP7kepdot78PXQ=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xxw0czxqyP3jZ6c/ft4lZzds0LxpYyEg6xjo+5dWeoQ=
+			USSBtKyHKDMrZgR6KVyfsnX6BuyHERd09yy0slwYBbQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
