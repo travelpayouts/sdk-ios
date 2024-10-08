@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sZnvsg2sjDuMGJUTB5hoGfS3/Yo=
+		RunrANKcTDvusE9s+esH/kKJw+Y=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rSJ8pAilOHNV7Uo27MKGdOejH/g=
+		ZmuceUut1qGbATBj3bknV71Zg14=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xqbLQp1fBQ9JiQLzYpQwHtA6zS8=
+		5B2vx9DQSTRJd+dCUCExFD8500k=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Aa1jl0EQ4OWSq0S7IWKe9RNSVtI=
+		cHFz8dMyiSIYSuRMSL33aX9Rqmw=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		99jR1on4jcqTa2fPjfmDB/GktXg=
+		hMJpRMm8EVeUidPwsHXFfk+SncU=
 		</data>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4/DhFLtejhVECk3bqoKVg3Hv+e4=
+		p+jF6jk2lk/Cm5oQCf2y8PSnHh4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -229,7 +229,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nEqHWTbVuTAq578plN7g+NivFVw=
+			5SKY3hu+GMOtIWYkYRm7bug7P4k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -454,7 +454,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QVvNZsjfzBVRzHtjypam8P29YpE=
+			x+PqzqY6Cy7uPVAfBixes7bVhLc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -679,7 +679,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iEDDi7MmUIneMyxkY9fcGoxpzj8=
+			ySdQn7ceFA3lAB/n5usuxHTefbs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -904,7 +904,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kg6VSL8ThoZNGF6gGu9rx2clyfs=
+			ciC48ZOTjM7dRGuTqs616l2ogm4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1129,7 +1129,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y8oRngTwa9JXY4DHmkJlU09mooA=
+			1zXscaiUyKYO2NY6+1mk3xs31mk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1354,7 +1354,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OadL6YGWoYgdQJUG+q8sMxC+z94=
+			L4CRN7CwazqQuxiIVz6iksQVz00=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1579,7 +1579,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			63pCpBDTrrBMGUXQ77UuvJltPis=
+			I2oMZanXUvJa3h05vKkHIwrXu6E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1804,7 +1804,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDPe8O3o3X8Xa8vF5MWs5vuvOoE=
+			d4XGMDeeUedOD7ZPpKYLpLwQq1w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2029,7 +2029,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fBQtkIYuNTzxAUE/WckiHOD3crQ=
+			P8Azs4GnpZhgAFcKHanvBv0Ggt0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2254,7 +2254,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hJ0TqJv3tJTS7OFYIEA7dY3ST0c=
+			WVUY5aTXdv66S3soNzJFpejv5qU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2479,7 +2479,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UJ4pGzeRhTmfSUhnZNUEcX2OJqI=
+			4q14CBsxpSRHt4In5+UD6s0lgN4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2704,7 +2704,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R5n6cEEz44Ho+MaO51YSTviW8x4=
+			VZHI6XhdRHqlRqyzIOS910ElKLM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2929,7 +2929,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			USWX3IXl4EeOu+zvwoKdzrhi9+w=
+			aHT36RGRAXNuct7e9jL2TMJ3UvA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2957,15 +2957,6 @@
 			<key>hash</key>
 			<data>
 			fOQLPXTVQsh/0xsLzwfNcpFQ9Gk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>nb.lproj/HotelsFilterSearch.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jdc2VosHbRG6B/bik2QgmCd9Vbc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3163,7 +3154,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k60r9CFpGoGjjUBsXAMtLzPvZJo=
+			Ku6qUY2Qgzgt1NHwnWRCNBVObjg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3388,7 +3379,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VtZpdSWJCKlt3VtsAv0vPTir/Qc=
+			WdS3323/pSKzbcS41dVUyOAGXy4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3613,7 +3604,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9/UC5DfcgHzlJyJ8xDDJ42IBFiw=
+			dn532pv8aD83XVmSj2MaYlC8Hu4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3838,7 +3829,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lvWOKvGl8aQo8PV7GDiHvKu48fQ=
+			o6J8a1G7w542yVde72kOlWRCNdY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4063,7 +4054,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lvWOKvGl8aQo8PV7GDiHvKu48fQ=
+			uQZbas50pI61z/BxnOWEZeSjrgI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4288,7 +4279,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w1C1+LyhhMbhO6YNkcJoCfFJFWY=
+			ABNwyvpzYbx+NKxzIlusDD1jlwA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4738,7 +4729,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RextH/wGsCv+1y18X9EiWbrHvv8=
+			9Vqp3dINxIjrtFnpMVz6EdYb9Ik=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4963,7 +4954,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SOyIcjDLPVGS6pqtGCYxBRQFGiA=
+			OK7fDNOv34NZOVdZFxNg2/BPNeg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5188,7 +5179,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LtHRHp8nUVhijDLvLjoOEODnAU0=
+			EVyLdsX63wRG95qtKmcGfJH8oPU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5413,7 +5404,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/BKK1PkYw6CaQb6jEjV31OJqILM=
+			5aYUPnlANJV0iGFhDZHLDT4CX9g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5638,7 +5629,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uj/CVh+bB24nrtMBW3jvZeKrYME=
+			DJS7xuFY88A9tbkr3H/7Slpw/R0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5863,7 +5854,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bKALUSkRnAgKJ5sRxWiUL7KrWuw=
+			w/IWI/mC+2SqexIUM31q1i1si/o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5909,35 +5900,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			glEvWjpjQB5w+WfaMEe6SU65bAK1Y8MxkRCgrQC3EBs=
+			kmT/ZiQevmZhbLzjUx9wPdCi6jJbkCKYzJLDlogP35U=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1D0rmR1NWHuwZcYV4eDOJjKZ0ayySvW80dMsf2WcRCY=
+			D/z6UAPTCeXR/cfgDoPK1YK7uWMhQVxciykvlWLaU9c=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ET5LYM6accwtgzi+SmZPF83MbsOL+JeHkod1z5zcBdM=
+			6vt2CvInn0Un0m6MngEN36DTsNRbt3LA4s3qMmxTiDI=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RYKxhDLcD1/WWFBwBI1M/NTvvpM96WP7kepdot78PXQ=
+			GdFmNI/9CmSVl7zKZXfq00Apwc8pwbuCHbamHGcJLsU=
 			</data>
 		</dict>
 		<key>Modules/WLHotels.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			USSBtKyHKDMrZgR6KVyfsnX6BuyHERd09yy0slwYBbQ=
+			WYTPV0RXwVndMjVItI1r86/VfvayDasbJqN1jCDWN1c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -6140,7 +6131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eww+gfqoCwhQpL8kVPkckF5G0Rn2MS8IxW/FGa4SciU=
+			PmQwDWIN8EsNFKEpRLIxayH0T9+K6MVZefk/XPUadqw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6365,7 +6356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zo+1VO5Jc8WdN2gmb1w/SDA5oQPhy1i/Fqz9zcG3c5U=
+			pCtEcTnkTXdh1vmZL9MzGLOfquLl4/JPCpwohPHCoTM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6590,7 +6581,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8btH+vKff4MPwnm0rQdut7BCV4f+vJED9k7zk8EdYiU=
+			5Y7WcFU5xaKfDQdjviZ9TNsqcvbWxyQ45pqVhVckv5w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6815,7 +6806,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZABrEgFWHgx7D3YZAXlp6pPzB7iCOyOuGe4uV9dsLuQ=
+			2Ij9MR3GnYSnhZ5EV4fHaC6RfCL4w43YTgqfcMJmoJM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7040,7 +7031,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mjp+YzpJIcxGEzgNBoyQXzD+NohxwlREyZN8pB36iBw=
+			SahdGfBwZ5vXvYK1nl8LNmjFDYAcYBStMZwedkFHbHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7265,7 +7256,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6NwcizJC2HHkp6BSpJmkzu+2Oxgv90as/qh7FBMxOEA=
+			y9ggovi/4RH4HvJ1qAGfof32Ex5IurXJjhxJyXjClYA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7490,7 +7481,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WHeCBqRAJbbHbdeLoXtWEBpOOq5ttl1YIUGspHT/QGo=
+			jymFzFVj6MTu91aYFB3igz5lJghxaQ4CMpAplRdzovo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7715,7 +7706,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xre1hQ0lDTlvOdt7kGgQ6uUAT6A4qIXAtkIogQ8+Kcs=
+			2t53feFqB/JlAZYFEZEgS2hnMn2d7eQbh/XKJ1KHQ98=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -7940,7 +7931,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			snlbUGWuTNdvUtxfP/r8Rq41D7hAMvZnYyxWbdUK/og=
+			1jWfpku+qgtD7gS6VRfHRAFgnrcZjjN6Z/SsGfIAlCk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -8165,7 +8156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yyv4AERS5i4mhSd98oOeKDJs5JgM/PJkBQDLFZLBT0M=
+			vT/chZaYLC+TV9fpaQ5XjVS22C1nV+nFD4ZbStYZ8+4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -8390,7 +8381,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JYGoadixU7xjaT6VRnD9nlLXPRie66RA2xuC9jlg4FI=
+			OUjN3VHbACBwS30UUocZcvC+vNd/fcOIld0okeaZl6w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -8615,7 +8606,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s3kTlXmmnVTZYnhUyDdBcnVfNxtPplHbmBBOgN9rnls=
+			gAVHPbT63lB1TrPW65myEmOwuRb0QZXINuSJ1msRtmk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -8840,7 +8831,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hbs/VGzEf3uSxppNpYkiPpxYC+WhUta0lipzt5IULDk=
+			oGacgFTREx2gHb7gldV6O1Nti7Qq/uIw9TOOnkOtkfE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -8868,15 +8859,6 @@
 			<key>hash2</key>
 			<data>
 			EveKeLljOgxMsle8jGauUwpYxcahNH3qXNKbjl8/pwE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>nb.lproj/HotelsFilterSearch.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ek7qiUMAWXFpvfEsDnwJe66rOdlqRvpIpehzNK7jxGQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -9074,7 +9056,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fKEF+Fy/joz/5413aBdKzDdtEYK8IL1lkZmGroPI3+o=
+			D3ES+9PcTDhcWld41DIxsNLi4U6Ra+aDKRll9CxiKHQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -9299,7 +9281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xw7Wm6QBV5ZgCzgKR2+qG0hJMCg3S8opwp7m9dKdi/E=
+			MXp/xNQOkrkY5IvbHaGRy4As7QgZ7SkFnGXjFMmj7fE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -9524,7 +9506,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCm652nfO4P6bcTlvQKH/yMbzVYMkEoMI91e3MtDiP0=
+			x8h2UAYqnSi7tvmpMJaBeAfLkyTXBxVUam/A5NpzobM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -9749,7 +9731,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QDmTekX8ee3k33icnMDjOe7D/YmxAyxtAuPHRk5BAgE=
+			zA3E7e6gJ4haVtwroCV91MdA4ZhRF3H3y83K5Y7sLpw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -9974,7 +9956,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QDmTekX8ee3k33icnMDjOe7D/YmxAyxtAuPHRk5BAgE=
+			TXmzJoSNODt8Ef6rl5vkD6F3gJTg+CPuYapa878KUtY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -10199,7 +10181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6pX2lH1d5SVtmsoatYOBTHGd2cEHQrJUNH9o0JMWAds=
+			fXRQvYHQ8MMxkKGZS+XP0rKGWEh1udv1DPlQFUQjrQ8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -10649,7 +10631,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zj8sKAqc+h6pPmVRQrmzzeCRV4qGYQ/kpYUjjL3pPrE=
+			ni0b07Fghm8/4OkdGS0S6R3xHm7j1YSzCQYuxznVEIg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -10874,7 +10856,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eafBVGpd06XNbwgN2K7yUMJQ3rXnc7bIOcwmDHj/YHQ=
+			/CJub5iFMKiJv3FUdhStDQqd35EaaUriR9r17pbh6lM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -11099,7 +11081,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BBERkL8ZuMRNhlmtmSxv0wwkQoyjpbDyBv62esKJ+S0=
+			yKJGE0nsrRFFedVvrP9/Vd6iubxUdAcoOyFHy7k2iO4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -11324,7 +11306,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWddHwTqXA9kqiOfJ5gtJBkDZED6f/sV1zRw4uNCNdQ=
+			y3akG/JsBgsSDmChbd0n2dj0wcwnaX5xcmZ0adsqNig=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -11549,7 +11531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JqJ45Nt759BmOFFA+YIStaSTofQkuj8BEOdY0VItXho=
+			N5O+zQ5bDlBwtkpEfElBpIqHKAwxlzp6cYplMTYegvw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -11774,7 +11756,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wV+KtYWJzLu6oPbF0/yYcbSuj5qOqff0qA3wwZgsHlE=
+			YxpilmhWlfLyUZKjkDKglM8UFR5b5iZF7mvmocawk8k=
 			</data>
 			<key>optional</key>
 			<true/>

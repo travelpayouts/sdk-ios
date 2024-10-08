@@ -1006,6 +1006,12 @@ public struct _R {
       public var location_troubles_title: RswiftResources.StringResource {
         get
       }
+      public var map_location_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var my_location_button_title: RswiftResources.StringResource {
+        get
+      }
       public var restricred_location_access_message: RswiftResources.StringResource {
         get
       }

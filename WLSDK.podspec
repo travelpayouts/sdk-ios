@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
     s.name                  = 'WLSDK'
-    s.version               = '1.3.1'
+    s.version               = '1.3.2'
     s.summary               = 'Integrate flight search and booking framework in your apps.'
   
     s.description           = <<-DESC
