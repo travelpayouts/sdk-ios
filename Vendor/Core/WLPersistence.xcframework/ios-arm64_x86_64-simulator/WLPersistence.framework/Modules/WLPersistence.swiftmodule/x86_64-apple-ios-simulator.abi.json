@@ -1217,19 +1217,27 @@
                 "children": [
                   {
                     "kind": "Var",
-                    "name": "iconName",
-                    "printedName": "iconName",
+                    "name": "iconFiles",
+                    "printedName": "iconFiles",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
                       }
                     ],
                     "declKind": "Var",
-                    "usr": "s:13WLPersistence9InfoPlistV11BundleIconsV0D4IconV8iconNameSSvp",
-                    "mangledName": "$s13WLPersistence9InfoPlistV11BundleIconsV0D4IconV8iconNameSSvp",
+                    "usr": "s:13WLPersistence9InfoPlistV11BundleIconsV0D4IconV9iconFilesSaySSGvp",
+                    "mangledName": "$s13WLPersistence9InfoPlistV11BundleIconsV0D4IconV9iconFilesSaySSGvp",
                     "moduleName": "WLPersistence",
                     "declAttributes": [
                       "HasStorage",
@@ -1249,14 +1257,22 @@
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
                           }
                         ],
                         "declKind": "Accessor",
-                        "usr": "s:13WLPersistence9InfoPlistV11BundleIconsV0D4IconV8iconNameSSvg",
-                        "mangledName": "$s13WLPersistence9InfoPlistV11BundleIconsV0D4IconV8iconNameSSvg",
+                        "usr": "s:13WLPersistence9InfoPlistV11BundleIconsV0D4IconV9iconFilesSaySSGvg",
+                        "mangledName": "$s13WLPersistence9InfoPlistV11BundleIconsV0D4IconV9iconFilesSaySSGvg",
                         "moduleName": "WLPersistence",
                         "implicit": true,
                         "spi_group_names": [
@@ -5993,9 +6009,9 @@
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
       "kind": "StringLiteral",
-      "offset": 484,
-      "length": 18,
-      "value": "\"CFBundleIconName\""
+      "offset": 488,
+      "length": 19,
+      "value": "\"CFBundleIconFiles\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",

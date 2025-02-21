@@ -224,13 +224,20 @@
       },
       {
         "kind": "Import",
-        "name": "NeedleFoundation",
-        "printedName": "NeedleFoundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WLInformation",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLInformation"
       },
       {
         "kind": "Import",
@@ -1237,13 +1244,20 @@
       },
       {
         "kind": "Import",
-        "name": "NeedleFoundation",
-        "printedName": "NeedleFoundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WLInformation",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLInformation"
       },
       {
         "kind": "Import",
@@ -1319,13 +1333,20 @@
       },
       {
         "kind": "Import",
-        "name": "NeedleFoundation",
-        "printedName": "NeedleFoundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WLInformation",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLInformation"
       },
       {
         "kind": "Import",
@@ -3009,6 +3030,13 @@
         "kind": "Import",
         "name": "NeedleFoundation",
         "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLInformation"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WLInformation"
       },
@@ -7721,15 +7749,9 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "application_version",
-                    "printedName": "application_version(_:)",
+                    "name": "action_button_title",
+                    "printedName": "action_button_title()",
                     "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
                       {
                         "kind": "TypeNominal",
                         "name": "String",
@@ -7738,8 +7760,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19application_versionyS2SF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19application_versionyS2SF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19action_button_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19action_button_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -7777,9 +7799,15 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "action_button_title",
-                    "printedName": "action_button_title()",
+                    "name": "application_version",
+                    "printedName": "application_version(_:)",
                     "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
                       {
                         "kind": "TypeNominal",
                         "name": "String",
@@ -7788,8 +7816,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19action_button_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19action_button_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19application_versionyS2SF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV24InformationAboutAppTableV19application_versionyS2SF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -7895,31 +7923,6 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "search_bar_placeholder",
-                    "printedName": "search_bar_placeholder()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV22search_bar_placeholderSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV22search_bar_placeholderSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "title",
                     "printedName": "title()",
                     "children": [
@@ -7933,6 +7936,31 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV5titleSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV5titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "search_bar_placeholder",
+                    "printedName": "search_bar_placeholder()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV22search_bar_placeholderSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV29InformationCountryPickerTableV22search_bar_placeholderSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8231,6 +8259,56 @@
                 "children": [
                   {
                     "kind": "Function",
+                    "name": "connectWithUs_cell_title",
+                    "printedName": "connectWithUs_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "regionalSettings_cell_title",
+                    "printedName": "regionalSettings_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV27regionalSettings_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV27regionalSettings_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "information_feedback_mail_subject",
                     "printedName": "information_feedback_mail_subject()",
                     "children": [
@@ -8244,6 +8322,156 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV33information_feedback_mail_subjectSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV33information_feedback_mail_subjectSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "other_section_title",
+                    "printedName": "other_section_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV19other_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV19other_section_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "personal_section_title",
+                    "printedName": "personal_section_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "confidentiality_cell_title",
+                    "printedName": "confidentiality_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV26confidentiality_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV26confidentiality_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "title",
+                    "printedName": "title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "priceDisplay_cell_title",
+                    "printedName": "priceDisplay_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV23priceDisplay_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV23priceDisplay_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "rateApp_cell_title",
+                    "printedName": "rateApp_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV18rateApp_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV18rateApp_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8306,56 +8534,6 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "personal_section_title",
-                    "printedName": "personal_section_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV22personal_section_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "regionalSettings_cell_title",
-                    "printedName": "regionalSettings_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV27regionalSettings_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV27regionalSettings_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "favourites_cell_title",
                     "printedName": "favourites_cell_title()",
                     "children": [
@@ -8369,156 +8547,6 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV21favourites_cell_titleSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV21favourites_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "confidentiality_cell_title",
-                    "printedName": "confidentiality_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV26confidentiality_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV26confidentiality_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "rateApp_cell_title",
-                    "printedName": "rateApp_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV18rateApp_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV18rateApp_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "title",
-                    "printedName": "title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV5titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "connectWithUs_cell_title",
-                    "printedName": "connectWithUs_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV24connectWithUs_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "other_section_title",
-                    "printedName": "other_section_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV19other_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV19other_section_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "priceDisplay_cell_title",
-                    "printedName": "priceDisplay_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV20InformationMainTableV23priceDisplay_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV20InformationMainTableV23priceDisplay_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8565,6 +8593,31 @@
                 "children": [
                   {
                     "kind": "Function",
+                    "name": "aviaTickets_section_title",
+                    "printedName": "aviaTickets_section_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "priceForOnePassenger_cell_title",
                     "printedName": "priceForOnePassenger_cell_title()",
                     "children": [
@@ -8590,6 +8643,31 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "hotels_section_title",
+                    "printedName": "hotels_section_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "title",
                     "printedName": "title()",
                     "children": [
@@ -8603,81 +8681,6 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV5titleSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV5titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "priceForOneNight_cell_title",
-                    "printedName": "priceForOneNight_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "currency_cell_title",
-                    "printedName": "currency_cell_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "aviaTickets_section_title",
-                    "printedName": "aviaTickets_section_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV25aviaTickets_section_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8740,8 +8743,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "hotels_section_title",
-                    "printedName": "hotels_section_title()",
+                    "name": "priceForOneNight_cell_title",
+                    "printedName": "priceForOneNight_cell_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8751,8 +8754,33 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV20hotels_section_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV27priceForOneNight_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "currency_cell_title",
+                    "printedName": "currency_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV28InformationPriceDisplayTableV19currency_cell_titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8799,6 +8827,31 @@
                 "children": [
                   {
                     "kind": "Function",
+                    "name": "app_language_cell_title",
+                    "printedName": "app_language_cell_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV23app_language_cell_titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV23app_language_cell_titleSSyF",
+                    "moduleName": "WLInformation",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "currency_cell_title",
                     "printedName": "currency_cell_title()",
                     "children": [
@@ -8824,8 +8877,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "app_language_cell_title",
-                    "printedName": "app_language_cell_title()",
+                    "name": "title",
+                    "printedName": "title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8835,8 +8888,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV23app_language_cell_titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV23app_language_cell_titleSSyF",
+                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV5titleSSyF",
+                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV5titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",
@@ -8887,31 +8940,6 @@
                     "declKind": "Func",
                     "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV18country_cell_titleSSyF",
                     "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV18country_cell_titleSSyF",
-                    "moduleName": "WLInformation",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "title",
-                    "printedName": "title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV5titleSSyF",
-                    "mangledName": "$s13WLInformation2_RV13ConfigStringsV32InformationRegionalSettingsTableV5titleSSyF",
                     "moduleName": "WLInformation",
                     "declAttributes": [
                       "AccessControl",

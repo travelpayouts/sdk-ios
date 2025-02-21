@@ -1,10 +1,10 @@
 #  This file was automatically generated and should not be edited.
 #
-#  Copyright © 2024 CleverPumpkin. All rights reserved.
+#  Copyright © 2025 CleverPumpkin. All rights reserved.
 #
 Pod::Spec.new do |s|
     s.name                  = 'WLSDK'
-    s.version               = '1.3.2'
+    s.version               = '1.3.3'
     s.summary               = 'Integrate flight search and booking framework in your apps.'
   
     s.description           = <<-DESC

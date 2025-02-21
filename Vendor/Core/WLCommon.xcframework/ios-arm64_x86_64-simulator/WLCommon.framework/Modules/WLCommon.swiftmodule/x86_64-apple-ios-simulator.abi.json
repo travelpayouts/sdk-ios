@@ -4250,28 +4250,38 @@
                     "printedName": "Appstore",
                     "children": [
                       {
-                        "kind": "Function",
-                        "name": "appstoreUrl",
-                        "printedName": "appstoreUrl(for:)",
+                        "kind": "Var",
+                        "name": "host",
+                        "printedName": "host",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Foundation.URL?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "URL",
-                                "printedName": "Foundation.URL",
-                                "usr": "s:10Foundation3URLV"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          },
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO4hostSSvpZ",
+                        "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO4hostSSvpZ",
+                        "moduleName": "WLCommon",
+                        "static": true,
+                        "declAttributes": [
+                          "HasInitialValue",
+                          "HasStorage",
+                          "AccessControl",
+                          "RawDocComment"
+                        ],
+                        "spi_group_names": [
+                          "CleverPumpkinInternal"
+                        ],
+                        "isLet": true,
+                        "hasStorage": true,
+                        "accessors": [
                           {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.String?",
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -4280,22 +4290,177 @@
                                 "usr": "s:SS"
                               }
                             ],
-                            "usr": "s:Sq"
+                            "declKind": "Accessor",
+                            "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO4hostSSvgZ",
+                            "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO4hostSSvgZ",
+                            "moduleName": "WLCommon",
+                            "static": true,
+                            "implicit": true,
+                            "spi_group_names": [
+                              "CleverPumpkinInternal"
+                            ],
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "applicationUrlPath",
+                        "printedName": "applicationUrlPath",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
                         ],
-                        "declKind": "Func",
-                        "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO11appstoreUrl3for10Foundation3URLVSgSSSg_tFZ",
-                        "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO11appstoreUrl3for10Foundation3URLVSgSSSg_tFZ",
+                        "declKind": "Var",
+                        "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO18applicationUrlPathSSvpZ",
+                        "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO18applicationUrlPathSSvpZ",
                         "moduleName": "WLCommon",
                         "static": true,
                         "declAttributes": [
-                          "AccessControl",
-                          "RawDocComment"
+                          "HasInitialValue",
+                          "HasStorage",
+                          "AccessControl"
                         ],
                         "spi_group_names": [
                           "CleverPumpkinInternal"
                         ],
-                        "funcSelfKind": "NonMutating"
+                        "isLet": true,
+                        "hasStorage": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO18applicationUrlPathSSvgZ",
+                            "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO18applicationUrlPathSSvgZ",
+                            "moduleName": "WLCommon",
+                            "static": true,
+                            "implicit": true,
+                            "spi_group_names": [
+                              "CleverPumpkinInternal"
+                            ],
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "writeReviewQueryName",
+                        "printedName": "writeReviewQueryName",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO20writeReviewQueryNameSSvpZ",
+                        "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO20writeReviewQueryNameSSvpZ",
+                        "moduleName": "WLCommon",
+                        "static": true,
+                        "declAttributes": [
+                          "HasInitialValue",
+                          "HasStorage",
+                          "AccessControl"
+                        ],
+                        "spi_group_names": [
+                          "CleverPumpkinInternal"
+                        ],
+                        "isLet": true,
+                        "hasStorage": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO20writeReviewQueryNameSSvgZ",
+                            "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO20writeReviewQueryNameSSvgZ",
+                            "moduleName": "WLCommon",
+                            "static": true,
+                            "implicit": true,
+                            "spi_group_names": [
+                              "CleverPumpkinInternal"
+                            ],
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "writeReviewQueryValue",
+                        "printedName": "writeReviewQueryValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO21writeReviewQueryValueSSvpZ",
+                        "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO21writeReviewQueryValueSSvpZ",
+                        "moduleName": "WLCommon",
+                        "static": true,
+                        "declAttributes": [
+                          "HasInitialValue",
+                          "HasStorage",
+                          "AccessControl"
+                        ],
+                        "spi_group_names": [
+                          "CleverPumpkinInternal"
+                        ],
+                        "isLet": true,
+                        "hasStorage": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:8WLCommon7SecretsO5LinksO6CommonO8AppstoreO21writeReviewQueryValueSSvgZ",
+                            "mangledName": "$s8WLCommon7SecretsO5LinksO6CommonO8AppstoreO21writeReviewQueryValueSSvgZ",
+                            "moduleName": "WLCommon",
+                            "static": true,
+                            "implicit": true,
+                            "spi_group_names": [
+                              "CleverPumpkinInternal"
+                            ],
+                            "accessorKind": "get"
+                          }
+                        ]
                       }
                     ],
                     "declKind": "Enum",
@@ -5821,6 +5986,59 @@
                     "declKind": "Accessor",
                     "usr": "s:8WLCommon7SecretsO7SchemesO5httpsSSvgZ",
                     "mangledName": "$s8WLCommon7SecretsO7SchemesO5httpsSSvgZ",
+                    "moduleName": "WLCommon",
+                    "static": true,
+                    "implicit": true,
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "appstore",
+                "printedName": "appstore",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8WLCommon7SecretsO7SchemesO8appstoreSSvpZ",
+                "mangledName": "$s8WLCommon7SecretsO7SchemesO8appstoreSSvpZ",
+                "moduleName": "WLCommon",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8WLCommon7SecretsO7SchemesO8appstoreSSvgZ",
+                    "mangledName": "$s8WLCommon7SecretsO7SchemesO8appstoreSSvgZ",
                     "moduleName": "WLCommon",
                     "static": true,
                     "implicit": true,
@@ -28037,6 +28255,60 @@
           },
           {
             "kind": "Var",
+            "name": "slash",
+            "printedName": "slash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS8WLCommonE5slashSSvpZ",
+            "mangledName": "$sSS8WLCommonE5slashSSvpZ",
+            "moduleName": "WLCommon",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS8WLCommonE5slashSSvgZ",
+                "mangledName": "$sSS8WLCommonE5slashSSvgZ",
+                "moduleName": "WLCommon",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "slashWithSpaces",
             "printedName": "slashWithSpaces",
             "children": [
@@ -37880,7 +38152,7 @@
       "kind": "StringLiteral",
       "offset": 571,
       "length": 7,
-      "value": "\"1.3.2\""
+      "value": "\"1.3.3\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
@@ -37906,163 +38178,198 @@
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1143,
+      "length": 18,
+      "value": "\"itunes.apple.com\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1203,
+      "length": 8,
+      "value": "\"app\/id\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 14,
+      "value": "\"write-review\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
       "length": 29,
       "value": "\"https:\/\/places.aviasales.ru\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2200,
+      "offset": 2242,
       "length": 21,
       "value": "\"https:\/\/pics.avs.io\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 2478,
       "length": 31,
       "value": "\"https:\/\/www.travelpayouts.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2504,
+      "offset": 2546,
       "length": 31,
       "value": "\"https:\/\/api.travelpayouts.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2618,
       "length": 79,
       "value": "\"https:\/\/api.travelpayouts.com\/whitelabels\/app\/flights\/v1\/prices\/graphql\/query\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2701,
+      "offset": 2743,
       "length": 40,
       "value": "\"https:\/\/autocomplete.travelpayouts.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 2947,
+      "offset": 2989,
       "length": 22,
       "value": "\"https:\/\/hotellook.ru\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3008,
+      "offset": 3050,
       "length": 29,
       "value": "\"https:\/\/yasen.hotellook.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 3118,
       "length": 29,
       "value": "\"https:\/\/photo.hotellook.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3145,
+      "offset": 3187,
       "length": 30,
       "value": "\"https:\/\/engine.hotellook.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3212,
+      "offset": 3254,
       "length": 27,
       "value": "\"https:\/\/api.hotellook.com\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 3475,
       "length": 20,
       "value": "\"x-application-host\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3487,
+      "offset": 3529,
       "length": 13,
       "value": "\"x-signature\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3535,
+      "offset": 3577,
       "length": 15,
       "value": "\"X-Client-Type\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 3628,
       "length": 16,
       "value": "\"X-Access-Token\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3640,
+      "offset": 3682,
       "length": 18,
       "value": "\"X-Application-Id\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3693,
+      "offset": 3735,
       "length": 15,
       "value": "\"x-stop-marker\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3746,
+      "offset": 3788,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 3840,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3852,
+      "offset": 3894,
       "length": 20,
       "value": "\"Client-Device-Info\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3904,
+      "offset": 3946,
       "length": 10,
       "value": "\"Referrer\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 3986,
+      "offset": 4028,
       "length": 8,
       "value": "\"tp_api\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
       "kind": "StringLiteral",
-      "offset": 4162,
+      "offset": 4204,
       "length": 7,
       "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Generated\/Secrets.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 11,
+      "value": "\"itms-apps\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
@@ -38158,105 +38465,112 @@
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 555,
-      "length": 5,
-      "value": "\" \/ \""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 586,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 609,
-      "length": 3,
-      "value": "\"K\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 644,
-      "length": 10,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 10,
-      "value": "\"‏\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 726,
-      "length": 10,
-      "value": "\"‎\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 10,
-      "value": "\"‬\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 809,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 838,
-      "length": 5,
-      "value": "\"₽\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 869,
-      "length": 3,
-      "value": "\"$\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 896,
-      "length": 5,
-      "value": "\"€\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 944,
-      "length": 7,
-      "value": "\"lproj\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 980,
+      "offset": 545,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1027,
+      "offset": 579,
+      "length": 5,
+      "value": "\" \/ \""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 633,
+      "length": 3,
+      "value": "\"K\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 10,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 10,
+      "value": "\"‏\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 10,
+      "value": "\"‎\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 10,
+      "value": "\"‬\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 5,
+      "value": "\"₽\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 3,
+      "value": "\"$\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 5,
+      "value": "\"€\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 7,
+      "value": "\"lproj\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
       "length": 5,
       "value": "\" x \""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLCommon\/Sources\/Extensions\/Swift\/String\/String+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1084,
       "length": 5,
       "value": "\"N\/A\""
     },

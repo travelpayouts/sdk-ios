@@ -462,7 +462,21 @@ SWIFT_CLASS("_TtC15WLUserInterface25CoordinatorViewController")
 @interface CoordinatorViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UINavigationController;
+
+@interface CoordinatorViewController (SWIFT_EXTENSION(WLUserInterface)) <UINavigationControllerDelegate>
+- (void)navigationController:(UINavigationController * _Nonnull)navigationController willShowViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
+@end
+
+@class UIGestureRecognizer;
+
+@interface CoordinatorViewController (SWIFT_EXTENSION(WLUserInterface)) <UIGestureRecognizerDelegate>
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer * _Nonnull)gestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -764,7 +778,6 @@ SWIFT_CLASS("_TtC15WLUserInterface11MultiSlider")
 @end
 
 
-@class UIGestureRecognizer;
 @class UIPanGestureRecognizer;
 
 @interface MultiSlider (SWIFT_EXTENSION(WLUserInterface)) <UIGestureRecognizerDelegate>
@@ -793,11 +806,11 @@ SWIFT_CLASS("_TtC15WLUserInterface16PagingImagesView")
 
 
 
+
 @interface PagingImagesView (SWIFT_EXTENSION(WLUserInterface)) <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 SWIFT_CLASS("_TtC15WLUserInterface19PagingIndicatorView")
