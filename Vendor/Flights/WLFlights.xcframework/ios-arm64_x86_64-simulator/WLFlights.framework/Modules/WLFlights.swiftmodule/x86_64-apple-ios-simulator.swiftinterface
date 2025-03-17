@@ -263,7 +263,10 @@ public struct _R {
       public var flight_details_share_close_button_title: RswiftResources.StringResource {
         get
       }
-      public var flight_details_share_share_button_title: RswiftResources.StringResource {
+      public var flight_details_share_share_as_image_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_share_share_as_link_button_title: RswiftResources.StringResource {
         get
       }
     }
@@ -774,6 +777,9 @@ public struct _R {
       public var ticket_cell_travel_time_title: RswiftResources.StringResource1<Swift.String> {
         get
       }
+      public var ticket_not_found_alert_title: RswiftResources.StringResource {
+        get
+      }
       public var widget_button_cell_collapse_title: RswiftResources.StringResource {
         get
       }
@@ -790,10 +796,25 @@ public struct _R {
       public var arrival_airport_placeholder: RswiftResources.StringResource {
         get
       }
+      public var dates_are_outdated_alert_title: RswiftResources.StringResource {
+        get
+      }
       public var dates_placeholder: RswiftResources.StringResource {
         get
       }
+      public var departure_airport_loading_placeholder: RswiftResources.StringResource {
+        get
+      }
       public var departure_airport_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var enter_parameters_manually_alert_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var link_not_recognized_alert_title: RswiftResources.StringResource {
+        get
+      }
+      public var location_not_found_alert_title: RswiftResources.StringResource {
         get
       }
       public var passengers_placeholder: RswiftResources.StringResource {
@@ -844,7 +865,7 @@ public struct _R {
 }
 @_hasMissingDesignatedInitializers final public class ScreenProvider {
   public static let shared: WLFlights.ScreenProvider
-  final public func flightsViewController() -> UIKit.UIViewController
+  final public func flightsViewController(deeplink: WLUserInterface.Deeplink? = nil) -> any WLUserInterface.DeeplinkResponderViewController
   final public func enable()
   @objc deinit
 }

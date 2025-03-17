@@ -212,9 +212,6 @@ public struct _R {
       public var favourites_cell_title: RswiftResources.StringResource {
         get
       }
-      public var information_feedback_mail_subject: RswiftResources.StringResource {
-        get
-      }
       public var other_section_title: RswiftResources.StringResource {
         get
       }

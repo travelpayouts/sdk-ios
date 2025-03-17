@@ -310,12 +310,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class NSCoder;
+@class UITraitCollection;
 
 SWIFT_CLASS("_TtC15WLUserInterface17ActivityIndicator")
 @interface ActivityIndicator : UIView
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 @property (nonatomic, getter=isHidden) BOOL hidden;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -329,7 +331,6 @@ SWIFT_CLASS("_TtC15WLUserInterface12ActivityView")
 @end
 
 
-@class UITraitCollection;
 
 SWIFT_CLASS("_TtC15WLUserInterface22BaseCollectionViewCell")
 @interface BaseCollectionViewCell : UICollectionViewCell
@@ -1659,12 +1660,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class NSCoder;
+@class UITraitCollection;
 
 SWIFT_CLASS("_TtC15WLUserInterface17ActivityIndicator")
 @interface ActivityIndicator : UIView
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 @property (nonatomic, getter=isHidden) BOOL hidden;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1678,7 +1681,6 @@ SWIFT_CLASS("_TtC15WLUserInterface12ActivityView")
 @end
 
 
-@class UITraitCollection;
 
 SWIFT_CLASS("_TtC15WLUserInterface22BaseCollectionViewCell")
 @interface BaseCollectionViewCell : UICollectionViewCell

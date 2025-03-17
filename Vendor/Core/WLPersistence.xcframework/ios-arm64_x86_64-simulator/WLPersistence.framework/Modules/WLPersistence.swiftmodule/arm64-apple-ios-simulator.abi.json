@@ -4451,6 +4451,46 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "requestReviewAttemptsCount",
+                "printedName": "requestReviewAttemptsCount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WLPersistence.UserDefaultKey.Common.Type) -> WLPersistence.UserDefaultKey.Common",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Common",
+                        "printedName": "WLPersistence.UserDefaultKey.Common",
+                        "usr": "s:13WLPersistence14UserDefaultKeyO6CommonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WLPersistence.UserDefaultKey.Common.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Common",
+                            "printedName": "WLPersistence.UserDefaultKey.Common",
+                            "usr": "s:13WLPersistence14UserDefaultKeyO6CommonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13WLPersistence14UserDefaultKeyO6CommonO26requestReviewAttemptsCountyA2EmF",
+                "mangledName": "$s13WLPersistence14UserDefaultKeyO6CommonO26requestReviewAttemptsCountyA2EmF",
+                "moduleName": "WLPersistence",
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ]
+              },
+              {
                 "kind": "Function",
                 "name": "==",
                 "printedName": "==(_:_:)",

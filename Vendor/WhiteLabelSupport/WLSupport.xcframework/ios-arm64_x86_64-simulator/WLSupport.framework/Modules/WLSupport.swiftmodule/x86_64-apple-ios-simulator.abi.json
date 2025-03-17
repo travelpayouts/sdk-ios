@@ -801,6 +801,13 @@
         "moduleName": "WLSupport"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
         "kind": "Function",
         "name": "registerProviderFactories",
         "printedName": "registerProviderFactories()",
@@ -1237,12 +1244,12 @@
       },
       {
         "kind": "Import",
-        "name": "NeedleFoundation",
-        "printedName": "NeedleFoundation",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
         "declKind": "Import",
         "moduleName": "WLSupport",
         "declAttributes": [
-          "RawDocComment"
+          "SPIAccessControl"
         ]
       },
       {
@@ -1274,6 +1281,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
       },
       {
         "kind": "Import",
@@ -1287,8 +1311,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WLSupport",
         "declAttributes": [

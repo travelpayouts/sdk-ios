@@ -34,6 +34,50 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension WLUserInterface.Deeplink.Flights.ShareTicketModel {
+  public struct SearchModel {
+    public let originSearchByAirport: Swift.Bool
+    public let destinationSearchByAirport: Swift.Bool
+    public let originIata: Swift.String
+    public let destinationIata: Swift.String
+    public let tripClassCode: Swift.String?
+    public let adults: Swift.Int
+    public let children: Swift.Int
+    public let infants: Swift.Int
+    public let forthDate: Foundation.Date
+    public let backDate: Foundation.Date?
+    public init(originSearchByAirport: Swift.Bool, originIata: Swift.String, destinationSearchByAirport: Swift.Bool, destinationIata: Swift.String, tripClass: Swift.String?, adults: Swift.Int, children: Swift.Int, infants: Swift.Int, forthDate: Foundation.Date, backDate: Foundation.Date?)
+  }
+}
+extension WLUserInterface.Deeplink.Flights {
+  public struct ShareTicketModel {
+    public let searchModel: WLUserInterface.Deeplink.Flights.ShareTicketModel.SearchModel?
+    public let ticketSignature: Swift.String?
+    public init(searchModel: WLUserInterface.Deeplink.Flights.ShareTicketModel.SearchModel, ticketSignature: Swift.String)
+  }
+}
+extension WLUserInterface.Deeplink {
+  public enum Flights {
+    case ticket(WLUserInterface.Deeplink.Flights.ShareTicketModel)
+  }
+}
+public enum Deeplink {
+  case flights(WLUserInterface.Deeplink.Flights)
+}
+extension WLUserInterface.Deeplink {
+  public var flights: WLUserInterface.Deeplink.Flights? {
+    get
+  }
+}
+extension WLUserInterface.Deeplink {
+  public static func build(with launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?) -> WLUserInterface.Deeplink?
+  public static func build(with userActivity: Foundation.NSUserActivity) -> WLUserInterface.Deeplink?
+  public static func build(with notificationResponse: UserNotifications.UNNotificationResponse) -> WLUserInterface.Deeplink?
+  public static func build(with url: Foundation.URL?) -> WLUserInterface.Deeplink?
+}
+public protocol DeeplinkResponderViewController : UIKit.UIViewController {
+  func handle(deeplink: WLUserInterface.Deeplink?)
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DimmedView : UIKit.UIView {
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -54,6 +98,10 @@ extension UIKit.UICollectionViewCell {
   @_Concurrency.MainActor @preconcurrency public var indexPath: Foundation.IndexPath? {
     get
   }
+}
+public enum PickerButtonLeadingItemType {
+  case image(UIKit.UIImage?)
+  case activityIndicator
 }
 public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable {
   case baseCurrencies
