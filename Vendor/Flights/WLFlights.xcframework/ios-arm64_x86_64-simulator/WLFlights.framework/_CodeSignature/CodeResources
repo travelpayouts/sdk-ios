@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LWBc7/0sLk8oce68XQuL7m1kxf0=
+		0MrIvPPdcBfwB+pa1ZtwJtvbEDU=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lvw4L9qZ5dxk+Irq3d+LhPHkgxw=
+		+O7AUv27Kz5eg8fjY80dIPbenA8=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oUgG2sOTQNBWmguD9NdHfGYDGM0=
+		K/Kwj/a89jxEhxjLHc8oWdNAkAQ=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F9UhzAV8x7kA7ggfiG22ENp5nuo=
+		bKl+p9LWueJJJYX/cNv9S5HZ4aA=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lFLosocAriyxNOpizmcJdflGEag=
+		8E0j1br9O8SUEDAP4BI3sIiIT2c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4964,14 +4964,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cf70Kgi0A8GgCpi0+BzSfTesbAbtsMgpRbwXyOoj0D0=
+			uhcKY80cVVFSJPMTdOKJ0qlni7M/atSEq86815ApiXQ=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KcJC0AI0B2JCf9HstBXHJUj8TH9hY8MthzTNqFnsZwY=
+			lIE+qJE1xQV27Kyocl9z21ftLlTg1yFRPn5Utn34ltE=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -4985,14 +4985,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o52uKDCQ15Uf8n55VV03ZpuTuZYtOdMP++bgmC/gWPY=
+			5TC58p3zv2AqTNRj3m8IWdzQvb7HIr/7tGBWl/mCjag=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mhx5HFtmvJ9EEt7IeKeoEswAIo2awHsy6WwO1WMmvS0=
+			5BNsYf6XbkJe92ppznAfNhii7RmlgroXBxNxAgV/5uc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -34,8 +34,8 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension WLUserInterface.Deeplink.Flights.ShareTicketModel {
-  public struct SearchModel {
+extension WLUserInterface.Deeplink.Flights.TicketModel {
+  public struct SearchModel : Swift.Hashable {
     public let originSearchByAirport: Swift.Bool
     public let destinationSearchByAirport: Swift.Bool
     public let originIata: Swift.String
@@ -47,18 +47,28 @@ extension WLUserInterface.Deeplink.Flights.ShareTicketModel {
     public let forthDate: Foundation.Date
     public let backDate: Foundation.Date?
     public init(originSearchByAirport: Swift.Bool, originIata: Swift.String, destinationSearchByAirport: Swift.Bool, destinationIata: Swift.String, tripClass: Swift.String?, adults: Swift.Int, children: Swift.Int, infants: Swift.Int, forthDate: Foundation.Date, backDate: Foundation.Date?)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel, b: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
   }
 }
 extension WLUserInterface.Deeplink.Flights {
-  public struct ShareTicketModel {
-    public let searchModel: WLUserInterface.Deeplink.Flights.ShareTicketModel.SearchModel?
+  public struct TicketModel : Swift.Hashable {
+    public let searchModel: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel?
     public let ticketSignature: Swift.String?
-    public init(searchModel: WLUserInterface.Deeplink.Flights.ShareTicketModel.SearchModel, ticketSignature: Swift.String)
+    public init(searchModel: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel, ticketSignature: Swift.String)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: WLUserInterface.Deeplink.Flights.TicketModel, b: WLUserInterface.Deeplink.Flights.TicketModel) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
   }
 }
 extension WLUserInterface.Deeplink {
   public enum Flights {
-    case ticket(WLUserInterface.Deeplink.Flights.ShareTicketModel)
+    case ticket(WLUserInterface.Deeplink.Flights.TicketModel)
   }
 }
 public enum Deeplink {
@@ -71,6 +81,7 @@ extension WLUserInterface.Deeplink {
 }
 extension WLUserInterface.Deeplink {
   public static func build(with launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?) -> WLUserInterface.Deeplink?
+  public static func build(with connectionOptions: UIKit.UIScene.ConnectionOptions) -> WLUserInterface.Deeplink?
   public static func build(with userActivity: Foundation.NSUserActivity) -> WLUserInterface.Deeplink?
   public static func build(with notificationResponse: UserNotifications.UNNotificationResponse) -> WLUserInterface.Deeplink?
   public static func build(with url: Foundation.URL?) -> WLUserInterface.Deeplink?

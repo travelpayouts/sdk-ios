@@ -27,6 +27,21 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum DeeplinkParseServiceError : Swift.Error {
+  case locationNotFound
+  case linkNotRecognized
+  case datesAreOutdated
+  public static func == (a: WLFlights.DeeplinkParseServiceError, b: WLFlights.DeeplinkParseServiceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension WLFlights.DeeplinkParseServiceError {
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
 public enum FlightsImageSink : WLConfig.ImageSink {
   case searchScreenBackground
   public static func == (a: WLFlights.FlightsImageSink, b: WLFlights.FlightsImageSink) -> Swift.Bool
@@ -865,8 +880,10 @@ public struct _R {
 }
 @_hasMissingDesignatedInitializers final public class ScreenProvider {
   public static let shared: WLFlights.ScreenProvider
-  final public func flightsViewController(deeplink: WLUserInterface.Deeplink? = nil) -> any WLUserInterface.DeeplinkResponderViewController
   final public func enable()
+  final public func flightsViewController(deeplink: WLUserInterface.Deeplink? = nil) -> any WLUserInterface.DeeplinkResponderViewController
   @objc deinit
 }
+extension WLFlights.DeeplinkParseServiceError : Swift.Equatable {}
+extension WLFlights.DeeplinkParseServiceError : Swift.Hashable {}
 extension WLFlights.LocalizationTable : Swift.RawRepresentable {}
