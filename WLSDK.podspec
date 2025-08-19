@@ -4,11 +4,11 @@
 #
 Pod::Spec.new do |s|
     s.name                  = 'WLSDK'
-    s.version               = '1.4.1'
+    s.version               = '1.5.0'
     s.summary               = 'Integrate flight search and booking framework in your apps.'
   
     s.description           = <<-DESC
-    AviasalesKit iOS SDK is a framework integrating flights and hotels search engine into your app. When your user books a flight or hotel, you get paid. Framework is based on leading airline tickets and hotels search engines Aviasales.ru, Jetradar.com and Hotellook.com
+    AviasalesKit iOS SDK is a framework integrating flights search engine into your app. When your user books a flight, you get paid. Framework is based on leading airline tickets search engines Aviasales.ru, Jetradar.com and Hotellook.com
                          DESC
   
     s.homepage              = 'https://github.com/travelpayouts/sdk-ios'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.author                = { 'Travelpayouts' => 'support@travelpayouts.com' }
     s.source                = { :git => 'https://github.com/travelpayouts/sdk-ios.git', :tag => s.version.to_s }
     s.swift_version         = '5.9'
-    s.default_subspec       = 'Core', 'Flights', 'Hotels', 'Information'
+    s.default_subspec       = 'Core', 'Flights', 'Information'
     s.ios.deployment_target = '14.0'
 
     s.subspec 'Core' do |core|
@@ -46,12 +46,6 @@ Pod::Spec.new do |s|
         flights.ios.vendored_frameworks = 'Vendor/Flights/*.xcframework'
 
         flights.dependency 'WLSDK/Core'
-    end
-
-    s.subspec 'Hotels' do |hotels|
-        hotels.ios.vendored_frameworks = 'Vendor/Hotels/*.xcframework'
-
-        hotels.dependency 'WLSDK/Core'
     end
 
     s.subspec 'Information' do |info|

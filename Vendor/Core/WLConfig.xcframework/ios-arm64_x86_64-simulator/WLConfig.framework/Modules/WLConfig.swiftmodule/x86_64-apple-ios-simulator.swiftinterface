@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name WLConfig
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WLConfig
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import CoreGraphics
 import DeveloperToolsSupport
 import Foundation
@@ -55,12 +55,12 @@ public enum ColorPalette : Swift.Codable, Swift.CaseIterable {
   case lab
   case hsv
   public static func == (a: WLConfig.ColorPalette, b: WLConfig.ColorPalette) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [WLConfig.ColorPalette]
   nonisolated public static var allCases: [WLConfig.ColorPalette] {
     get
   }
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -72,7 +72,6 @@ extension WLConfig.ColorPalette {
   }
 }
 public protocol ColorSet {
-  var badgeHotelPurple: WLConfig.Color? { get }
   var modalAppbar: WLConfig.Color? { get }
   var skeletonSecondaryColor: WLConfig.Color? { get }
   var primary: WLConfig.Color? { get }
@@ -92,9 +91,7 @@ public protocol ColorSet {
   var surfaceSecondary: WLConfig.Color? { get }
   var skeletonBaseColor: WLConfig.Color? { get }
   var primaryPressed: WLConfig.Color? { get }
-  var badgeHotelOrange: WLConfig.Color? { get }
   var badgeTicketComfort: WLConfig.Color? { get }
-  var badgeHotelGreen: WLConfig.Color? { get }
   var surfaceCardBackground: WLConfig.Color? { get }
   var modalCard: WLConfig.Color? { get }
   var searchbar: WLConfig.Color? { get }
@@ -103,22 +100,16 @@ public protocol ColorSet {
   var onSurfaceSecondary: WLConfig.Color? { get }
   var badgeTicketAd: WLConfig.Color? { get }
   var homeScreenText: WLConfig.Color? { get }
-  var badgeHotelRed: WLConfig.Color? { get }
   var warning: WLConfig.Color? { get }
   var onPrimary: WLConfig.Color? { get }
   var outline: WLConfig.Color? { get }
-  var badgeHotelBlue: WLConfig.Color? { get }
   var overlay: WLConfig.Color? { get }
   var badgeTicketFast: WLConfig.Color? { get }
-  var badgeHotelDarkBlue: WLConfig.Color? { get }
   var modalAlert: WLConfig.Color? { get }
   var badgeTicketCheap: WLConfig.Color? { get }
   var error: WLConfig.Color? { get }
 }
 extension WLConfig.ColorSet {
-  public var badgeHotelPurple: WLConfig.Color? {
-    get
-  }
   public var modalAppbar: WLConfig.Color? {
     get
   }
@@ -176,13 +167,7 @@ extension WLConfig.ColorSet {
   public var primaryPressed: WLConfig.Color? {
     get
   }
-  public var badgeHotelOrange: WLConfig.Color? {
-    get
-  }
   public var badgeTicketComfort: WLConfig.Color? {
-    get
-  }
-  public var badgeHotelGreen: WLConfig.Color? {
     get
   }
   public var surfaceCardBackground: WLConfig.Color? {
@@ -209,9 +194,6 @@ extension WLConfig.ColorSet {
   public var homeScreenText: WLConfig.Color? {
     get
   }
-  public var badgeHotelRed: WLConfig.Color? {
-    get
-  }
   public var warning: WLConfig.Color? {
     get
   }
@@ -221,16 +203,10 @@ extension WLConfig.ColorSet {
   public var outline: WLConfig.Color? {
     get
   }
-  public var badgeHotelBlue: WLConfig.Color? {
-    get
-  }
   public var overlay: WLConfig.Color? {
     get
   }
   public var badgeTicketFast: WLConfig.Color? {
-    get
-  }
-  public var badgeHotelDarkBlue: WLConfig.Color? {
     get
   }
   public var modalAlert: WLConfig.Color? {
@@ -254,18 +230,10 @@ extension WLConfig.Configuration.Advertising.Placements {
     public init(searchInterstitial: Swift.String?, searchResultsBanner: Swift.String?)
   }
 }
-extension WLConfig.Configuration.Advertising.Placements {
-  public struct Hotels {
-    public let searchInterstitial: Swift.String?
-    public let searchResultsBanner: Swift.String?
-    public init(searchInterstitial: Swift.String?, searchResultsBanner: Swift.String?)
-  }
-}
 extension WLConfig.Configuration.Advertising {
   public struct Placements {
     public let flights: WLConfig.Configuration.Advertising.Placements.Flights
-    public let hotels: WLConfig.Configuration.Advertising.Placements.Hotels
-    public init(flights: WLConfig.Configuration.Advertising.Placements.Flights, hotels: WLConfig.Configuration.Advertising.Placements.Hotels)
+    public init(flights: WLConfig.Configuration.Advertising.Placements.Flights)
   }
 }
 extension WLConfig.Configuration {
@@ -292,7 +260,8 @@ extension WLConfig.Configuration {
     public let feedbackTheme: Swift.String?
     public let sharingLink: Swift.String?
     public let bookingReviewRequestFrequency: Swift.Int
-    public init(marker: Swift.String = "", clientDeviceHost: Swift.String = "", apiKey: Swift.String = "", appStoreId: Swift.String? = nil, privacyUrl: WLConfig.LocalizedUrlContainer? = nil, feedbackEmail: Swift.String? = nil, feedbackTheme: Swift.String? = nil, sharingLink: Swift.String? = nil, bookingReviewRequestFrequency: Swift.Int = .zero)
+    public let appStoreLink: Swift.String?
+    public init(marker: Swift.String = "", clientDeviceHost: Swift.String = "", apiKey: Swift.String = "", appStoreId: Swift.String? = nil, privacyUrl: WLConfig.LocalizedUrlContainer? = nil, feedbackEmail: Swift.String? = nil, feedbackTheme: Swift.String? = nil, sharingLink: Swift.String? = nil, bookingReviewRequestFrequency: Swift.Int = .zero, appStoreLink: Swift.String? = nil)
   }
 }
 extension WLConfig.Configuration {
@@ -320,7 +289,6 @@ extension WLConfig.Configuration {
 extension WLConfig.Configuration.RouteProvider {
   public enum Destination : Swift.Hashable {
     case flightsCoordinator
-    case hotelsCoordinator
     public static func == (a: WLConfig.Configuration.RouteProvider.Destination, b: WLConfig.Configuration.RouteProvider.Destination) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -350,350 +318,235 @@ public enum CornerStyle : Swift.CaseIterable, Swift.Equatable, Swift.Codable {
   case sharp
   case `default`
   case round
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WLConfig.CornerStyle, b: WLConfig.CornerStyle) -> Swift.Bool
   public typealias AllCases = [WLConfig.CornerStyle]
   nonisolated public static var allCases: [WLConfig.CornerStyle] {
     get
   }
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol IconSet {
-  var icStar40: UIKit.UIImage? { get }
-  var icActivitiesGamesRoom: UIKit.UIImage? { get }
-  var icChevronRight: UIKit.UIImage? { get }
-  var icRoomVoiceMail: UIKit.UIImage? { get }
-  var icStarFill40: UIKit.UIImage? { get }
-  var icCheckboxGroupSelected: UIKit.UIImage? { get }
-  var ic18HandLuggage: UIKit.UIImage? { get }
-  var icRoomHandicappedRoom: UIKit.UIImage? { get }
-  var icRoomBathrobes: UIKit.UIImage? { get }
-  var icPlaceNotFound: UIKit.UIImage? { get }
-  var icHotelDomain: UIKit.UIImage? { get }
+  var icRoomBathtub: UIKit.UIImage? { get }
   var icServicesPorter: UIKit.UIImage? { get }
-  var icRoomRefrigerator: UIKit.UIImage? { get }
-  var icRoomCleaningServices: UIKit.UIImage? { get }
-  var icStaffLanguagesFrench: UIKit.UIImage? { get }
-  var icPlaceAirport: UIKit.UIImage? { get }
-  var icHotelReception: UIKit.UIImage? { get }
-  var icHotelConferenceFacilities: UIKit.UIImage? { get }
-  var icRoomTv: UIKit.UIImage? { get }
-  var icStaffLanguagesItalian: UIKit.UIImage? { get }
-  var icHotelGarage: UIKit.UIImage? { get }
-  var icRoomCoffee: UIKit.UIImage? { get }
-  var icActivitiesBicycleRental: UIKit.UIImage? { get }
-  var icHotelBarbecueArea: UIKit.UIImage? { get }
-  var icBookmark: UIKit.UIImage? { get }
-  var ic18NoHandLuggage: UIKit.UIImage? { get }
-  var icRoomSharedBathroom: UIKit.UIImage? { get }
-  var icHotelParking: UIKit.UIImage? { get }
-  var icStaffLanguagesEnglish: UIKit.UIImage? { get }
-  var icActivitiesJacuzzi: UIKit.UIImage? { get }
-  var icTransferAirportChange: UIKit.UIImage? { get }
-  var icTransferGuard: UIKit.UIImage? { get }
+  var icPlaceNotFound: UIKit.UIImage? { get }
+  var icRoomCleaning: UIKit.UIImage? { get }
+  var icShare: UIKit.UIImage? { get }
+  var icActivitiesCasino: UIKit.UIImage? { get }
+  var icSupport: UIKit.UIImage? { get }
+  var icStar: UIKit.UIImage? { get }
+  var icStaffLanguagesRussian: UIKit.UIImage? { get }
+  var ic18Luggage: UIKit.UIImage? { get }
+  var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? { get }
+  var icStarFill40: UIKit.UIImage? { get }
+  var icActivitiesHeatedPool: UIKit.UIImage? { get }
   var icRoomInroomSafe: UIKit.UIImage? { get }
   var icRadioButtonUnchecked: UIKit.UIImage? { get }
-  var icHotelTags: UIKit.UIImage? { get }
-  var icHotelRoom: UIKit.UIImage? { get }
-  var icHotelCafe: UIKit.UIImage? { get }
-  var icActivitiesNightclub: UIKit.UIImage? { get }
-  var icHotelCloakroom: UIKit.UIImage? { get }
-  var icTune: UIKit.UIImage? { get }
-  var icClearField: UIKit.UIImage? { get }
-  var icRoomSeparateShower: UIKit.UIImage? { get }
-  var icFood: UIKit.UIImage? { get }
-  var icPlaceHotel: UIKit.UIImage? { get }
-  var icRoomDailyNewspaper: UIKit.UIImage? { get }
-  var icRoomTelephone: UIKit.UIImage? { get }
-  var icActivitiesBowling: UIKit.UIImage? { get }
-  var icTransferNight: UIKit.UIImage? { get }
-  var icViewMap: UIKit.UIImage? { get }
-  var icRoomConditioner: UIKit.UIImage? { get }
-  var icRoomInhouseMovies: UIKit.UIImage? { get }
-  var icActivitiesGolfCourse: UIKit.UIImage? { get }
-  var icStaffLanguagesDeutsch: UIKit.UIImage? { get }
-  var icServicesCopyingServices: UIKit.UIImage? { get }
-  var icInfo: UIKit.UIImage? { get }
-  var icRoomDesk: UIKit.UIImage? { get }
-  var icPlaceSight: UIKit.UIImage? { get }
-  var icHotelTourDesk: UIKit.UIImage? { get }
-  var ic18AirplaneTicket: UIKit.UIImage? { get }
-  var icTransferTransfer: UIKit.UIImage? { get }
-  var icShare: UIKit.UIImage? { get }
-  var icCity: UIKit.UIImage? { get }
-  var icRoomLocalBar: UIKit.UIImage? { get }
-  var icRoomWifi: UIKit.UIImage? { get }
-  var icActivitiesSpa: UIKit.UIImage? { get }
-  var icWifi: UIKit.UIImage? { get }
-  var icPlaceSkiLift: UIKit.UIImage? { get }
-  var icHotelHotel: UIKit.UIImage? { get }
-  var icHotelSolo: UIKit.UIImage? { get }
-  var icActivitiesPlayground: UIKit.UIImage? { get }
-  var icPlaceMetroStation: UIKit.UIImage? { get }
-  var icStarFill: UIKit.UIImage? { get }
-  var icMap: UIKit.UIImage? { get }
-  var icPlaceBusiness: UIKit.UIImage? { get }
-  var icShareApp: UIKit.UIImage? { get }
-  var icHotelStars5: UIKit.UIImage? { get }
-  var icHotelRentCar: UIKit.UIImage? { get }
-  var icRoomShower: UIKit.UIImage? { get }
-  var icPlaceBeach: UIKit.UIImage? { get }
-  var icStaffLanguagesChinese: UIKit.UIImage? { get }
-  var icActivitiesSpaMassage: UIKit.UIImage? { get }
-  var icHotel: UIKit.UIImage? { get }
-  var icHotels: UIKit.UIImage? { get }
-  var icMappin: UIKit.UIImage? { get }
-  var icRoomBalcony: UIKit.UIImage? { get }
-  var icRoomSlippers: UIKit.UIImage? { get }
-  var icHotelGarden: UIKit.UIImage? { get }
-  var icHotelInHouseMovie: UIKit.UIImage? { get }
-  var icSurveyCompleted: UIKit.UIImage? { get }
-  var icOther: UIKit.UIImage? { get }
-  var icCheckbox: UIKit.UIImage? { get }
-  var icPassenger: UIKit.UIImage? { get }
-  var icServicesWakeUpService: UIKit.UIImage? { get }
-  var icActivitiesCasino: UIKit.UIImage? { get }
-  var icBookmarkOn: UIKit.UIImage? { get }
-  var icActivitiesHeatedPool: UIKit.UIImage? { get }
-  var icError: UIKit.UIImage? { get }
-  var icActivitiesHorseRiding: UIKit.UIImage? { get }
-  var icRoomIroningBoard: UIKit.UIImage? { get }
-  var icActivitiesTours: UIKit.UIImage? { get }
-  var icPlaceShopping: UIKit.UIImage? { get }
-  var icHotelLaunderette: UIKit.UIImage? { get }
-  var icDeparture: UIKit.UIImage? { get }
-  var icPlaceRailway: UIKit.UIImage? { get }
-  var icHotelMultilingualStaff: UIKit.UIImage? { get }
-  var icActivitiesOutdoorPool: UIKit.UIImage? { get }
-  var icHotelStars3: UIKit.UIImage? { get }
-  var ic18NoLuggage: UIKit.UIImage? { get }
-  var icHotelPets: UIKit.UIImage? { get }
-  var icActivitiesTableTennis: UIKit.UIImage? { get }
-  var icHotelGiftShop: UIKit.UIImage? { get }
-  var icHotelElevator: UIKit.UIImage? { get }
-  var icHotelFreeParking: UIKit.UIImage? { get }
-  var icRoomBathtub: UIKit.UIImage? { get }
-  var icServices24RoomService: UIKit.UIImage? { get }
-  var icHotelStars4: UIKit.UIImage? { get }
-  var icRoomHairdryer: UIKit.UIImage? { get }
-  var icRoomDvdPlayer: UIKit.UIImage? { get }
-  var icHotelBag: UIKit.UIImage? { get }
-  var icMore: UIKit.UIImage? { get }
-  var icServicesFreeLocalCalls: UIKit.UIImage? { get }
-  var icLuggageCircle32: UIKit.UIImage? { get }
-  var icBeverages: UIKit.UIImage? { get }
-  var icActivitiesTennisCourts: UIKit.UIImage? { get }
-  var icHotelWelcomeDrink: UIKit.UIImage? { get }
-  var icNear: UIKit.UIImage? { get }
-  var icHotelLibrary: UIKit.UIImage? { get }
-  var icHotelConstruction: UIKit.UIImage? { get }
-  var icLanguageNotFound: UIKit.UIImage? { get }
-  var icRadioButtonChecked: UIKit.UIImage? { get }
-  var icHotelDeposit: UIKit.UIImage? { get }
-  var icHotelParasols: UIKit.UIImage? { get }
-  var icStar: UIKit.UIImage? { get }
-  var icRoomCrib: UIKit.UIImage? { get }
-  var icChart: UIKit.UIImage? { get }
-  var icActivitiesBilliard: UIKit.UIImage? { get }
-  var icActivitiesMiniGolf: UIKit.UIImage? { get }
-  var icHotelStars1: UIKit.UIImage? { get }
-  var icActivitiesChildrenCare: UIKit.UIImage? { get }
-  var icTickets: UIKit.UIImage? { get }
-  var icHotelPublicWifi: UIKit.UIImage? { get }
-  var icSwap: UIKit.UIImage? { get }
-  var icHotelLgbtFriendly: UIKit.UIImage? { get }
-  var icStaffLanguagesSpanish: UIKit.UIImage? { get }
-  var icServicesLuggageService: UIKit.UIImage? { get }
-  var icSettings: UIKit.UIImage? { get }
-  var icRoomMicrowave: UIKit.UIImage? { get }
-  var icActivitiesWaterSportsMotorized: UIKit.UIImage? { get }
-  var icHotelLobby: UIKit.UIImage? { get }
-  var icHotelSecurityGuard: UIKit.UIImage? { get }
-  var icRoomElectronicKey: UIKit.UIImage? { get }
-  var icActivitiesIndoorPool: UIKit.UIImage? { get }
-  var icHotelBar: UIKit.UIImage? { get }
-  var ic32StepperPlus: UIKit.UIImage? { get }
-  var icRateApp: UIKit.UIImage? { get }
-  var icServicesBabysitting: UIKit.UIImage? { get }
-  var icActivitiesGym: UIKit.UIImage? { get }
-  var icHotelValetService: UIKit.UIImage? { get }
-  var icCheckboxSelected: UIKit.UIImage? { get }
-  var icServicesDoctorOnCall: UIKit.UIImage? { get }
-  var icHotelTime: UIKit.UIImage? { get }
-  var icWaringSquare: UIKit.UIImage? { get }
-  var icServicesBusinessCenter: UIKit.UIImage? { get }
-  var icCurrencyNotFound: UIKit.UIImage? { get }
-  var icHotelSmokingRoom: UIKit.UIImage? { get }
-  var icHotel24HReception: UIKit.UIImage? { get }
-  var icSearch: UIKit.UIImage? { get }
-  var icServicesFaxingFacilities: UIKit.UIImage? { get }
-  var icPeriodEnd: UIKit.UIImage? { get }
-  var icHotelCarriage: UIKit.UIImage? { get }
-  var icHotelDisabledFacilities: UIKit.UIImage? { get }
   var icMail: UIKit.UIImage? { get }
-  var icHotelBanquetFacilities: UIKit.UIImage? { get }
-  var ic18Luggage: UIKit.UIImage? { get }
-  var icSupport: UIKit.UIImage? { get }
-  var icServicesConcierge: UIKit.UIImage? { get }
-  var icArrowBack: UIKit.UIImage? { get }
-  var icHotelMiniSupermarket: UIKit.UIImage? { get }
-  var icHotelRestaurant: UIKit.UIImage? { get }
-  var icEntertainment: UIKit.UIImage? { get }
-  var icArrival: UIKit.UIImage? { get }
-  var icCurrency: UIKit.UIImage? { get }
-  var icHotelPrivateBeach: UIKit.UIImage? { get }
-  var icClose: UIKit.UIImage? { get }
-  var icRoomKitchenette: UIKit.UIImage? { get }
-  var icActivitiesKidsPool: UIKit.UIImage? { get }
-  var icHotelSunbathingTerrace: UIKit.UIImage? { get }
-  var icFlight: UIKit.UIImage? { get }
-  var icRoomPrivateBathroom: UIKit.UIImage? { get }
-  var icLegal: UIKit.UIImage? { get }
-  var icFavoritesMenu: UIKit.UIImage? { get }
-  var icActivitiesSwimmingPool: UIKit.UIImage? { get }
-  var icServicesMedicalService: UIKit.UIImage? { get }
-  var ic18Quote: UIKit.UIImage? { get }
-  var icPeriodStart: UIKit.UIImage? { get }
-  var icServicesBeautySalon: UIKit.UIImage? { get }
-  var icStaffLanguagesArabic: UIKit.UIImage? { get }
-  var icPlaceOther: UIKit.UIImage? { get }
-  var icHotelSteamRoom: UIKit.UIImage? { get }
-  var icExpandMore: UIKit.UIImage? { get }
-  var icRoomConnectingRooms: UIKit.UIImage? { get }
-  var icActivitiesWaterSports: UIKit.UIImage? { get }
-  var icHotelLuggageRoom: UIKit.UIImage? { get }
-  var icStaffLanguagesRussian: UIKit.UIImage? { get }
-  var icServicesBreakfastTogo: UIKit.UIImage? { get }
-  var icServicesHotelAirportTransfer: UIKit.UIImage? { get }
-  var icNoLuggageCircle32: UIKit.UIImage? { get }
-  var icHotelLeaderboard: UIKit.UIImage? { get }
-  var icRoomCleaning: UIKit.UIImage? { get }
-  var icCharger: UIKit.UIImage? { get }
-  var ic32StepperMin: UIKit.UIImage? { get }
-  var icNearMe: UIKit.UIImage? { get }
-  var icTransferFast: UIKit.UIImage? { get }
-  var icTuneCheked: UIKit.UIImage? { get }
-  var icActivitiesSolarium: UIKit.UIImage? { get }
-  var icHotelEcoFriendly: UIKit.UIImage? { get }
-  var icHotelShop: UIKit.UIImage? { get }
+  var icActivitiesJacuzzi: UIKit.UIImage? { get }
   var icViewCards: UIKit.UIImage? { get }
+  var icActivitiesSpaMassage: UIKit.UIImage? { get }
   var icRoomNonsmokingRooms: UIKit.UIImage? { get }
-  var icNoInternet: UIKit.UIImage? { get }
-  var icRoomRadio: UIKit.UIImage? { get }
-  var icCalendar: UIKit.UIImage? { get }
-  var icHotelFlag: UIKit.UIImage? { get }
-  var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? { get }
-  var icServicesRoomService: UIKit.UIImage? { get }
-  var icSubairport: UIKit.UIImage? { get }
-  var icActivitiesDiving: UIKit.UIImage? { get }
-  var icHotelStars2: UIKit.UIImage? { get }
-  var icHandLuggageCircle32: UIKit.UIImage? { get }
+  var icTransferFast: UIKit.UIImage? { get }
+  var icRoomRefrigerator: UIKit.UIImage? { get }
+  var icFavoritesMenu: UIKit.UIImage? { get }
+  var icStaffLanguagesItalian: UIKit.UIImage? { get }
+  var icLuggageCircle32: UIKit.UIImage? { get }
+  var icActivitiesTours: UIKit.UIImage? { get }
+  var icActivitiesMiniGolf: UIKit.UIImage? { get }
+  var icDeparture: UIKit.UIImage? { get }
+  var icBookmarkOn: UIKit.UIImage? { get }
+  var icRoomDailyNewspaper: UIKit.UIImage? { get }
+  var icServicesBeautySalon: UIKit.UIImage? { get }
+  var icActivitiesIndoorPool: UIKit.UIImage? { get }
+  var icRoomBalcony: UIKit.UIImage? { get }
+  var icStar40: UIKit.UIImage? { get }
+  var icPlaceBeach: UIKit.UIImage? { get }
+  var ic18Quote: UIKit.UIImage? { get }
+  var ic18HandLuggage: UIKit.UIImage? { get }
   var icCheck: UIKit.UIImage? { get }
-  var icRoomBathroom: UIKit.UIImage? { get }
-  var icHotelDouble: UIKit.UIImage? { get }
-  var icServicesSecretaryService: UIKit.UIImage? { get }
-  var icHotelDownhillSkiing: UIKit.UIImage? { get }
+  var icPeriodStart: UIKit.UIImage? { get }
+  var icRateApp: UIKit.UIImage? { get }
+  var icServicesRoomService: UIKit.UIImage? { get }
+  var icClearField: UIKit.UIImage? { get }
+  var icRoomElectronicKey: UIKit.UIImage? { get }
+  var ic32StepperMin: UIKit.UIImage? { get }
+  var icWaringSquare: UIKit.UIImage? { get }
+  var icServicesLuggageService: UIKit.UIImage? { get }
+  var icRoomHairdryer: UIKit.UIImage? { get }
+  var icActivitiesBicycleRental: UIKit.UIImage? { get }
+  var icActivitiesHorseRiding: UIKit.UIImage? { get }
+  var icSettings: UIKit.UIImage? { get }
+  var icActivitiesDiving: UIKit.UIImage? { get }
+  var icRoomDvdPlayer: UIKit.UIImage? { get }
+  var icRoomTelephone: UIKit.UIImage? { get }
+  var icStaffLanguagesSpanish: UIKit.UIImage? { get }
+  var icHandLuggageCircle32: UIKit.UIImage? { get }
+  var icTransferTransfer: UIKit.UIImage? { get }
+  var icViewMap: UIKit.UIImage? { get }
+  var icRoomSharedBathroom: UIKit.UIImage? { get }
+  var icBeverages: UIKit.UIImage? { get }
+  var icEntertainment: UIKit.UIImage? { get }
+  var icTune: UIKit.UIImage? { get }
+  var icActivitiesOutdoorPool: UIKit.UIImage? { get }
+  var icStaffLanguagesDeutsch: UIKit.UIImage? { get }
+  var icPlaceRailway: UIKit.UIImage? { get }
+  var icServicesConcierge: UIKit.UIImage? { get }
+  var icServicesFreeLocalCalls: UIKit.UIImage? { get }
+  var icStarFill: UIKit.UIImage? { get }
+  var icSearch: UIKit.UIImage? { get }
+  var icServices24RoomService: UIKit.UIImage? { get }
+  var icTransferNight: UIKit.UIImage? { get }
+  var icArrival: UIKit.UIImage? { get }
+  var icRoomPrivateBathroom: UIKit.UIImage? { get }
+  var icCalendar: UIKit.UIImage? { get }
+  var icActivitiesSolarium: UIKit.UIImage? { get }
+  var icRoomCoffee: UIKit.UIImage? { get }
+  var icArrowBack: UIKit.UIImage? { get }
+  var icStaffLanguagesFrench: UIKit.UIImage? { get }
+  var icActivitiesTableTennis: UIKit.UIImage? { get }
+  var icRoomIroningBoard: UIKit.UIImage? { get }
+  var icTransferGuard: UIKit.UIImage? { get }
+  var icNoInternet: UIKit.UIImage? { get }
+  var icRoomWifi: UIKit.UIImage? { get }
+  var icSwap: UIKit.UIImage? { get }
+  var icPlaceBusiness: UIKit.UIImage? { get }
+  var icActivitiesKidsPool: UIKit.UIImage? { get }
+  var icRoomKitchenette: UIKit.UIImage? { get }
+  var icStaffLanguagesChinese: UIKit.UIImage? { get }
+  var icMappin: UIKit.UIImage? { get }
+  var icNoLuggageCircle32: UIKit.UIImage? { get }
+  var icRoomConditioner: UIKit.UIImage? { get }
+  var icCurrency: UIKit.UIImage? { get }
+  var icInfo: UIKit.UIImage? { get }
+  var icPlaceMetroStation: UIKit.UIImage? { get }
+  var icActivitiesSpa: UIKit.UIImage? { get }
+  var icRoomTv: UIKit.UIImage? { get }
+  var icPlaceOther: UIKit.UIImage? { get }
+  var icActivitiesBilliard: UIKit.UIImage? { get }
+  var ic18NoHandLuggage: UIKit.UIImage? { get }
+  var icTabInfo: UIKit.UIImage? { get }
+  var icTuneCheked: UIKit.UIImage? { get }
+  var icSubairport: UIKit.UIImage? { get }
   var icActivitiesAnimation: UIKit.UIImage? { get }
+  var icSurveyCompleted: UIKit.UIImage? { get }
+  var icActivitiesGym: UIKit.UIImage? { get }
+  var icPlaceSight: UIKit.UIImage? { get }
+  var icPeriodEnd: UIKit.UIImage? { get }
+  var icCity: UIKit.UIImage? { get }
+  var icLanguageNotFound: UIKit.UIImage? { get }
+  var icStaffLanguagesArabic: UIKit.UIImage? { get }
+  var icActivitiesWaterSportsMotorized: UIKit.UIImage? { get }
+  var icActivitiesTennisCourts: UIKit.UIImage? { get }
+  var icActivitiesSwimmingPool: UIKit.UIImage? { get }
+  var icCheckboxSelected: UIKit.UIImage? { get }
+  var icNearMe: UIKit.UIImage? { get }
+  var icLegal: UIKit.UIImage? { get }
+  var ic32StepperPlus: UIKit.UIImage? { get }
+  var icServicesBabysitting: UIKit.UIImage? { get }
+  var icPlaceAirport: UIKit.UIImage? { get }
+  var icWifi: UIKit.UIImage? { get }
+  var icServicesSecretaryService: UIKit.UIImage? { get }
+  var icRoomConnectingRooms: UIKit.UIImage? { get }
+  var icRoomShower: UIKit.UIImage? { get }
+  var icChart: UIKit.UIImage? { get }
+  var icRoomCrib: UIKit.UIImage? { get }
+  var icClose: UIKit.UIImage? { get }
+  var icRoomInhouseMovies: UIKit.UIImage? { get }
+  var ic18NoLuggage: UIKit.UIImage? { get }
+  var icServicesCopyingServices: UIKit.UIImage? { get }
+  var icNear: UIKit.UIImage? { get }
+  var icPlaceSkiLift: UIKit.UIImage? { get }
+  var icRoomDesk: UIKit.UIImage? { get }
+  var icRoomBathroom: UIKit.UIImage? { get }
+  var icServicesBusinessCenter: UIKit.UIImage? { get }
+  var icMore: UIKit.UIImage? { get }
+  var icServicesWakeUpService: UIKit.UIImage? { get }
+  var icCheckbox: UIKit.UIImage? { get }
+  var ic18AirplaneTicket: UIKit.UIImage? { get }
+  var icTickets: UIKit.UIImage? { get }
+  var icCharger: UIKit.UIImage? { get }
+  var icPlaceShopping: UIKit.UIImage? { get }
+  var icMap: UIKit.UIImage? { get }
+  var icActivitiesWaterSports: UIKit.UIImage? { get }
+  var icRoomCleaningServices: UIKit.UIImage? { get }
+  var icRoomVoiceMail: UIKit.UIImage? { get }
+  var icStaffLanguagesEnglish: UIKit.UIImage? { get }
+  var icTransferAirportChange: UIKit.UIImage? { get }
+  var icActivitiesNightclub: UIKit.UIImage? { get }
+  var icRoomSeparateShower: UIKit.UIImage? { get }
+  var icActivitiesBowling: UIKit.UIImage? { get }
+  var icAbout: UIKit.UIImage? { get }
+  var icActivitiesGamesRoom: UIKit.UIImage? { get }
+  var icRoomRadio: UIKit.UIImage? { get }
+  var icRoomLocalBar: UIKit.UIImage? { get }
+  var icExpandMore: UIKit.UIImage? { get }
+  var icFlight: UIKit.UIImage? { get }
+  var icFood: UIKit.UIImage? { get }
+  var icActivitiesGolfCourse: UIKit.UIImage? { get }
+  var icServicesFaxingFacilities: UIKit.UIImage? { get }
+  var icRoomMicrowave: UIKit.UIImage? { get }
+  var icOther: UIKit.UIImage? { get }
+  var icRoomHandicappedRoom: UIKit.UIImage? { get }
+  var icShareApp: UIKit.UIImage? { get }
+  var icBookmark: UIKit.UIImage? { get }
+  var icChevronRight: UIKit.UIImage? { get }
+  var icPassenger: UIKit.UIImage? { get }
+  var icError: UIKit.UIImage? { get }
+  var icRadioButtonChecked: UIKit.UIImage? { get }
+  var icServicesBreakfastTogo: UIKit.UIImage? { get }
+  var icActivitiesChildrenCare: UIKit.UIImage? { get }
+  var icRoomSlippers: UIKit.UIImage? { get }
+  var icServicesMedicalService: UIKit.UIImage? { get }
+  var icServicesDoctorOnCall: UIKit.UIImage? { get }
+  var icFlag: UIKit.UIImage? { get }
+  var icActivitiesPlayground: UIKit.UIImage? { get }
+  var icRoomBathrobes: UIKit.UIImage? { get }
+  var icCurrencyNotFound: UIKit.UIImage? { get }
+  var icCheckboxGroupSelected: UIKit.UIImage? { get }
 }
 extension WLConfig.IconSet {
-  public var icStar40: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesGamesRoom: UIKit.UIImage? {
-    get
-  }
-  public var icChevronRight: UIKit.UIImage? {
-    get
-  }
-  public var icRoomVoiceMail: UIKit.UIImage? {
-    get
-  }
-  public var icStarFill40: UIKit.UIImage? {
-    get
-  }
-  public var icCheckboxGroupSelected: UIKit.UIImage? {
-    get
-  }
-  public var ic18HandLuggage: UIKit.UIImage? {
-    get
-  }
-  public var icRoomHandicappedRoom: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBathrobes: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceNotFound: UIKit.UIImage? {
-    get
-  }
-  public var icHotelDomain: UIKit.UIImage? {
+  public var icRoomBathtub: UIKit.UIImage? {
     get
   }
   public var icServicesPorter: UIKit.UIImage? {
     get
   }
-  public var icRoomRefrigerator: UIKit.UIImage? {
+  public var icPlaceNotFound: UIKit.UIImage? {
     get
   }
-  public var icRoomCleaningServices: UIKit.UIImage? {
+  public var icRoomCleaning: UIKit.UIImage? {
     get
   }
-  public var icStaffLanguagesFrench: UIKit.UIImage? {
+  public var icShare: UIKit.UIImage? {
     get
   }
-  public var icPlaceAirport: UIKit.UIImage? {
+  public var icActivitiesCasino: UIKit.UIImage? {
     get
   }
-  public var icHotelReception: UIKit.UIImage? {
+  public var icSupport: UIKit.UIImage? {
     get
   }
-  public var icHotelConferenceFacilities: UIKit.UIImage? {
+  public var icStar: UIKit.UIImage? {
     get
   }
-  public var icRoomTv: UIKit.UIImage? {
+  public var icStaffLanguagesRussian: UIKit.UIImage? {
     get
   }
-  public var icStaffLanguagesItalian: UIKit.UIImage? {
+  public var ic18Luggage: UIKit.UIImage? {
     get
   }
-  public var icHotelGarage: UIKit.UIImage? {
+  public var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? {
     get
   }
-  public var icRoomCoffee: UIKit.UIImage? {
+  public var icStarFill40: UIKit.UIImage? {
     get
   }
-  public var icActivitiesBicycleRental: UIKit.UIImage? {
-    get
-  }
-  public var icHotelBarbecueArea: UIKit.UIImage? {
-    get
-  }
-  public var icBookmark: UIKit.UIImage? {
-    get
-  }
-  public var ic18NoHandLuggage: UIKit.UIImage? {
-    get
-  }
-  public var icRoomSharedBathroom: UIKit.UIImage? {
-    get
-  }
-  public var icHotelParking: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesEnglish: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesJacuzzi: UIKit.UIImage? {
-    get
-  }
-  public var icTransferAirportChange: UIKit.UIImage? {
-    get
-  }
-  public var icTransferGuard: UIKit.UIImage? {
+  public var icActivitiesHeatedPool: UIKit.UIImage? {
     get
   }
   public var icRoomInroomSafe: UIKit.UIImage? {
@@ -702,607 +555,490 @@ extension WLConfig.IconSet {
   public var icRadioButtonUnchecked: UIKit.UIImage? {
     get
   }
-  public var icHotelTags: UIKit.UIImage? {
-    get
-  }
-  public var icHotelRoom: UIKit.UIImage? {
-    get
-  }
-  public var icHotelCafe: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesNightclub: UIKit.UIImage? {
-    get
-  }
-  public var icHotelCloakroom: UIKit.UIImage? {
-    get
-  }
-  public var icTune: UIKit.UIImage? {
-    get
-  }
-  public var icClearField: UIKit.UIImage? {
-    get
-  }
-  public var icRoomSeparateShower: UIKit.UIImage? {
-    get
-  }
-  public var icFood: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceHotel: UIKit.UIImage? {
-    get
-  }
-  public var icRoomDailyNewspaper: UIKit.UIImage? {
-    get
-  }
-  public var icRoomTelephone: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesBowling: UIKit.UIImage? {
-    get
-  }
-  public var icTransferNight: UIKit.UIImage? {
-    get
-  }
-  public var icViewMap: UIKit.UIImage? {
-    get
-  }
-  public var icRoomConditioner: UIKit.UIImage? {
-    get
-  }
-  public var icRoomInhouseMovies: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesGolfCourse: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesDeutsch: UIKit.UIImage? {
-    get
-  }
-  public var icServicesCopyingServices: UIKit.UIImage? {
-    get
-  }
-  public var icInfo: UIKit.UIImage? {
-    get
-  }
-  public var icRoomDesk: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceSight: UIKit.UIImage? {
-    get
-  }
-  public var icHotelTourDesk: UIKit.UIImage? {
-    get
-  }
-  public var ic18AirplaneTicket: UIKit.UIImage? {
-    get
-  }
-  public var icTransferTransfer: UIKit.UIImage? {
-    get
-  }
-  public var icShare: UIKit.UIImage? {
-    get
-  }
-  public var icCity: UIKit.UIImage? {
-    get
-  }
-  public var icRoomLocalBar: UIKit.UIImage? {
-    get
-  }
-  public var icRoomWifi: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSpa: UIKit.UIImage? {
-    get
-  }
-  public var icWifi: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceSkiLift: UIKit.UIImage? {
-    get
-  }
-  public var icHotelHotel: UIKit.UIImage? {
-    get
-  }
-  public var icHotelSolo: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesPlayground: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceMetroStation: UIKit.UIImage? {
-    get
-  }
-  public var icStarFill: UIKit.UIImage? {
-    get
-  }
-  public var icMap: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceBusiness: UIKit.UIImage? {
-    get
-  }
-  public var icShareApp: UIKit.UIImage? {
-    get
-  }
-  public var icHotelStars5: UIKit.UIImage? {
-    get
-  }
-  public var icHotelRentCar: UIKit.UIImage? {
-    get
-  }
-  public var icRoomShower: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceBeach: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesChinese: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSpaMassage: UIKit.UIImage? {
-    get
-  }
-  public var icHotel: UIKit.UIImage? {
-    get
-  }
-  public var icHotels: UIKit.UIImage? {
-    get
-  }
-  public var icMappin: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBalcony: UIKit.UIImage? {
-    get
-  }
-  public var icRoomSlippers: UIKit.UIImage? {
-    get
-  }
-  public var icHotelGarden: UIKit.UIImage? {
-    get
-  }
-  public var icHotelInHouseMovie: UIKit.UIImage? {
-    get
-  }
-  public var icSurveyCompleted: UIKit.UIImage? {
-    get
-  }
-  public var icOther: UIKit.UIImage? {
-    get
-  }
-  public var icCheckbox: UIKit.UIImage? {
-    get
-  }
-  public var icPassenger: UIKit.UIImage? {
-    get
-  }
-  public var icServicesWakeUpService: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesCasino: UIKit.UIImage? {
-    get
-  }
-  public var icBookmarkOn: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesHeatedPool: UIKit.UIImage? {
-    get
-  }
-  public var icError: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesHorseRiding: UIKit.UIImage? {
-    get
-  }
-  public var icRoomIroningBoard: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesTours: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceShopping: UIKit.UIImage? {
-    get
-  }
-  public var icHotelLaunderette: UIKit.UIImage? {
-    get
-  }
-  public var icDeparture: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceRailway: UIKit.UIImage? {
-    get
-  }
-  public var icHotelMultilingualStaff: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesOutdoorPool: UIKit.UIImage? {
-    get
-  }
-  public var icHotelStars3: UIKit.UIImage? {
-    get
-  }
-  public var ic18NoLuggage: UIKit.UIImage? {
-    get
-  }
-  public var icHotelPets: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesTableTennis: UIKit.UIImage? {
-    get
-  }
-  public var icHotelGiftShop: UIKit.UIImage? {
-    get
-  }
-  public var icHotelElevator: UIKit.UIImage? {
-    get
-  }
-  public var icHotelFreeParking: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBathtub: UIKit.UIImage? {
-    get
-  }
-  public var icServices24RoomService: UIKit.UIImage? {
-    get
-  }
-  public var icHotelStars4: UIKit.UIImage? {
-    get
-  }
-  public var icRoomHairdryer: UIKit.UIImage? {
-    get
-  }
-  public var icRoomDvdPlayer: UIKit.UIImage? {
-    get
-  }
-  public var icHotelBag: UIKit.UIImage? {
-    get
-  }
-  public var icMore: UIKit.UIImage? {
-    get
-  }
-  public var icServicesFreeLocalCalls: UIKit.UIImage? {
-    get
-  }
-  public var icLuggageCircle32: UIKit.UIImage? {
-    get
-  }
-  public var icBeverages: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesTennisCourts: UIKit.UIImage? {
-    get
-  }
-  public var icHotelWelcomeDrink: UIKit.UIImage? {
-    get
-  }
-  public var icNear: UIKit.UIImage? {
-    get
-  }
-  public var icHotelLibrary: UIKit.UIImage? {
-    get
-  }
-  public var icHotelConstruction: UIKit.UIImage? {
-    get
-  }
-  public var icLanguageNotFound: UIKit.UIImage? {
-    get
-  }
-  public var icRadioButtonChecked: UIKit.UIImage? {
-    get
-  }
-  public var icHotelDeposit: UIKit.UIImage? {
-    get
-  }
-  public var icHotelParasols: UIKit.UIImage? {
-    get
-  }
-  public var icStar: UIKit.UIImage? {
-    get
-  }
-  public var icRoomCrib: UIKit.UIImage? {
-    get
-  }
-  public var icChart: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesBilliard: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesMiniGolf: UIKit.UIImage? {
-    get
-  }
-  public var icHotelStars1: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesChildrenCare: UIKit.UIImage? {
-    get
-  }
-  public var icTickets: UIKit.UIImage? {
-    get
-  }
-  public var icHotelPublicWifi: UIKit.UIImage? {
-    get
-  }
-  public var icSwap: UIKit.UIImage? {
-    get
-  }
-  public var icHotelLgbtFriendly: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesSpanish: UIKit.UIImage? {
-    get
-  }
-  public var icServicesLuggageService: UIKit.UIImage? {
-    get
-  }
-  public var icSettings: UIKit.UIImage? {
-    get
-  }
-  public var icRoomMicrowave: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
-    get
-  }
-  public var icHotelLobby: UIKit.UIImage? {
-    get
-  }
-  public var icHotelSecurityGuard: UIKit.UIImage? {
-    get
-  }
-  public var icRoomElectronicKey: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesIndoorPool: UIKit.UIImage? {
-    get
-  }
-  public var icHotelBar: UIKit.UIImage? {
-    get
-  }
-  public var ic32StepperPlus: UIKit.UIImage? {
-    get
-  }
-  public var icRateApp: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBabysitting: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesGym: UIKit.UIImage? {
-    get
-  }
-  public var icHotelValetService: UIKit.UIImage? {
-    get
-  }
-  public var icCheckboxSelected: UIKit.UIImage? {
-    get
-  }
-  public var icServicesDoctorOnCall: UIKit.UIImage? {
-    get
-  }
-  public var icHotelTime: UIKit.UIImage? {
-    get
-  }
-  public var icWaringSquare: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBusinessCenter: UIKit.UIImage? {
-    get
-  }
-  public var icCurrencyNotFound: UIKit.UIImage? {
-    get
-  }
-  public var icHotelSmokingRoom: UIKit.UIImage? {
-    get
-  }
-  public var icHotel24HReception: UIKit.UIImage? {
-    get
-  }
-  public var icSearch: UIKit.UIImage? {
-    get
-  }
-  public var icServicesFaxingFacilities: UIKit.UIImage? {
-    get
-  }
-  public var icPeriodEnd: UIKit.UIImage? {
-    get
-  }
-  public var icHotelCarriage: UIKit.UIImage? {
-    get
-  }
-  public var icHotelDisabledFacilities: UIKit.UIImage? {
-    get
-  }
   public var icMail: UIKit.UIImage? {
     get
   }
-  public var icHotelBanquetFacilities: UIKit.UIImage? {
-    get
-  }
-  public var ic18Luggage: UIKit.UIImage? {
-    get
-  }
-  public var icSupport: UIKit.UIImage? {
-    get
-  }
-  public var icServicesConcierge: UIKit.UIImage? {
-    get
-  }
-  public var icArrowBack: UIKit.UIImage? {
-    get
-  }
-  public var icHotelMiniSupermarket: UIKit.UIImage? {
-    get
-  }
-  public var icHotelRestaurant: UIKit.UIImage? {
-    get
-  }
-  public var icEntertainment: UIKit.UIImage? {
-    get
-  }
-  public var icArrival: UIKit.UIImage? {
-    get
-  }
-  public var icCurrency: UIKit.UIImage? {
-    get
-  }
-  public var icHotelPrivateBeach: UIKit.UIImage? {
-    get
-  }
-  public var icClose: UIKit.UIImage? {
-    get
-  }
-  public var icRoomKitchenette: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesKidsPool: UIKit.UIImage? {
-    get
-  }
-  public var icHotelSunbathingTerrace: UIKit.UIImage? {
-    get
-  }
-  public var icFlight: UIKit.UIImage? {
-    get
-  }
-  public var icRoomPrivateBathroom: UIKit.UIImage? {
-    get
-  }
-  public var icLegal: UIKit.UIImage? {
-    get
-  }
-  public var icFavoritesMenu: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSwimmingPool: UIKit.UIImage? {
-    get
-  }
-  public var icServicesMedicalService: UIKit.UIImage? {
-    get
-  }
-  public var ic18Quote: UIKit.UIImage? {
-    get
-  }
-  public var icPeriodStart: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBeautySalon: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesArabic: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceOther: UIKit.UIImage? {
-    get
-  }
-  public var icHotelSteamRoom: UIKit.UIImage? {
-    get
-  }
-  public var icExpandMore: UIKit.UIImage? {
-    get
-  }
-  public var icRoomConnectingRooms: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesWaterSports: UIKit.UIImage? {
-    get
-  }
-  public var icHotelLuggageRoom: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesRussian: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBreakfastTogo: UIKit.UIImage? {
-    get
-  }
-  public var icServicesHotelAirportTransfer: UIKit.UIImage? {
-    get
-  }
-  public var icNoLuggageCircle32: UIKit.UIImage? {
-    get
-  }
-  public var icHotelLeaderboard: UIKit.UIImage? {
-    get
-  }
-  public var icRoomCleaning: UIKit.UIImage? {
-    get
-  }
-  public var icCharger: UIKit.UIImage? {
-    get
-  }
-  public var ic32StepperMin: UIKit.UIImage? {
-    get
-  }
-  public var icNearMe: UIKit.UIImage? {
-    get
-  }
-  public var icTransferFast: UIKit.UIImage? {
-    get
-  }
-  public var icTuneCheked: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSolarium: UIKit.UIImage? {
-    get
-  }
-  public var icHotelEcoFriendly: UIKit.UIImage? {
-    get
-  }
-  public var icHotelShop: UIKit.UIImage? {
+  public var icActivitiesJacuzzi: UIKit.UIImage? {
     get
   }
   public var icViewCards: UIKit.UIImage? {
     get
   }
+  public var icActivitiesSpaMassage: UIKit.UIImage? {
+    get
+  }
   public var icRoomNonsmokingRooms: UIKit.UIImage? {
     get
   }
-  public var icNoInternet: UIKit.UIImage? {
+  public var icTransferFast: UIKit.UIImage? {
     get
   }
-  public var icRoomRadio: UIKit.UIImage? {
+  public var icRoomRefrigerator: UIKit.UIImage? {
     get
   }
-  public var icCalendar: UIKit.UIImage? {
+  public var icFavoritesMenu: UIKit.UIImage? {
     get
   }
-  public var icHotelFlag: UIKit.UIImage? {
+  public var icStaffLanguagesItalian: UIKit.UIImage? {
     get
   }
-  public var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? {
+  public var icLuggageCircle32: UIKit.UIImage? {
     get
   }
-  public var icServicesRoomService: UIKit.UIImage? {
+  public var icActivitiesTours: UIKit.UIImage? {
     get
   }
-  public var icSubairport: UIKit.UIImage? {
+  public var icActivitiesMiniGolf: UIKit.UIImage? {
     get
   }
-  public var icActivitiesDiving: UIKit.UIImage? {
+  public var icDeparture: UIKit.UIImage? {
     get
   }
-  public var icHotelStars2: UIKit.UIImage? {
+  public var icBookmarkOn: UIKit.UIImage? {
     get
   }
-  public var icHandLuggageCircle32: UIKit.UIImage? {
+  public var icRoomDailyNewspaper: UIKit.UIImage? {
+    get
+  }
+  public var icServicesBeautySalon: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesIndoorPool: UIKit.UIImage? {
+    get
+  }
+  public var icRoomBalcony: UIKit.UIImage? {
+    get
+  }
+  public var icStar40: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceBeach: UIKit.UIImage? {
+    get
+  }
+  public var ic18Quote: UIKit.UIImage? {
+    get
+  }
+  public var ic18HandLuggage: UIKit.UIImage? {
     get
   }
   public var icCheck: UIKit.UIImage? {
     get
   }
-  public var icRoomBathroom: UIKit.UIImage? {
+  public var icPeriodStart: UIKit.UIImage? {
     get
   }
-  public var icHotelDouble: UIKit.UIImage? {
+  public var icRateApp: UIKit.UIImage? {
+    get
+  }
+  public var icServicesRoomService: UIKit.UIImage? {
+    get
+  }
+  public var icClearField: UIKit.UIImage? {
+    get
+  }
+  public var icRoomElectronicKey: UIKit.UIImage? {
+    get
+  }
+  public var ic32StepperMin: UIKit.UIImage? {
+    get
+  }
+  public var icWaringSquare: UIKit.UIImage? {
+    get
+  }
+  public var icServicesLuggageService: UIKit.UIImage? {
+    get
+  }
+  public var icRoomHairdryer: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesBicycleRental: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesHorseRiding: UIKit.UIImage? {
+    get
+  }
+  public var icSettings: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesDiving: UIKit.UIImage? {
+    get
+  }
+  public var icRoomDvdPlayer: UIKit.UIImage? {
+    get
+  }
+  public var icRoomTelephone: UIKit.UIImage? {
+    get
+  }
+  public var icStaffLanguagesSpanish: UIKit.UIImage? {
+    get
+  }
+  public var icHandLuggageCircle32: UIKit.UIImage? {
+    get
+  }
+  public var icTransferTransfer: UIKit.UIImage? {
+    get
+  }
+  public var icViewMap: UIKit.UIImage? {
+    get
+  }
+  public var icRoomSharedBathroom: UIKit.UIImage? {
+    get
+  }
+  public var icBeverages: UIKit.UIImage? {
+    get
+  }
+  public var icEntertainment: UIKit.UIImage? {
+    get
+  }
+  public var icTune: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesOutdoorPool: UIKit.UIImage? {
+    get
+  }
+  public var icStaffLanguagesDeutsch: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceRailway: UIKit.UIImage? {
+    get
+  }
+  public var icServicesConcierge: UIKit.UIImage? {
+    get
+  }
+  public var icServicesFreeLocalCalls: UIKit.UIImage? {
+    get
+  }
+  public var icStarFill: UIKit.UIImage? {
+    get
+  }
+  public var icSearch: UIKit.UIImage? {
+    get
+  }
+  public var icServices24RoomService: UIKit.UIImage? {
+    get
+  }
+  public var icTransferNight: UIKit.UIImage? {
+    get
+  }
+  public var icArrival: UIKit.UIImage? {
+    get
+  }
+  public var icRoomPrivateBathroom: UIKit.UIImage? {
+    get
+  }
+  public var icCalendar: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesSolarium: UIKit.UIImage? {
+    get
+  }
+  public var icRoomCoffee: UIKit.UIImage? {
+    get
+  }
+  public var icArrowBack: UIKit.UIImage? {
+    get
+  }
+  public var icStaffLanguagesFrench: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesTableTennis: UIKit.UIImage? {
+    get
+  }
+  public var icRoomIroningBoard: UIKit.UIImage? {
+    get
+  }
+  public var icTransferGuard: UIKit.UIImage? {
+    get
+  }
+  public var icNoInternet: UIKit.UIImage? {
+    get
+  }
+  public var icRoomWifi: UIKit.UIImage? {
+    get
+  }
+  public var icSwap: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceBusiness: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesKidsPool: UIKit.UIImage? {
+    get
+  }
+  public var icRoomKitchenette: UIKit.UIImage? {
+    get
+  }
+  public var icStaffLanguagesChinese: UIKit.UIImage? {
+    get
+  }
+  public var icMappin: UIKit.UIImage? {
+    get
+  }
+  public var icNoLuggageCircle32: UIKit.UIImage? {
+    get
+  }
+  public var icRoomConditioner: UIKit.UIImage? {
+    get
+  }
+  public var icCurrency: UIKit.UIImage? {
+    get
+  }
+  public var icInfo: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceMetroStation: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesSpa: UIKit.UIImage? {
+    get
+  }
+  public var icRoomTv: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceOther: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesBilliard: UIKit.UIImage? {
+    get
+  }
+  public var ic18NoHandLuggage: UIKit.UIImage? {
+    get
+  }
+  public var icTabInfo: UIKit.UIImage? {
+    get
+  }
+  public var icTuneCheked: UIKit.UIImage? {
+    get
+  }
+  public var icSubairport: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesAnimation: UIKit.UIImage? {
+    get
+  }
+  public var icSurveyCompleted: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesGym: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceSight: UIKit.UIImage? {
+    get
+  }
+  public var icPeriodEnd: UIKit.UIImage? {
+    get
+  }
+  public var icCity: UIKit.UIImage? {
+    get
+  }
+  public var icLanguageNotFound: UIKit.UIImage? {
+    get
+  }
+  public var icStaffLanguagesArabic: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesTennisCourts: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesSwimmingPool: UIKit.UIImage? {
+    get
+  }
+  public var icCheckboxSelected: UIKit.UIImage? {
+    get
+  }
+  public var icNearMe: UIKit.UIImage? {
+    get
+  }
+  public var icLegal: UIKit.UIImage? {
+    get
+  }
+  public var ic32StepperPlus: UIKit.UIImage? {
+    get
+  }
+  public var icServicesBabysitting: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceAirport: UIKit.UIImage? {
+    get
+  }
+  public var icWifi: UIKit.UIImage? {
     get
   }
   public var icServicesSecretaryService: UIKit.UIImage? {
     get
   }
-  public var icHotelDownhillSkiing: UIKit.UIImage? {
+  public var icRoomConnectingRooms: UIKit.UIImage? {
     get
   }
-  public var icActivitiesAnimation: UIKit.UIImage? {
+  public var icRoomShower: UIKit.UIImage? {
+    get
+  }
+  public var icChart: UIKit.UIImage? {
+    get
+  }
+  public var icRoomCrib: UIKit.UIImage? {
+    get
+  }
+  public var icClose: UIKit.UIImage? {
+    get
+  }
+  public var icRoomInhouseMovies: UIKit.UIImage? {
+    get
+  }
+  public var ic18NoLuggage: UIKit.UIImage? {
+    get
+  }
+  public var icServicesCopyingServices: UIKit.UIImage? {
+    get
+  }
+  public var icNear: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceSkiLift: UIKit.UIImage? {
+    get
+  }
+  public var icRoomDesk: UIKit.UIImage? {
+    get
+  }
+  public var icRoomBathroom: UIKit.UIImage? {
+    get
+  }
+  public var icServicesBusinessCenter: UIKit.UIImage? {
+    get
+  }
+  public var icMore: UIKit.UIImage? {
+    get
+  }
+  public var icServicesWakeUpService: UIKit.UIImage? {
+    get
+  }
+  public var icCheckbox: UIKit.UIImage? {
+    get
+  }
+  public var ic18AirplaneTicket: UIKit.UIImage? {
+    get
+  }
+  public var icTickets: UIKit.UIImage? {
+    get
+  }
+  public var icCharger: UIKit.UIImage? {
+    get
+  }
+  public var icPlaceShopping: UIKit.UIImage? {
+    get
+  }
+  public var icMap: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesWaterSports: UIKit.UIImage? {
+    get
+  }
+  public var icRoomCleaningServices: UIKit.UIImage? {
+    get
+  }
+  public var icRoomVoiceMail: UIKit.UIImage? {
+    get
+  }
+  public var icStaffLanguagesEnglish: UIKit.UIImage? {
+    get
+  }
+  public var icTransferAirportChange: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesNightclub: UIKit.UIImage? {
+    get
+  }
+  public var icRoomSeparateShower: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesBowling: UIKit.UIImage? {
+    get
+  }
+  public var icAbout: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesGamesRoom: UIKit.UIImage? {
+    get
+  }
+  public var icRoomRadio: UIKit.UIImage? {
+    get
+  }
+  public var icRoomLocalBar: UIKit.UIImage? {
+    get
+  }
+  public var icExpandMore: UIKit.UIImage? {
+    get
+  }
+  public var icFlight: UIKit.UIImage? {
+    get
+  }
+  public var icFood: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesGolfCourse: UIKit.UIImage? {
+    get
+  }
+  public var icServicesFaxingFacilities: UIKit.UIImage? {
+    get
+  }
+  public var icRoomMicrowave: UIKit.UIImage? {
+    get
+  }
+  public var icOther: UIKit.UIImage? {
+    get
+  }
+  public var icRoomHandicappedRoom: UIKit.UIImage? {
+    get
+  }
+  public var icShareApp: UIKit.UIImage? {
+    get
+  }
+  public var icBookmark: UIKit.UIImage? {
+    get
+  }
+  public var icChevronRight: UIKit.UIImage? {
+    get
+  }
+  public var icPassenger: UIKit.UIImage? {
+    get
+  }
+  public var icError: UIKit.UIImage? {
+    get
+  }
+  public var icRadioButtonChecked: UIKit.UIImage? {
+    get
+  }
+  public var icServicesBreakfastTogo: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesChildrenCare: UIKit.UIImage? {
+    get
+  }
+  public var icRoomSlippers: UIKit.UIImage? {
+    get
+  }
+  public var icServicesMedicalService: UIKit.UIImage? {
+    get
+  }
+  public var icServicesDoctorOnCall: UIKit.UIImage? {
+    get
+  }
+  public var icFlag: UIKit.UIImage? {
+    get
+  }
+  public var icActivitiesPlayground: UIKit.UIImage? {
+    get
+  }
+  public var icRoomBathrobes: UIKit.UIImage? {
+    get
+  }
+  public var icCurrencyNotFound: UIKit.UIImage? {
+    get
+  }
+  public var icCheckboxGroupSelected: UIKit.UIImage? {
     get
   }
 }
@@ -1310,13 +1046,13 @@ public enum IconStyle : Swift.CaseIterable, Swift.Equatable, Swift.Codable {
   case filled
   case line
   case tint
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WLConfig.IconStyle, b: WLConfig.IconStyle) -> Swift.Bool
   public typealias AllCases = [WLConfig.IconStyle]
   nonisolated public static var allCases: [WLConfig.IconStyle] {
     get
   }
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -1344,9 +1080,6 @@ public struct LocalizedUrlContainer : Swift.Codable, Swift.Equatable {
 }
 extension WLConfig._R {
   public struct ConfigColors {
-    public var badgeHotelPurple: UIKit.UIColor? {
-      get
-    }
     public var modalAppbar: UIKit.UIColor? {
       get
     }
@@ -1404,13 +1137,7 @@ extension WLConfig._R {
     public var primaryPressed: UIKit.UIColor? {
       get
     }
-    public var badgeHotelOrange: UIKit.UIColor? {
-      get
-    }
     public var badgeTicketComfort: UIKit.UIColor? {
-      get
-    }
-    public var badgeHotelGreen: UIKit.UIColor? {
       get
     }
     public var surfaceCardBackground: UIKit.UIColor? {
@@ -1437,9 +1164,6 @@ extension WLConfig._R {
     public var homeScreenText: UIKit.UIColor? {
       get
     }
-    public var badgeHotelRed: UIKit.UIColor? {
-      get
-    }
     public var warning: UIKit.UIColor? {
       get
     }
@@ -1449,16 +1173,10 @@ extension WLConfig._R {
     public var outline: UIKit.UIColor? {
       get
     }
-    public var badgeHotelBlue: UIKit.UIColor? {
-      get
-    }
     public var overlay: UIKit.UIColor? {
       get
     }
     public var badgeTicketFast: UIKit.UIColor? {
-      get
-    }
-    public var badgeHotelDarkBlue: UIKit.UIColor? {
       get
     }
     public var modalAlert: UIKit.UIColor? {
@@ -1477,100 +1195,43 @@ extension WLConfig._R {
 }
 extension WLConfig._R {
   public struct ConfigIconsResource {
-    public var icStar40: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesGamesRoom: UIKit.UIImage? {
-      get
-    }
-    public var icChevronRight: UIKit.UIImage? {
-      get
-    }
-    public var icRoomVoiceMail: UIKit.UIImage? {
-      get
-    }
-    public var icStarFill40: UIKit.UIImage? {
-      get
-    }
-    public var icCheckboxGroupSelected: UIKit.UIImage? {
-      get
-    }
-    public var ic18HandLuggage: UIKit.UIImage? {
-      get
-    }
-    public var icRoomHandicappedRoom: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBathrobes: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceNotFound: UIKit.UIImage? {
-      get
-    }
-    public var icHotelDomain: UIKit.UIImage? {
+    public var icRoomBathtub: UIKit.UIImage? {
       get
     }
     public var icServicesPorter: UIKit.UIImage? {
       get
     }
-    public var icRoomRefrigerator: UIKit.UIImage? {
+    public var icPlaceNotFound: UIKit.UIImage? {
       get
     }
-    public var icRoomCleaningServices: UIKit.UIImage? {
+    public var icRoomCleaning: UIKit.UIImage? {
       get
     }
-    public var icStaffLanguagesFrench: UIKit.UIImage? {
+    public var icShare: UIKit.UIImage? {
       get
     }
-    public var icPlaceAirport: UIKit.UIImage? {
+    public var icActivitiesCasino: UIKit.UIImage? {
       get
     }
-    public var icHotelReception: UIKit.UIImage? {
+    public var icSupport: UIKit.UIImage? {
       get
     }
-    public var icHotelConferenceFacilities: UIKit.UIImage? {
+    public var icStar: UIKit.UIImage? {
       get
     }
-    public var icRoomTv: UIKit.UIImage? {
+    public var icStaffLanguagesRussian: UIKit.UIImage? {
       get
     }
-    public var icStaffLanguagesItalian: UIKit.UIImage? {
+    public var ic18Luggage: UIKit.UIImage? {
       get
     }
-    public var icHotelGarage: UIKit.UIImage? {
+    public var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? {
       get
     }
-    public var icRoomCoffee: UIKit.UIImage? {
+    public var icStarFill40: UIKit.UIImage? {
       get
     }
-    public var icActivitiesBicycleRental: UIKit.UIImage? {
-      get
-    }
-    public var icHotelBarbecueArea: UIKit.UIImage? {
-      get
-    }
-    public var icBookmark: UIKit.UIImage? {
-      get
-    }
-    public var ic18NoHandLuggage: UIKit.UIImage? {
-      get
-    }
-    public var icRoomSharedBathroom: UIKit.UIImage? {
-      get
-    }
-    public var icHotelParking: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesEnglish: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesJacuzzi: UIKit.UIImage? {
-      get
-    }
-    public var icTransferAirportChange: UIKit.UIImage? {
-      get
-    }
-    public var icTransferGuard: UIKit.UIImage? {
+    public var icActivitiesHeatedPool: UIKit.UIImage? {
       get
     }
     public var icRoomInroomSafe: UIKit.UIImage? {
@@ -1579,607 +1240,490 @@ extension WLConfig._R {
     public var icRadioButtonUnchecked: UIKit.UIImage? {
       get
     }
-    public var icHotelTags: UIKit.UIImage? {
-      get
-    }
-    public var icHotelRoom: UIKit.UIImage? {
-      get
-    }
-    public var icHotelCafe: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesNightclub: UIKit.UIImage? {
-      get
-    }
-    public var icHotelCloakroom: UIKit.UIImage? {
-      get
-    }
-    public var icTune: UIKit.UIImage? {
-      get
-    }
-    public var icClearField: UIKit.UIImage? {
-      get
-    }
-    public var icRoomSeparateShower: UIKit.UIImage? {
-      get
-    }
-    public var icFood: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceHotel: UIKit.UIImage? {
-      get
-    }
-    public var icRoomDailyNewspaper: UIKit.UIImage? {
-      get
-    }
-    public var icRoomTelephone: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesBowling: UIKit.UIImage? {
-      get
-    }
-    public var icTransferNight: UIKit.UIImage? {
-      get
-    }
-    public var icViewMap: UIKit.UIImage? {
-      get
-    }
-    public var icRoomConditioner: UIKit.UIImage? {
-      get
-    }
-    public var icRoomInhouseMovies: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesGolfCourse: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesDeutsch: UIKit.UIImage? {
-      get
-    }
-    public var icServicesCopyingServices: UIKit.UIImage? {
-      get
-    }
-    public var icInfo: UIKit.UIImage? {
-      get
-    }
-    public var icRoomDesk: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceSight: UIKit.UIImage? {
-      get
-    }
-    public var icHotelTourDesk: UIKit.UIImage? {
-      get
-    }
-    public var ic18AirplaneTicket: UIKit.UIImage? {
-      get
-    }
-    public var icTransferTransfer: UIKit.UIImage? {
-      get
-    }
-    public var icShare: UIKit.UIImage? {
-      get
-    }
-    public var icCity: UIKit.UIImage? {
-      get
-    }
-    public var icRoomLocalBar: UIKit.UIImage? {
-      get
-    }
-    public var icRoomWifi: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSpa: UIKit.UIImage? {
-      get
-    }
-    public var icWifi: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceSkiLift: UIKit.UIImage? {
-      get
-    }
-    public var icHotelHotel: UIKit.UIImage? {
-      get
-    }
-    public var icHotelSolo: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesPlayground: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceMetroStation: UIKit.UIImage? {
-      get
-    }
-    public var icStarFill: UIKit.UIImage? {
-      get
-    }
-    public var icMap: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceBusiness: UIKit.UIImage? {
-      get
-    }
-    public var icShareApp: UIKit.UIImage? {
-      get
-    }
-    public var icHotelStars5: UIKit.UIImage? {
-      get
-    }
-    public var icHotelRentCar: UIKit.UIImage? {
-      get
-    }
-    public var icRoomShower: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceBeach: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesChinese: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSpaMassage: UIKit.UIImage? {
-      get
-    }
-    public var icHotel: UIKit.UIImage? {
-      get
-    }
-    public var icHotels: UIKit.UIImage? {
-      get
-    }
-    public var icMappin: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBalcony: UIKit.UIImage? {
-      get
-    }
-    public var icRoomSlippers: UIKit.UIImage? {
-      get
-    }
-    public var icHotelGarden: UIKit.UIImage? {
-      get
-    }
-    public var icHotelInHouseMovie: UIKit.UIImage? {
-      get
-    }
-    public var icSurveyCompleted: UIKit.UIImage? {
-      get
-    }
-    public var icOther: UIKit.UIImage? {
-      get
-    }
-    public var icCheckbox: UIKit.UIImage? {
-      get
-    }
-    public var icPassenger: UIKit.UIImage? {
-      get
-    }
-    public var icServicesWakeUpService: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesCasino: UIKit.UIImage? {
-      get
-    }
-    public var icBookmarkOn: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesHeatedPool: UIKit.UIImage? {
-      get
-    }
-    public var icError: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesHorseRiding: UIKit.UIImage? {
-      get
-    }
-    public var icRoomIroningBoard: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesTours: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceShopping: UIKit.UIImage? {
-      get
-    }
-    public var icHotelLaunderette: UIKit.UIImage? {
-      get
-    }
-    public var icDeparture: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceRailway: UIKit.UIImage? {
-      get
-    }
-    public var icHotelMultilingualStaff: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesOutdoorPool: UIKit.UIImage? {
-      get
-    }
-    public var icHotelStars3: UIKit.UIImage? {
-      get
-    }
-    public var ic18NoLuggage: UIKit.UIImage? {
-      get
-    }
-    public var icHotelPets: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesTableTennis: UIKit.UIImage? {
-      get
-    }
-    public var icHotelGiftShop: UIKit.UIImage? {
-      get
-    }
-    public var icHotelElevator: UIKit.UIImage? {
-      get
-    }
-    public var icHotelFreeParking: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBathtub: UIKit.UIImage? {
-      get
-    }
-    public var icServices24RoomService: UIKit.UIImage? {
-      get
-    }
-    public var icHotelStars4: UIKit.UIImage? {
-      get
-    }
-    public var icRoomHairdryer: UIKit.UIImage? {
-      get
-    }
-    public var icRoomDvdPlayer: UIKit.UIImage? {
-      get
-    }
-    public var icHotelBag: UIKit.UIImage? {
-      get
-    }
-    public var icMore: UIKit.UIImage? {
-      get
-    }
-    public var icServicesFreeLocalCalls: UIKit.UIImage? {
-      get
-    }
-    public var icLuggageCircle32: UIKit.UIImage? {
-      get
-    }
-    public var icBeverages: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesTennisCourts: UIKit.UIImage? {
-      get
-    }
-    public var icHotelWelcomeDrink: UIKit.UIImage? {
-      get
-    }
-    public var icNear: UIKit.UIImage? {
-      get
-    }
-    public var icHotelLibrary: UIKit.UIImage? {
-      get
-    }
-    public var icHotelConstruction: UIKit.UIImage? {
-      get
-    }
-    public var icLanguageNotFound: UIKit.UIImage? {
-      get
-    }
-    public var icRadioButtonChecked: UIKit.UIImage? {
-      get
-    }
-    public var icHotelDeposit: UIKit.UIImage? {
-      get
-    }
-    public var icHotelParasols: UIKit.UIImage? {
-      get
-    }
-    public var icStar: UIKit.UIImage? {
-      get
-    }
-    public var icRoomCrib: UIKit.UIImage? {
-      get
-    }
-    public var icChart: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesBilliard: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesMiniGolf: UIKit.UIImage? {
-      get
-    }
-    public var icHotelStars1: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesChildrenCare: UIKit.UIImage? {
-      get
-    }
-    public var icTickets: UIKit.UIImage? {
-      get
-    }
-    public var icHotelPublicWifi: UIKit.UIImage? {
-      get
-    }
-    public var icSwap: UIKit.UIImage? {
-      get
-    }
-    public var icHotelLgbtFriendly: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesSpanish: UIKit.UIImage? {
-      get
-    }
-    public var icServicesLuggageService: UIKit.UIImage? {
-      get
-    }
-    public var icSettings: UIKit.UIImage? {
-      get
-    }
-    public var icRoomMicrowave: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
-      get
-    }
-    public var icHotelLobby: UIKit.UIImage? {
-      get
-    }
-    public var icHotelSecurityGuard: UIKit.UIImage? {
-      get
-    }
-    public var icRoomElectronicKey: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesIndoorPool: UIKit.UIImage? {
-      get
-    }
-    public var icHotelBar: UIKit.UIImage? {
-      get
-    }
-    public var ic32StepperPlus: UIKit.UIImage? {
-      get
-    }
-    public var icRateApp: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBabysitting: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesGym: UIKit.UIImage? {
-      get
-    }
-    public var icHotelValetService: UIKit.UIImage? {
-      get
-    }
-    public var icCheckboxSelected: UIKit.UIImage? {
-      get
-    }
-    public var icServicesDoctorOnCall: UIKit.UIImage? {
-      get
-    }
-    public var icHotelTime: UIKit.UIImage? {
-      get
-    }
-    public var icWaringSquare: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBusinessCenter: UIKit.UIImage? {
-      get
-    }
-    public var icCurrencyNotFound: UIKit.UIImage? {
-      get
-    }
-    public var icHotelSmokingRoom: UIKit.UIImage? {
-      get
-    }
-    public var icHotel24HReception: UIKit.UIImage? {
-      get
-    }
-    public var icSearch: UIKit.UIImage? {
-      get
-    }
-    public var icServicesFaxingFacilities: UIKit.UIImage? {
-      get
-    }
-    public var icPeriodEnd: UIKit.UIImage? {
-      get
-    }
-    public var icHotelCarriage: UIKit.UIImage? {
-      get
-    }
-    public var icHotelDisabledFacilities: UIKit.UIImage? {
-      get
-    }
     public var icMail: UIKit.UIImage? {
       get
     }
-    public var icHotelBanquetFacilities: UIKit.UIImage? {
-      get
-    }
-    public var ic18Luggage: UIKit.UIImage? {
-      get
-    }
-    public var icSupport: UIKit.UIImage? {
-      get
-    }
-    public var icServicesConcierge: UIKit.UIImage? {
-      get
-    }
-    public var icArrowBack: UIKit.UIImage? {
-      get
-    }
-    public var icHotelMiniSupermarket: UIKit.UIImage? {
-      get
-    }
-    public var icHotelRestaurant: UIKit.UIImage? {
-      get
-    }
-    public var icEntertainment: UIKit.UIImage? {
-      get
-    }
-    public var icArrival: UIKit.UIImage? {
-      get
-    }
-    public var icCurrency: UIKit.UIImage? {
-      get
-    }
-    public var icHotelPrivateBeach: UIKit.UIImage? {
-      get
-    }
-    public var icClose: UIKit.UIImage? {
-      get
-    }
-    public var icRoomKitchenette: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesKidsPool: UIKit.UIImage? {
-      get
-    }
-    public var icHotelSunbathingTerrace: UIKit.UIImage? {
-      get
-    }
-    public var icFlight: UIKit.UIImage? {
-      get
-    }
-    public var icRoomPrivateBathroom: UIKit.UIImage? {
-      get
-    }
-    public var icLegal: UIKit.UIImage? {
-      get
-    }
-    public var icFavoritesMenu: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSwimmingPool: UIKit.UIImage? {
-      get
-    }
-    public var icServicesMedicalService: UIKit.UIImage? {
-      get
-    }
-    public var ic18Quote: UIKit.UIImage? {
-      get
-    }
-    public var icPeriodStart: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBeautySalon: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesArabic: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceOther: UIKit.UIImage? {
-      get
-    }
-    public var icHotelSteamRoom: UIKit.UIImage? {
-      get
-    }
-    public var icExpandMore: UIKit.UIImage? {
-      get
-    }
-    public var icRoomConnectingRooms: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesWaterSports: UIKit.UIImage? {
-      get
-    }
-    public var icHotelLuggageRoom: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesRussian: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBreakfastTogo: UIKit.UIImage? {
-      get
-    }
-    public var icServicesHotelAirportTransfer: UIKit.UIImage? {
-      get
-    }
-    public var icNoLuggageCircle32: UIKit.UIImage? {
-      get
-    }
-    public var icHotelLeaderboard: UIKit.UIImage? {
-      get
-    }
-    public var icRoomCleaning: UIKit.UIImage? {
-      get
-    }
-    public var icCharger: UIKit.UIImage? {
-      get
-    }
-    public var ic32StepperMin: UIKit.UIImage? {
-      get
-    }
-    public var icNearMe: UIKit.UIImage? {
-      get
-    }
-    public var icTransferFast: UIKit.UIImage? {
-      get
-    }
-    public var icTuneCheked: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSolarium: UIKit.UIImage? {
-      get
-    }
-    public var icHotelEcoFriendly: UIKit.UIImage? {
-      get
-    }
-    public var icHotelShop: UIKit.UIImage? {
+    public var icActivitiesJacuzzi: UIKit.UIImage? {
       get
     }
     public var icViewCards: UIKit.UIImage? {
       get
     }
+    public var icActivitiesSpaMassage: UIKit.UIImage? {
+      get
+    }
     public var icRoomNonsmokingRooms: UIKit.UIImage? {
       get
     }
-    public var icNoInternet: UIKit.UIImage? {
+    public var icTransferFast: UIKit.UIImage? {
       get
     }
-    public var icRoomRadio: UIKit.UIImage? {
+    public var icRoomRefrigerator: UIKit.UIImage? {
       get
     }
-    public var icCalendar: UIKit.UIImage? {
+    public var icFavoritesMenu: UIKit.UIImage? {
       get
     }
-    public var icHotelFlag: UIKit.UIImage? {
+    public var icStaffLanguagesItalian: UIKit.UIImage? {
       get
     }
-    public var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? {
+    public var icLuggageCircle32: UIKit.UIImage? {
       get
     }
-    public var icServicesRoomService: UIKit.UIImage? {
+    public var icActivitiesTours: UIKit.UIImage? {
       get
     }
-    public var icSubairport: UIKit.UIImage? {
+    public var icActivitiesMiniGolf: UIKit.UIImage? {
       get
     }
-    public var icActivitiesDiving: UIKit.UIImage? {
+    public var icDeparture: UIKit.UIImage? {
       get
     }
-    public var icHotelStars2: UIKit.UIImage? {
+    public var icBookmarkOn: UIKit.UIImage? {
       get
     }
-    public var icHandLuggageCircle32: UIKit.UIImage? {
+    public var icRoomDailyNewspaper: UIKit.UIImage? {
+      get
+    }
+    public var icServicesBeautySalon: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesIndoorPool: UIKit.UIImage? {
+      get
+    }
+    public var icRoomBalcony: UIKit.UIImage? {
+      get
+    }
+    public var icStar40: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceBeach: UIKit.UIImage? {
+      get
+    }
+    public var ic18Quote: UIKit.UIImage? {
+      get
+    }
+    public var ic18HandLuggage: UIKit.UIImage? {
       get
     }
     public var icCheck: UIKit.UIImage? {
       get
     }
-    public var icRoomBathroom: UIKit.UIImage? {
+    public var icPeriodStart: UIKit.UIImage? {
       get
     }
-    public var icHotelDouble: UIKit.UIImage? {
+    public var icRateApp: UIKit.UIImage? {
+      get
+    }
+    public var icServicesRoomService: UIKit.UIImage? {
+      get
+    }
+    public var icClearField: UIKit.UIImage? {
+      get
+    }
+    public var icRoomElectronicKey: UIKit.UIImage? {
+      get
+    }
+    public var ic32StepperMin: UIKit.UIImage? {
+      get
+    }
+    public var icWaringSquare: UIKit.UIImage? {
+      get
+    }
+    public var icServicesLuggageService: UIKit.UIImage? {
+      get
+    }
+    public var icRoomHairdryer: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesBicycleRental: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesHorseRiding: UIKit.UIImage? {
+      get
+    }
+    public var icSettings: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesDiving: UIKit.UIImage? {
+      get
+    }
+    public var icRoomDvdPlayer: UIKit.UIImage? {
+      get
+    }
+    public var icRoomTelephone: UIKit.UIImage? {
+      get
+    }
+    public var icStaffLanguagesSpanish: UIKit.UIImage? {
+      get
+    }
+    public var icHandLuggageCircle32: UIKit.UIImage? {
+      get
+    }
+    public var icTransferTransfer: UIKit.UIImage? {
+      get
+    }
+    public var icViewMap: UIKit.UIImage? {
+      get
+    }
+    public var icRoomSharedBathroom: UIKit.UIImage? {
+      get
+    }
+    public var icBeverages: UIKit.UIImage? {
+      get
+    }
+    public var icEntertainment: UIKit.UIImage? {
+      get
+    }
+    public var icTune: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesOutdoorPool: UIKit.UIImage? {
+      get
+    }
+    public var icStaffLanguagesDeutsch: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceRailway: UIKit.UIImage? {
+      get
+    }
+    public var icServicesConcierge: UIKit.UIImage? {
+      get
+    }
+    public var icServicesFreeLocalCalls: UIKit.UIImage? {
+      get
+    }
+    public var icStarFill: UIKit.UIImage? {
+      get
+    }
+    public var icSearch: UIKit.UIImage? {
+      get
+    }
+    public var icServices24RoomService: UIKit.UIImage? {
+      get
+    }
+    public var icTransferNight: UIKit.UIImage? {
+      get
+    }
+    public var icArrival: UIKit.UIImage? {
+      get
+    }
+    public var icRoomPrivateBathroom: UIKit.UIImage? {
+      get
+    }
+    public var icCalendar: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesSolarium: UIKit.UIImage? {
+      get
+    }
+    public var icRoomCoffee: UIKit.UIImage? {
+      get
+    }
+    public var icArrowBack: UIKit.UIImage? {
+      get
+    }
+    public var icStaffLanguagesFrench: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesTableTennis: UIKit.UIImage? {
+      get
+    }
+    public var icRoomIroningBoard: UIKit.UIImage? {
+      get
+    }
+    public var icTransferGuard: UIKit.UIImage? {
+      get
+    }
+    public var icNoInternet: UIKit.UIImage? {
+      get
+    }
+    public var icRoomWifi: UIKit.UIImage? {
+      get
+    }
+    public var icSwap: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceBusiness: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesKidsPool: UIKit.UIImage? {
+      get
+    }
+    public var icRoomKitchenette: UIKit.UIImage? {
+      get
+    }
+    public var icStaffLanguagesChinese: UIKit.UIImage? {
+      get
+    }
+    public var icMappin: UIKit.UIImage? {
+      get
+    }
+    public var icNoLuggageCircle32: UIKit.UIImage? {
+      get
+    }
+    public var icRoomConditioner: UIKit.UIImage? {
+      get
+    }
+    public var icCurrency: UIKit.UIImage? {
+      get
+    }
+    public var icInfo: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceMetroStation: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesSpa: UIKit.UIImage? {
+      get
+    }
+    public var icRoomTv: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceOther: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesBilliard: UIKit.UIImage? {
+      get
+    }
+    public var ic18NoHandLuggage: UIKit.UIImage? {
+      get
+    }
+    public var icTabInfo: UIKit.UIImage? {
+      get
+    }
+    public var icTuneCheked: UIKit.UIImage? {
+      get
+    }
+    public var icSubairport: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesAnimation: UIKit.UIImage? {
+      get
+    }
+    public var icSurveyCompleted: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesGym: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceSight: UIKit.UIImage? {
+      get
+    }
+    public var icPeriodEnd: UIKit.UIImage? {
+      get
+    }
+    public var icCity: UIKit.UIImage? {
+      get
+    }
+    public var icLanguageNotFound: UIKit.UIImage? {
+      get
+    }
+    public var icStaffLanguagesArabic: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesTennisCourts: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesSwimmingPool: UIKit.UIImage? {
+      get
+    }
+    public var icCheckboxSelected: UIKit.UIImage? {
+      get
+    }
+    public var icNearMe: UIKit.UIImage? {
+      get
+    }
+    public var icLegal: UIKit.UIImage? {
+      get
+    }
+    public var ic32StepperPlus: UIKit.UIImage? {
+      get
+    }
+    public var icServicesBabysitting: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceAirport: UIKit.UIImage? {
+      get
+    }
+    public var icWifi: UIKit.UIImage? {
       get
     }
     public var icServicesSecretaryService: UIKit.UIImage? {
       get
     }
-    public var icHotelDownhillSkiing: UIKit.UIImage? {
+    public var icRoomConnectingRooms: UIKit.UIImage? {
       get
     }
-    public var icActivitiesAnimation: UIKit.UIImage? {
+    public var icRoomShower: UIKit.UIImage? {
+      get
+    }
+    public var icChart: UIKit.UIImage? {
+      get
+    }
+    public var icRoomCrib: UIKit.UIImage? {
+      get
+    }
+    public var icClose: UIKit.UIImage? {
+      get
+    }
+    public var icRoomInhouseMovies: UIKit.UIImage? {
+      get
+    }
+    public var ic18NoLuggage: UIKit.UIImage? {
+      get
+    }
+    public var icServicesCopyingServices: UIKit.UIImage? {
+      get
+    }
+    public var icNear: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceSkiLift: UIKit.UIImage? {
+      get
+    }
+    public var icRoomDesk: UIKit.UIImage? {
+      get
+    }
+    public var icRoomBathroom: UIKit.UIImage? {
+      get
+    }
+    public var icServicesBusinessCenter: UIKit.UIImage? {
+      get
+    }
+    public var icMore: UIKit.UIImage? {
+      get
+    }
+    public var icServicesWakeUpService: UIKit.UIImage? {
+      get
+    }
+    public var icCheckbox: UIKit.UIImage? {
+      get
+    }
+    public var ic18AirplaneTicket: UIKit.UIImage? {
+      get
+    }
+    public var icTickets: UIKit.UIImage? {
+      get
+    }
+    public var icCharger: UIKit.UIImage? {
+      get
+    }
+    public var icPlaceShopping: UIKit.UIImage? {
+      get
+    }
+    public var icMap: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesWaterSports: UIKit.UIImage? {
+      get
+    }
+    public var icRoomCleaningServices: UIKit.UIImage? {
+      get
+    }
+    public var icRoomVoiceMail: UIKit.UIImage? {
+      get
+    }
+    public var icStaffLanguagesEnglish: UIKit.UIImage? {
+      get
+    }
+    public var icTransferAirportChange: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesNightclub: UIKit.UIImage? {
+      get
+    }
+    public var icRoomSeparateShower: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesBowling: UIKit.UIImage? {
+      get
+    }
+    public var icAbout: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesGamesRoom: UIKit.UIImage? {
+      get
+    }
+    public var icRoomRadio: UIKit.UIImage? {
+      get
+    }
+    public var icRoomLocalBar: UIKit.UIImage? {
+      get
+    }
+    public var icExpandMore: UIKit.UIImage? {
+      get
+    }
+    public var icFlight: UIKit.UIImage? {
+      get
+    }
+    public var icFood: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesGolfCourse: UIKit.UIImage? {
+      get
+    }
+    public var icServicesFaxingFacilities: UIKit.UIImage? {
+      get
+    }
+    public var icRoomMicrowave: UIKit.UIImage? {
+      get
+    }
+    public var icOther: UIKit.UIImage? {
+      get
+    }
+    public var icRoomHandicappedRoom: UIKit.UIImage? {
+      get
+    }
+    public var icShareApp: UIKit.UIImage? {
+      get
+    }
+    public var icBookmark: UIKit.UIImage? {
+      get
+    }
+    public var icChevronRight: UIKit.UIImage? {
+      get
+    }
+    public var icPassenger: UIKit.UIImage? {
+      get
+    }
+    public var icError: UIKit.UIImage? {
+      get
+    }
+    public var icRadioButtonChecked: UIKit.UIImage? {
+      get
+    }
+    public var icServicesBreakfastTogo: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesChildrenCare: UIKit.UIImage? {
+      get
+    }
+    public var icRoomSlippers: UIKit.UIImage? {
+      get
+    }
+    public var icServicesMedicalService: UIKit.UIImage? {
+      get
+    }
+    public var icServicesDoctorOnCall: UIKit.UIImage? {
+      get
+    }
+    public var icFlag: UIKit.UIImage? {
+      get
+    }
+    public var icActivitiesPlayground: UIKit.UIImage? {
+      get
+    }
+    public var icRoomBathrobes: UIKit.UIImage? {
+      get
+    }
+    public var icCurrencyNotFound: UIKit.UIImage? {
+      get
+    }
+    public var icCheckboxGroupSelected: UIKit.UIImage? {
       get
     }
   }
@@ -2206,24 +1750,6 @@ public struct _R {
   public struct color {
     public let bundle: Foundation.Bundle
     public init(bundle: Foundation.Bundle)
-    public var badgeHotelBlue: RswiftResources.ColorResource {
-      get
-    }
-    public var badgeHotelDarkBlue: RswiftResources.ColorResource {
-      get
-    }
-    public var badgeHotelGreen: RswiftResources.ColorResource {
-      get
-    }
-    public var badgeHotelOrange: RswiftResources.ColorResource {
-      get
-    }
-    public var badgeHotelPurple: RswiftResources.ColorResource {
-      get
-    }
-    public var badgeHotelRed: RswiftResources.ColorResource {
-      get
-    }
     public var badgeTicketAd: RswiftResources.ColorResource {
       get
     }
@@ -2361,6 +1887,9 @@ public struct _R {
       get
     }
     public var icDefault32StepperPlus: RswiftResources.ImageResource {
+      get
+    }
+    public var icDefaultAbout: RswiftResources.ImageResource {
       get
     }
     public var icDefaultActivitiesAnimation: RswiftResources.ImageResource {
@@ -2513,181 +2042,13 @@ public struct _R {
     public var icDefaultFavoritesMenu: RswiftResources.ImageResource {
       get
     }
+    public var icDefaultFlag: RswiftResources.ImageResource {
+      get
+    }
     public var icDefaultFood: RswiftResources.ImageResource {
       get
     }
     public var icDefaultHandLuggageCircle32: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotel24HReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelBag: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelBanquetFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelBar: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelBarbecueArea: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelCafe: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelCarriage: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelCloakroom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelConferenceFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelConstruction: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelDeposit: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelDisabledFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelDomain: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelDouble: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelDownhillSkiing: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelEcoFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelElevator: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelFlag: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelFreeParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelGarage: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelGarden: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelGiftShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelInHouseMovie: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelLaunderette: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelLeaderboard: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelLgbtFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelLibrary: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelLobby: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelLuggageRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelMiniSupermarket: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelMultilingualStaff: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelParasols: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelPets: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelPrivateBeach: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelPublicWifi: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelRentCar: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelRestaurant: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelSecurityGuard: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelSmokingRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelSolo: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelStars1: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelStars2: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelStars3: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelStars4: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelStars5: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelSteamRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelSunbathingTerrace: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelTags: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelTime: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelTourDesk: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelValetService: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotelWelcomeDrink: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultHotels: RswiftResources.ImageResource {
       get
     }
     public var icDefaultInfo: RswiftResources.ImageResource {
@@ -2718,6 +2079,9 @@ public struct _R {
       get
     }
     public var icDefaultLine32StepperPlus: RswiftResources.ImageResource {
+      get
+    }
+    public var icDefaultLineAbout: RswiftResources.ImageResource {
       get
     }
     public var icDefaultLineActivitiesAnimation: RswiftResources.ImageResource {
@@ -2870,181 +2234,13 @@ public struct _R {
     public var icDefaultLineFavoritesMenu: RswiftResources.ImageResource {
       get
     }
+    public var icDefaultLineFlag: RswiftResources.ImageResource {
+      get
+    }
     public var icDefaultLineFood: RswiftResources.ImageResource {
       get
     }
     public var icDefaultLineHandLuggageCircle32: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotel24HReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelBag: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelBanquetFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelBar: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelBarbecueArea: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelCafe: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelCarriage: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelCloakroom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelConferenceFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelConstruction: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelDeposit: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelDisabledFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelDomain: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelDouble: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelDownhillSkiing: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelEcoFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelElevator: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelFlag: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelFreeParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelGarage: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelGarden: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelGiftShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelInHouseMovie: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelLaunderette: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelLeaderboard: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelLgbtFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelLibrary: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelLobby: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelLuggageRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelMiniSupermarket: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelMultilingualStaff: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelParasols: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelPets: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelPrivateBeach: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelPublicWifi: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelRentCar: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelRestaurant: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelSecurityGuard: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelSmokingRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelSolo: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelStars1: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelStars2: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelStars3: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelStars4: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelStars5: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelSteamRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelSunbathingTerrace: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelTags: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelTime: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelTourDesk: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelValetService: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotelWelcomeDrink: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLineHotels: RswiftResources.ImageResource {
       get
     }
     public var icDefaultLineInfo: RswiftResources.ImageResource {
@@ -3096,9 +2292,6 @@ public struct _R {
       get
     }
     public var icDefaultLinePlaceBusiness: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultLinePlaceHotel: RswiftResources.ImageResource {
       get
     }
     public var icDefaultLinePlaceMetroStation: RswiftResources.ImageResource {
@@ -3263,9 +2456,6 @@ public struct _R {
     public var icDefaultLineServicesFreeLocalCalls: RswiftResources.ImageResource {
       get
     }
-    public var icDefaultLineServicesHotelAirportTransfer: RswiftResources.ImageResource {
-      get
-    }
     public var icDefaultLineServicesLuggageService: RswiftResources.ImageResource {
       get
     }
@@ -3336,6 +2526,9 @@ public struct _R {
       get
     }
     public var icDefaultLineSwap: RswiftResources.ImageResource {
+      get
+    }
+    public var icDefaultLineTabInfo: RswiftResources.ImageResource {
       get
     }
     public var icDefaultLineTickets: RswiftResources.ImageResource {
@@ -3417,9 +2610,6 @@ public struct _R {
       get
     }
     public var icDefaultPlaceBusiness: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultPlaceHotel: RswiftResources.ImageResource {
       get
     }
     public var icDefaultPlaceMetroStation: RswiftResources.ImageResource {
@@ -3584,9 +2774,6 @@ public struct _R {
     public var icDefaultServicesFreeLocalCalls: RswiftResources.ImageResource {
       get
     }
-    public var icDefaultServicesHotelAirportTransfer: RswiftResources.ImageResource {
-      get
-    }
     public var icDefaultServicesLuggageService: RswiftResources.ImageResource {
       get
     }
@@ -3659,6 +2846,9 @@ public struct _R {
     public var icDefaultSwap: RswiftResources.ImageResource {
       get
     }
+    public var icDefaultTabInfo: RswiftResources.ImageResource {
+      get
+    }
     public var icDefaultTickets: RswiftResources.ImageResource {
       get
     }
@@ -3684,6 +2874,9 @@ public struct _R {
       get
     }
     public var icDefaultTint32StepperPlus: RswiftResources.ImageResource {
+      get
+    }
+    public var icDefaultTintAbout: RswiftResources.ImageResource {
       get
     }
     public var icDefaultTintActivitiesAnimation: RswiftResources.ImageResource {
@@ -3836,181 +3029,13 @@ public struct _R {
     public var icDefaultTintFavoritesMenu: RswiftResources.ImageResource {
       get
     }
+    public var icDefaultTintFlag: RswiftResources.ImageResource {
+      get
+    }
     public var icDefaultTintFood: RswiftResources.ImageResource {
       get
     }
     public var icDefaultTintHandLuggageCircle32: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotel24HReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelBag: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelBanquetFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelBar: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelBarbecueArea: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelCafe: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelCarriage: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelCloakroom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelConferenceFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelConstruction: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelDeposit: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelDisabledFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelDomain: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelDouble: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelDownhillSkiing: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelEcoFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelElevator: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelFlag: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelFreeParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelGarage: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelGarden: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelGiftShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelInHouseMovie: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelLaunderette: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelLeaderboard: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelLgbtFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelLibrary: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelLobby: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelLuggageRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelMiniSupermarket: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelMultilingualStaff: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelParasols: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelPets: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelPrivateBeach: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelPublicWifi: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelRentCar: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelRestaurant: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelSecurityGuard: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelSmokingRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelSolo: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelStars1: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelStars2: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelStars3: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelStars4: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelStars5: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelSteamRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelSunbathingTerrace: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelTags: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelTime: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelTourDesk: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelValetService: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotelWelcomeDrink: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintHotels: RswiftResources.ImageResource {
       get
     }
     public var icDefaultTintInfo: RswiftResources.ImageResource {
@@ -4062,9 +3087,6 @@ public struct _R {
       get
     }
     public var icDefaultTintPlaceBusiness: RswiftResources.ImageResource {
-      get
-    }
-    public var icDefaultTintPlaceHotel: RswiftResources.ImageResource {
       get
     }
     public var icDefaultTintPlaceMetroStation: RswiftResources.ImageResource {
@@ -4229,9 +3251,6 @@ public struct _R {
     public var icDefaultTintServicesFreeLocalCalls: RswiftResources.ImageResource {
       get
     }
-    public var icDefaultTintServicesHotelAirportTransfer: RswiftResources.ImageResource {
-      get
-    }
     public var icDefaultTintServicesLuggageService: RswiftResources.ImageResource {
       get
     }
@@ -4302,6 +3321,9 @@ public struct _R {
       get
     }
     public var icDefaultTintSwap: RswiftResources.ImageResource {
+      get
+    }
+    public var icDefaultTintTabInfo: RswiftResources.ImageResource {
       get
     }
     public var icDefaultTintTickets: RswiftResources.ImageResource {
@@ -4395,6 +3417,9 @@ public struct _R {
       get
     }
     public var icSharp32StepperPlus: RswiftResources.ImageResource {
+      get
+    }
+    public var icSharpAbout: RswiftResources.ImageResource {
       get
     }
     public var icSharpActivitiesAnimation: RswiftResources.ImageResource {
@@ -4547,181 +3572,13 @@ public struct _R {
     public var icSharpFavoritesMenu: RswiftResources.ImageResource {
       get
     }
+    public var icSharpFlag: RswiftResources.ImageResource {
+      get
+    }
     public var icSharpFood: RswiftResources.ImageResource {
       get
     }
     public var icSharpHandLuggageCircle32: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotel24HReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelBag: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelBanquetFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelBar: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelBarbecueArea: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelCafe: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelCarriage: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelCloakroom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelConferenceFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelConstruction: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelDeposit: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelDisabledFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelDomain: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelDouble: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelDownhillSkiing: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelEcoFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelElevator: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelFlag: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelFreeParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelGarage: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelGarden: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelGiftShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelInHouseMovie: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelLaunderette: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelLeaderboard: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelLgbtFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelLibrary: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelLobby: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelLuggageRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelMiniSupermarket: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelMultilingualStaff: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelParasols: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelPets: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelPrivateBeach: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelPublicWifi: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelRentCar: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelRestaurant: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelSecurityGuard: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelSmokingRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelSolo: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelStars1: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelStars2: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelStars3: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelStars4: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelStars5: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelSteamRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelSunbathingTerrace: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelTags: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelTime: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelTourDesk: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelValetService: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotelWelcomeDrink: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpHotels: RswiftResources.ImageResource {
       get
     }
     public var icSharpInfo: RswiftResources.ImageResource {
@@ -4752,6 +3609,9 @@ public struct _R {
       get
     }
     public var icSharpLine32StepperPlus: RswiftResources.ImageResource {
+      get
+    }
+    public var icSharpLineAbout: RswiftResources.ImageResource {
       get
     }
     public var icSharpLineActivitiesAnimation: RswiftResources.ImageResource {
@@ -4904,181 +3764,13 @@ public struct _R {
     public var icSharpLineFavoritesMenu: RswiftResources.ImageResource {
       get
     }
+    public var icSharpLineFlag: RswiftResources.ImageResource {
+      get
+    }
     public var icSharpLineFood: RswiftResources.ImageResource {
       get
     }
     public var icSharpLineHandLuggageCircle32: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotel24HReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelBag: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelBanquetFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelBar: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelBarbecueArea: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelCafe: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelCarriage: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelCloakroom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelConferenceFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelConstruction: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelDeposit: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelDisabledFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelDomain: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelDouble: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelDownhillSkiing: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelEcoFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelElevator: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelFlag: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelFreeParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelGarage: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelGarden: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelGiftShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelInHouseMovie: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelLaunderette: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelLeaderboard: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelLgbtFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelLibrary: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelLobby: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelLuggageRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelMiniSupermarket: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelMultilingualStaff: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelParasols: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelPets: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelPrivateBeach: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelPublicWifi: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelRentCar: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelRestaurant: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelSecurityGuard: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelSmokingRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelSolo: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelStars1: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelStars2: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelStars3: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelStars4: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelStars5: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelSteamRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelSunbathingTerrace: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelTags: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelTime: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelTourDesk: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelValetService: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotelWelcomeDrink: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLineHotels: RswiftResources.ImageResource {
       get
     }
     public var icSharpLineInfo: RswiftResources.ImageResource {
@@ -5130,9 +3822,6 @@ public struct _R {
       get
     }
     public var icSharpLinePlaceBusiness: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpLinePlaceHotel: RswiftResources.ImageResource {
       get
     }
     public var icSharpLinePlaceMetroStation: RswiftResources.ImageResource {
@@ -5297,9 +3986,6 @@ public struct _R {
     public var icSharpLineServicesFreeLocalCalls: RswiftResources.ImageResource {
       get
     }
-    public var icSharpLineServicesHotelAirportTransfer: RswiftResources.ImageResource {
-      get
-    }
     public var icSharpLineServicesLuggageService: RswiftResources.ImageResource {
       get
     }
@@ -5370,6 +4056,9 @@ public struct _R {
       get
     }
     public var icSharpLineSwap: RswiftResources.ImageResource {
+      get
+    }
+    public var icSharpLineTabInfo: RswiftResources.ImageResource {
       get
     }
     public var icSharpLineTickets: RswiftResources.ImageResource {
@@ -5451,9 +4140,6 @@ public struct _R {
       get
     }
     public var icSharpPlaceBusiness: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpPlaceHotel: RswiftResources.ImageResource {
       get
     }
     public var icSharpPlaceMetroStation: RswiftResources.ImageResource {
@@ -5618,9 +4304,6 @@ public struct _R {
     public var icSharpServicesFreeLocalCalls: RswiftResources.ImageResource {
       get
     }
-    public var icSharpServicesHotelAirportTransfer: RswiftResources.ImageResource {
-      get
-    }
     public var icSharpServicesLuggageService: RswiftResources.ImageResource {
       get
     }
@@ -5693,6 +4376,9 @@ public struct _R {
     public var icSharpSwap: RswiftResources.ImageResource {
       get
     }
+    public var icSharpTabInfo: RswiftResources.ImageResource {
+      get
+    }
     public var icSharpTickets: RswiftResources.ImageResource {
       get
     }
@@ -5718,6 +4404,9 @@ public struct _R {
       get
     }
     public var icSharpTint32StepperPlus: RswiftResources.ImageResource {
+      get
+    }
+    public var icSharpTintAbout: RswiftResources.ImageResource {
       get
     }
     public var icSharpTintActivitiesAnimation: RswiftResources.ImageResource {
@@ -5870,181 +4559,13 @@ public struct _R {
     public var icSharpTintFavoritesMenu: RswiftResources.ImageResource {
       get
     }
+    public var icSharpTintFlag: RswiftResources.ImageResource {
+      get
+    }
     public var icSharpTintFood: RswiftResources.ImageResource {
       get
     }
     public var icSharpTintHandLuggageCircle32: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotel24HReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelBag: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelBanquetFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelBar: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelBarbecueArea: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelCafe: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelCarriage: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelCloakroom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelConferenceFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelConstruction: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelDeposit: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelDisabledFacilities: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelDomain: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelDouble: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelDownhillSkiing: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelEcoFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelElevator: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelFlag: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelFreeParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelGarage: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelGarden: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelGiftShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelInHouseMovie: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelLaunderette: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelLeaderboard: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelLgbtFriendly: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelLibrary: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelLobby: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelLuggageRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelMiniSupermarket: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelMultilingualStaff: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelParasols: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelParking: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelPets: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelPrivateBeach: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelPublicWifi: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelReception: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelRentCar: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelRestaurant: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelSecurityGuard: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelShop: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelSmokingRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelSolo: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelStars1: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelStars2: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelStars3: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelStars4: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelStars5: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelSteamRoom: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelSunbathingTerrace: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelTags: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelTime: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelTourDesk: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelValetService: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotelWelcomeDrink: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintHotels: RswiftResources.ImageResource {
       get
     }
     public var icSharpTintInfo: RswiftResources.ImageResource {
@@ -6096,9 +4617,6 @@ public struct _R {
       get
     }
     public var icSharpTintPlaceBusiness: RswiftResources.ImageResource {
-      get
-    }
-    public var icSharpTintPlaceHotel: RswiftResources.ImageResource {
       get
     }
     public var icSharpTintPlaceMetroStation: RswiftResources.ImageResource {
@@ -6263,9 +4781,6 @@ public struct _R {
     public var icSharpTintServicesFreeLocalCalls: RswiftResources.ImageResource {
       get
     }
-    public var icSharpTintServicesHotelAirportTransfer: RswiftResources.ImageResource {
-      get
-    }
     public var icSharpTintServicesLuggageService: RswiftResources.ImageResource {
       get
     }
@@ -6336,6 +4851,9 @@ public struct _R {
       get
     }
     public var icSharpTintSwap: RswiftResources.ImageResource {
+      get
+    }
+    public var icSharpTintTabInfo: RswiftResources.ImageResource {
       get
     }
     public var icSharpTintTickets: RswiftResources.ImageResource {
@@ -6416,12 +4934,6 @@ public struct _R {
     public var icZerodataFlight: RswiftResources.ImageResource {
       get
     }
-    public var icZerodataHotel: RswiftResources.ImageResource {
-      get
-    }
-    public var icZerodataHotelRoom: RswiftResources.ImageResource {
-      get
-    }
     public var icZerodataLanguageNotFound: RswiftResources.ImageResource {
       get
     }
@@ -6437,25 +4949,10 @@ public struct _R {
     public var imgAirlinePlaceholder: RswiftResources.ImageResource {
       get
     }
-    public var imgHotelGalleryPlaceholder: RswiftResources.ImageResource {
-      get
-    }
-    public var imgHotelPlaceholder: RswiftResources.ImageResource {
-      get
-    }
-    public var imgMainHotels: RswiftResources.ImageResource {
-      get
-    }
     public var imgMainTickets: RswiftResources.ImageResource {
       get
     }
-    public var imgRoomPlaceholder: RswiftResources.ImageResource {
-      get
-    }
     public var imgSplashScreen: RswiftResources.ImageResource {
-      get
-    }
-    public var imgTrustyouLogo: RswiftResources.ImageResource {
       get
     }
   }

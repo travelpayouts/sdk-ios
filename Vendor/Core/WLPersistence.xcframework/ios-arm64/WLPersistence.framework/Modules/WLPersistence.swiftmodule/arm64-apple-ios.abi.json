@@ -2408,82 +2408,6 @@
           },
           {
             "kind": "Var",
-            "name": "hotelsPriceDisplayTypePublisher",
-            "printedName": "hotelsPriceDisplayTypePublisher",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<WLPersistence.PriceDisplayType, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PriceDisplayType",
-                    "printedName": "WLPersistence.PriceDisplayType",
-                    "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WLPersistence19PriceDisplayServiceP06hotelsbC13TypePublisher7Combine03AnyG0VyAA0bcF0Os5NeverOGvp",
-            "mangledName": "$s13WLPersistence19PriceDisplayServiceP06hotelsbC13TypePublisher7Combine03AnyG0VyAA0bcF0Os5NeverOGvp",
-            "moduleName": "WLPersistence",
-            "protocolReq": true,
-            "spi_group_names": [
-              "CleverPumpkinInternal"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyPublisher",
-                    "printedName": "Combine.AnyPublisher<WLPersistence.PriceDisplayType, Swift.Never>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PriceDisplayType",
-                        "printedName": "WLPersistence.PriceDisplayType",
-                        "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Never",
-                        "printedName": "Swift.Never",
-                        "usr": "s:s5NeverO"
-                      }
-                    ],
-                    "usr": "s:7Combine12AnyPublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WLPersistence19PriceDisplayServiceP06hotelsbC13TypePublisher7Combine03AnyG0VyAA0bcF0Os5NeverOGvg",
-                "mangledName": "$s13WLPersistence19PriceDisplayServiceP06hotelsbC13TypePublisher7Combine03AnyG0VyAA0bcF0Os5NeverOGvg",
-                "moduleName": "WLPersistence",
-                "genericSig": "<τ_0_0 where τ_0_0 : WLPersistence.PriceDisplayService>",
-                "sugared_genericSig": "<Self where Self : WLPersistence.PriceDisplayService>",
-                "protocolReq": true,
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "flightsPriceDisplayType",
             "printedName": "flightsPriceDisplayType",
             "children": [
@@ -2531,57 +2455,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "hotelsPriceDisplayType",
-            "printedName": "hotelsPriceDisplayType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PriceDisplayType",
-                "printedName": "WLPersistence.PriceDisplayType",
-                "usr": "s:13WLPersistence16PriceDisplayTypeO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WLPersistence19PriceDisplayServiceP06hotelsbC4TypeAA0bcF0Ovp",
-            "mangledName": "$s13WLPersistence19PriceDisplayServiceP06hotelsbC4TypeAA0bcF0Ovp",
-            "moduleName": "WLPersistence",
-            "protocolReq": true,
-            "spi_group_names": [
-              "CleverPumpkinInternal"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PriceDisplayType",
-                    "printedName": "WLPersistence.PriceDisplayType",
-                    "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WLPersistence19PriceDisplayServiceP06hotelsbC4TypeAA0bcF0Ovg",
-                "mangledName": "$s13WLPersistence19PriceDisplayServiceP06hotelsbC4TypeAA0bcF0Ovg",
-                "moduleName": "WLPersistence",
-                "genericSig": "<τ_0_0 where τ_0_0 : WLPersistence.PriceDisplayService>",
-                "sugared_genericSig": "<Self where Self : WLPersistence.PriceDisplayService>",
-                "protocolReq": true,
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "save",
-            "printedName": "save(flights:hotels:)",
+            "printedName": "save(flights:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2593,17 +2469,11 @@
                 "name": "PriceDisplayType",
                 "printedName": "WLPersistence.PriceDisplayType",
                 "usr": "s:13WLPersistence16PriceDisplayTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PriceDisplayType",
-                "printedName": "WLPersistence.PriceDisplayType",
-                "usr": "s:13WLPersistence16PriceDisplayTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13WLPersistence19PriceDisplayServiceP4save7flights6hotelsyAA0bC4TypeO_AHtF",
-            "mangledName": "$s13WLPersistence19PriceDisplayServiceP4save7flights6hotelsyAA0bC4TypeO_AHtF",
+            "usr": "s:13WLPersistence19PriceDisplayServiceP4save7flightsyAA0bC4TypeO_tF",
+            "mangledName": "$s13WLPersistence19PriceDisplayServiceP4save7flightsyAA0bC4TypeO_tF",
             "moduleName": "WLPersistence",
             "genericSig": "<τ_0_0 where τ_0_0 : WLPersistence.PriceDisplayService>",
             "sugared_genericSig": "<Self where Self : WLPersistence.PriceDisplayService>",
@@ -2731,84 +2601,6 @@
           },
           {
             "kind": "Var",
-            "name": "hotelsPriceDisplayTypePublisher",
-            "printedName": "hotelsPriceDisplayTypePublisher",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<WLPersistence.PriceDisplayType, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PriceDisplayType",
-                    "printedName": "WLPersistence.PriceDisplayType",
-                    "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WLPersistence23PriceDisplayServiceImplC06hotelsbC13TypePublisher7Combine03AnyH0VyAA0bcG0Os5NeverOGvp",
-            "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC06hotelsbC13TypePublisher7Combine03AnyH0VyAA0bcG0Os5NeverOGvp",
-            "moduleName": "WLPersistence",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "spi_group_names": [
-              "CleverPumpkinInternal"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyPublisher",
-                    "printedName": "Combine.AnyPublisher<WLPersistence.PriceDisplayType, Swift.Never>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PriceDisplayType",
-                        "printedName": "WLPersistence.PriceDisplayType",
-                        "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Never",
-                        "printedName": "Swift.Never",
-                        "usr": "s:s5NeverO"
-                      }
-                    ],
-                    "usr": "s:7Combine12AnyPublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WLPersistence23PriceDisplayServiceImplC06hotelsbC13TypePublisher7Combine03AnyH0VyAA0bcG0Os5NeverOGvg",
-                "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC06hotelsbC13TypePublisher7Combine03AnyH0VyAA0bcG0Os5NeverOGvg",
-                "moduleName": "WLPersistence",
-                "declAttributes": [
-                  "Final"
-                ],
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "flightsPriceDisplayType",
             "printedName": "flightsPriceDisplayType",
             "children": [
@@ -2914,112 +2706,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "hotelsPriceDisplayType",
-            "printedName": "hotelsPriceDisplayType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PriceDisplayType",
-                "printedName": "WLPersistence.PriceDisplayType",
-                "usr": "s:13WLPersistence16PriceDisplayTypeO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0Ovp",
-            "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0Ovp",
-            "moduleName": "WLPersistence",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "Custom"
-            ],
-            "spi_group_names": [
-              "CleverPumpkinInternal"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PriceDisplayType",
-                    "printedName": "WLPersistence.PriceDisplayType",
-                    "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0Ovg",
-                "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0Ovg",
-                "moduleName": "WLPersistence",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PriceDisplayType",
-                    "printedName": "WLPersistence.PriceDisplayType",
-                    "usr": "s:13WLPersistence16PriceDisplayTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0Ovs",
-                "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0Ovs",
-                "moduleName": "WLPersistence",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0OvM",
-                "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC06hotelsbC4TypeAA0bcG0OvM",
-                "moduleName": "WLPersistence",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -3047,7 +2733,7 @@
           {
             "kind": "Function",
             "name": "save",
-            "printedName": "save(flights:hotels:)",
+            "printedName": "save(flights:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3059,17 +2745,11 @@
                 "name": "PriceDisplayType",
                 "printedName": "WLPersistence.PriceDisplayType",
                 "usr": "s:13WLPersistence16PriceDisplayTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PriceDisplayType",
-                "printedName": "WLPersistence.PriceDisplayType",
-                "usr": "s:13WLPersistence16PriceDisplayTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13WLPersistence23PriceDisplayServiceImplC4save7flights6hotelsyAA0bC4TypeO_AHtF",
-            "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC4save7flights6hotelsyAA0bC4TypeO_AHtF",
+            "usr": "s:13WLPersistence23PriceDisplayServiceImplC4save7flightsyAA0bC4TypeO_tF",
+            "mangledName": "$s13WLPersistence23PriceDisplayServiceImplC4save7flightsyAA0bC4TypeO_tF",
             "moduleName": "WLPersistence",
             "declAttributes": [
               "Final",
@@ -4115,59 +3795,6 @@
           },
           {
             "kind": "Var",
-            "name": "hotels",
-            "printedName": "hotels",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WLPersistence.UserDefaultKey.Type) -> (WLPersistence.UserDefaultKey.Hotels) -> WLPersistence.UserDefaultKey",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.Hotels) -> WLPersistence.UserDefaultKey",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserDefaultKey",
-                        "printedName": "WLPersistence.UserDefaultKey",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hotels",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WLPersistence.UserDefaultKey.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserDefaultKey",
-                        "printedName": "WLPersistence.UserDefaultKey",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13WLPersistence14UserDefaultKeyO6hotelsyA2C6HotelsOcACmF",
-            "mangledName": "$s13WLPersistence14UserDefaultKeyO6hotelsyA2C6HotelsOcACmF",
-            "moduleName": "WLPersistence",
-            "spi_group_names": [
-              "CleverPumpkinInternal"
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "common",
             "printedName": "common",
             "children": [
@@ -5186,359 +4813,6 @@
           },
           {
             "kind": "TypeDecl",
-            "name": "Hotels",
-            "printedName": "Hotels",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "adsFiltrationCache",
-                "printedName": "adsFiltrationCache",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.Hotels.Type) -> WLPersistence.UserDefaultKey.Hotels",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hotels",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Hotels",
-                            "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                            "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO18adsFiltrationCacheyA2EmF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO18adsFiltrationCacheyA2EmF",
-                "moduleName": "WLPersistence",
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "latestLocationSelection",
-                "printedName": "latestLocationSelection",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.Hotels.Type) -> WLPersistence.UserDefaultKey.Hotels",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hotels",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Hotels",
-                            "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                            "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO23latestLocationSelectionyA2EmF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO23latestLocationSelectionyA2EmF",
-                "moduleName": "WLPersistence",
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "latestDateRangeSelection",
-                "printedName": "latestDateRangeSelection",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.Hotels.Type) -> WLPersistence.UserDefaultKey.Hotels",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hotels",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Hotels",
-                            "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                            "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO24latestDateRangeSelectionyA2EmF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO24latestDateRangeSelectionyA2EmF",
-                "moduleName": "WLPersistence",
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "recentHotelsLocationCategories",
-                "printedName": "recentHotelsLocationCategories",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.Hotels.Type) -> WLPersistence.UserDefaultKey.Hotels",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hotels",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Hotels",
-                            "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                            "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO06recentE18LocationCategoriesyA2EmF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO06recentE18LocationCategoriesyA2EmF",
-                "moduleName": "WLPersistence",
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "favorites",
-                "printedName": "favorites",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.Hotels.Type) -> WLPersistence.UserDefaultKey.Hotels",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Hotels",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "WLPersistence.UserDefaultKey.Hotels.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Hotels",
-                            "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                            "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO9favoritesyA2EmF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO9favoritesyA2EmF",
-                "moduleName": "WLPersistence",
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hotels",
-                    "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                    "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hotels",
-                    "printedName": "WLPersistence.UserDefaultKey.Hotels",
-                    "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO2eeoiySbAE_AEtFZ",
-                "moduleName": "WLPersistence",
-                "static": true,
-                "implicit": true,
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "hashValue",
-                "printedName": "hashValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO9hashValueSivp",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO9hashValueSivp",
-                "moduleName": "WLPersistence",
-                "implicit": true,
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO9hashValueSivg",
-                    "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO9hashValueSivg",
-                    "moduleName": "WLPersistence",
-                    "implicit": true,
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "hash",
-                "printedName": "hash(into:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hasher",
-                    "printedName": "Swift.Hasher",
-                    "paramValueOwnership": "InOut",
-                    "usr": "s:s6HasherV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO4hash4intoys6HasherVz_tF",
-                "moduleName": "WLPersistence",
-                "implicit": true,
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ],
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:13WLPersistence14UserDefaultKeyO6HotelsO",
-            "mangledName": "$s13WLPersistence14UserDefaultKeyO6HotelsO",
-            "moduleName": "WLPersistence",
-            "isFromExtension": true,
-            "spi_group_names": [
-              "CleverPumpkinInternal"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
             "name": "PriceDisplayType",
             "printedName": "PriceDisplayType",
             "children": [
@@ -5577,46 +4851,6 @@
                 "declKind": "EnumElement",
                 "usr": "s:13WLPersistence14UserDefaultKeyO16PriceDisplayTypeO7flightsyA2EmF",
                 "mangledName": "$s13WLPersistence14UserDefaultKeyO16PriceDisplayTypeO7flightsyA2EmF",
-                "moduleName": "WLPersistence",
-                "spi_group_names": [
-                  "CleverPumpkinInternal"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "hotels",
-                "printedName": "hotels",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(WLPersistence.UserDefaultKey.PriceDisplayType.Type) -> WLPersistence.UserDefaultKey.PriceDisplayType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PriceDisplayType",
-                        "printedName": "WLPersistence.UserDefaultKey.PriceDisplayType",
-                        "usr": "s:13WLPersistence14UserDefaultKeyO16PriceDisplayTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "WLPersistence.UserDefaultKey.PriceDisplayType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PriceDisplayType",
-                            "printedName": "WLPersistence.UserDefaultKey.PriceDisplayType",
-                            "usr": "s:13WLPersistence14UserDefaultKeyO16PriceDisplayTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13WLPersistence14UserDefaultKeyO16PriceDisplayTypeO6hotelsyA2EmF",
-                "mangledName": "$s13WLPersistence14UserDefaultKeyO16PriceDisplayTypeO6hotelsyA2EmF",
                 "moduleName": "WLPersistence",
                 "spi_group_names": [
                   "CleverPumpkinInternal"
@@ -6033,114 +5267,107 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/DebugSettings\/DebugSettings.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/DebugSettings\/DebugSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Services\/DeviceIdentificationService.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Services\/DeviceIdentificationService.swift",
       "kind": "IntegerLiteral",
       "offset": 1020,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 19,
       "value": "\"CFBundleIconFiles\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 21,
       "value": "\"CFBundlePrimaryIcon\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 15,
       "value": "\"CFBundleIcons\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 766,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Keychain\/KeychainKey\/KeychainKey.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Keychain\/KeychainKey\/KeychainKey.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 8,
       "value": "\"common\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 1021,
       "length": 13,
       "value": "\"UserDefault\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1064,
       "length": 12,
       "value": "\"FlightsKey\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
-      "length": 11,
-      "value": "\"HotelsKey\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
-      "kind": "StringLiteral",
-      "offset": 1239,
+      "offset": 1112,
       "length": 15,
       "value": "\"DebugSettings\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
-      "offset": 1283,
+      "offset": 1156,
       "length": 11,
       "value": "\"CommonKey\""
     },
     {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
-      "offset": 1333,
+      "offset": 1206,
       "length": 18,
       "value": "\"PriceDisplayType\""
     }

@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/WLPersistence-Swift.h</key>
 		<data>
-		jmuLRZMDpfOdTg2Tl1AjgqMMy4c=
+		Q3XoycG2KD57YI9L/PGoa9HEWxA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3oZfEMVl3FwKyI6mxgjW3NfoClU=
+		vHwojUIh0RQ8a682P4IWxGBPoT0=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		awOPPt4wxWFc2Gb2EN3rxwOSwHM=
+		OG+SJEsWuYQyj7rF89Ml2AN8v0A=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		KHMto0AhCxo7QClPNbAl+9d/eHc=
+		fqbn70MH1YV7aZ2umyAjuwyJt74=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kXQeovyIhKV3KFgL11nCQB67sH4=
+		kRLBN+I9rPybgSstnRhCmlvnW5U=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DLa4g383ljhQGy5ePoMZj6PxVtw=
+		fsCHglnNUz0OFhaEWBbd70WY018=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		57IqXp79vtOOKuqKCb/Z9ttBG2Y=
+		N7+crmFFLi2Qpz6Vc7FOw6vEdq8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,42 +47,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTBaBzRf8M4iwLJ+OWwTwnh47mgqa/lK7+vT0cHDz5k=
+			efHMqGe9utOIuYWZdifJ3z7ehIgt/983THb2n51sXeY=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5bmli7SNSp/DuQmaSsS6Omr/FJi86GVE9fKe30F4vFw=
+			z3QEi0NRyuPiXwod2diP3pctx7FPmPCoR/GvY0LGhHw=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			60zijQqB+/LNy52nYFTSSH+9Zl6M+lpVPuECF1Pkw0g=
+			MwTrvJk7zAvcAYxHQ4AXUvg61/BcsA3DR+zhtymeILw=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQbJgNvVFsVubyVeQTt0bagsu0TKfxoQCRTj/bXVhmQ=
+			v3R+7LB/XzYM9/BSxs9cGdqwFcMXhEzSzvKvDWeXbbA=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DPOGTb5O1S2pIxYjJeLXexG7It83qHeWPqa4AfXwVR4=
+			C/8RZuRplVInWyzzYqOzmsI4ug3bgvApwrPPlVxyEPY=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFE8oNkvl00hXZJyho4JBB6CfjqHh/Ce25/4gxSRsSc=
+			GUVSE61kc4vtVkcQyBp1IPnJ/z2431YNgAX0dl4ujUo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

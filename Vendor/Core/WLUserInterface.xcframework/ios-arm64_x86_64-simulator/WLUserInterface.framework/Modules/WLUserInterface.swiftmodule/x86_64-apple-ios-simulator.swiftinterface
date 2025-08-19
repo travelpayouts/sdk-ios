@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name WLUserInterface
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WLUserInterface
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AvailableHapticFeedback
 import ClusterKit
 import Combine
@@ -47,8 +47,8 @@ extension WLUserInterface.Deeplink.Flights.TicketModel {
     public let forthDate: Foundation.Date
     public let backDate: Foundation.Date?
     public init(originSearchByAirport: Swift.Bool, originIata: Swift.String, destinationSearchByAirport: Swift.Bool, destinationIata: Swift.String, tripClass: Swift.String?, adults: Swift.Int, children: Swift.Int, infants: Swift.Int, forthDate: Foundation.Date, backDate: Foundation.Date?)
-    public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel, b: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
@@ -59,8 +59,8 @@ extension WLUserInterface.Deeplink.Flights {
     public let searchModel: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel?
     public let ticketSignature: Swift.String?
     public init(searchModel: WLUserInterface.Deeplink.Flights.TicketModel.SearchModel, ticketSignature: Swift.String)
-    public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: WLUserInterface.Deeplink.Flights.TicketModel, b: WLUserInterface.Deeplink.Flights.TicketModel) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
@@ -231,9 +231,6 @@ public struct _R {
       public var find_flights_button_title: RswiftResources.StringResource {
         get
       }
-      public var find_hotels_button_title: RswiftResources.StringResource {
-        get
-      }
       public var flights_favorites_no_result_subtitle: RswiftResources.StringResource {
         get
       }
@@ -244,21 +241,6 @@ public struct _R {
         get
       }
       public var flights_search_no_results_title: RswiftResources.StringResource {
-        get
-      }
-      public var hotels_favorites_no_result_subtitle: RswiftResources.StringResource {
-        get
-      }
-      public var hotels_favorites_no_result_title: RswiftResources.StringResource {
-        get
-      }
-      public var hotels_inaccessible_title: RswiftResources.StringResource {
-        get
-      }
-      public var hotels_search_no_results_subtitle: RswiftResources.StringResource {
-        get
-      }
-      public var hotels_search_no_results_title: RswiftResources.StringResource {
         get
       }
       public var locations_search_no_results_subtitle: RswiftResources.StringResource {
