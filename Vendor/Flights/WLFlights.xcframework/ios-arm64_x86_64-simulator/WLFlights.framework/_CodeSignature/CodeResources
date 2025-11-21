@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/WLFlights-Swift.h</key>
 		<data>
-		BGb3BFcYRiuPV53BgpYMXnIkohk=
+		tusu6re9l8hM0+p86jpcV4+mZPc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EuqciJ1nb3jku9K/ik1MaT33nLk=
+		LxqKrNPX1hCabjDfC6w7QtWLsG0=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		d5j5uJx19pSwJSOiGYEn83G9EHg=
+		l5jgSv7Zf/NItWIfhfrBYv21iDk=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Hmq3xhEUSEOmYH4NiV+OopcsYoc=
+		gln2tKYyWdBZDufq3XhfMDL1x6s=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wh7Ur78wmDJMnllsfqDt22FcIXM=
+		1H10OeFs+J8x0ZVdgjYKt/7LmT8=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OIZjEcZ3yh4azZwOWOHmf4BkBzo=
+		cLeAax7xIwwJurXWDFxJs5iIA1o=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		paEX1BHhKGIXxS9lO+/IXhEzJfs=
+		2xTGU6l4833ydff+jHDsWnNHtNU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4957,42 +4957,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gbqO6Wh9MjZERyyuRa/rnMk9B0hGrI+3BQEWbzDwIMc=
+			MskyAAinXvqgOq85257ZMswQse8rUaANjId3j2D1Gl4=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OCRK6qpwVCdxWDW2FwFMKuGXzwMCNv6CUsG7wvalmKs=
+			3KYgWce3jSYhXALV/WLb+DVYRAvlQXM7UvsUVEWARGc=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6/EfwBRAFkLIEFU+DJDvnjX1xCUiEl5N3reG7sJuYc=
+			VphHn78fR3vzZhI3/Hjx7XgQBM3GiBEtn63JCCSDsvs=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uXwYzseVpz1q8bftq0Bwq436PZxg63mi/QBRiaAr9nY=
+			+m5BYTSuOVl0b3ajaQD0RUQxsJmmHmCqnjBpuDncMG0=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQDwd+FYRym7cGRxaA8CKFiRZqsxlhE5MRKkuWgUSqo=
+			rx44kaZTz44s9wkafeTArmk+psszmIdxnqqe1ufyWAU=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sEz+dnVDd+8LanIuCQpDJtCcey5ZCo+u5fu/VAjHfmk=
+			9jG1BZ5qhR4SJjsW8nY3Ox6vT87fv0wPu56Ny90wB3o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

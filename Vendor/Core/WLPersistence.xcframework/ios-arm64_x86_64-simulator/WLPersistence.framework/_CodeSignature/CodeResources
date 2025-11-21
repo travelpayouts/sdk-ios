@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/WLPersistence-Swift.h</key>
 		<data>
-		Q3XoycG2KD57YI9L/PGoa9HEWxA=
+		BH/s8tSb48Nj7ScHGXVzhTh2nUA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		d8TYO5//dCOpHFFtFeQb0af4dTw=
+		84RcvImt7K6n/0uF9jaX+7aVOAM=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DnyU3ISOgkFTqO12BGIKi38pYyg=
+		nzTQ5JLtskedn2uo77hQ1+xGgp8=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NbcOmVc1X6NpdYnVM2dOb/ckppo=
+		ZJ0O345VbN2jWORTXaJ25BVdrx0=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uDFVOnLN8m2r/EylQ6iYy53ukEg=
+		DH12AF3qHshAHsLeBjBVFKIMtmc=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LdE4dAsic68A4ycy6ZvFGS5u1w0=
+		fStX7C4u1Eun83ddchkcEqnYLHA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			efHMqGe9utOIuYWZdifJ3z7ehIgt/983THb2n51sXeY=
+			zEn4z+TjAARJQ3zpJ70qcixDqHXO58J4nYezDIwS+g0=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -61,28 +61,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uv3Gthh3A5Ue+13HJCEaunAInwhDZGYY1W3947/ipbM=
+			5OTHwHTIrBdq3VoRJiEAov3/jvazGpbFg214IUfghTw=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LUBOSkeWXS1lWioHYZiH1IZasXU0rFYUfDYUo8azKy8=
+			hs6BKMmCAMM4v0QDXVZ3jZ7y34Z9Xmsqo3jxa42MKjM=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QKfImuR1IphV5N8p4ZwS6tKnPPPsYdpCEyUId+KFVp4=
+			u3e7JhNZLN5ov2+GBOy3ThW5T5QG0jJOh6gGxgOlb5o=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZNgwNTa4/x2ib2s3PqF4eNN0p2BKShkkuHPr04HNm4Q=
+			NlkpJIimBuYytn4jL/QmQ5qQ1lHMcXRqnwn7lGYv5og=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
