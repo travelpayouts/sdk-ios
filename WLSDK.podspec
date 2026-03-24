@@ -1,10 +1,10 @@
 #  This file was automatically generated and should not be edited.
 #
-#  Copyright © 2025 CleverPumpkin. All rights reserved.
+#  Copyright © 2026 CleverPumpkin. All rights reserved.
 #
 Pod::Spec.new do |s|
     s.name                  = 'WLSDK'
-    s.version               = '1.6.0'
+    s.version               = '1.7.0'
     s.summary               = 'Integrate flight search and booking framework in your apps.'
   
     s.description           = <<-DESC
@@ -22,13 +22,14 @@ Pod::Spec.new do |s|
     s.subspec 'Core' do |core|
         core.ios.vendored_frameworks = 'Vendor/Core/*.xcframework'
 
+        core.dependency 'Alamofire', '>= 5.10.2', '< 6.0.0'
         core.dependency 'Apollo', '>= 1.9.3', '< 1.14.0'
         core.dependency 'AvailableHapticFeedback', '>= 1.0.4', '< 1.1.0'
         core.dependency 'ClusterKit', '>= 0.5.0', '< 1.0.0'
         core.dependency 'CombineCocoa', '>= 0.4.0', '< 1.0.0'
         core.dependency 'CombineExt', '>= 1.8.0', '< 2.0.0'
         core.dependency 'CrispyCalendar', '>= 1.0.10', '< 2.0.0'
-        core.dependency 'DictionaryCoder', '>= 1.0.8', '< 2.0.0'
+        core.dependency 'DictionaryCoder', '>= 1.0.8', '< 1.1.0'
         core.dependency 'ImageViewer.swift', '>= 3.3.8', '< 3.4.0'
         core.dependency 'KeychainSwift', '>= 19.0.0', '<= 24.0.0'
         core.dependency 'Kingfisher', '>= 7.8.0', '< 8.0.0'

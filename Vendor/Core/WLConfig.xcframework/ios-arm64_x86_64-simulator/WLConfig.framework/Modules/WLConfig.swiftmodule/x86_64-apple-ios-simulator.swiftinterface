@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WLConfig
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import CoreGraphics
 import DeveloperToolsSupport
 import Foundation
@@ -21,26 +21,38 @@ public protocol AdvertisingProvider {
   func showInterstitial(for placement: Swift.String, in context: UIKit.UIViewController)
 }
 public protocol AnalyticsProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func log(event: Swift.String, with parameters: [Swift.String : Any]?)
+  #endif
 }
 public protocol AppearanceConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   var baseColorVariant: WLConfig.ColorVariant? { get }
+  #endif
   var cornerStyle: WLConfig.CornerStyle { get }
   var iconStyle: WLConfig.IconStyle { get }
   var palette: WLConfig.ColorPalette { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var overriddenColors: (any WLConfig.ColorSet)? { get }
+  #endif
 }
 extension WLConfig.AppearanceConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var overriddenColors: (any WLConfig.ColorSet)? {
     get
   }
+  #endif
 }
 public protocol BaseVersionAppearanceConfiguration : WLConfig.AppearanceConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   var baseColorVariant: WLConfig.ColorVariant? { get }
+  #endif
   var cornerStyle: WLConfig.CornerStyle { get }
   var iconStyle: WLConfig.IconStyle { get }
   var palette: WLConfig.ColorPalette { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var overriddenColors: (any WLConfig.ColorSet)? { get }
+  #endif
 }
 extension WLConfig.Color {
   public struct HSVParameters {
@@ -72,152 +84,296 @@ extension WLConfig.ColorPalette {
   }
 }
 public protocol ColorSet {
+  #if compiler(>=5.3) && $NonescapableTypes
   var modalAppbar: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var skeletonSecondaryColor: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var primary: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var badgeTicketPopular: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var surfaceSuccess: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var success: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var modalTabbar: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var primaryDisable: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var system: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var onSurfaceDisable: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var badgeTicketWalk: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var onSurfacePrimary: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var surfaceTint: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var onPrimaryDisable: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var modalAppbarScroll: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var homeScreenOverlay: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var surfaceSecondary: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var skeletonBaseColor: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var primaryPressed: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var badgeTicketComfort: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var surfaceCardBackground: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var modalCard: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var searchbar: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var surfaceBackground: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var divider: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var onSurfaceSecondary: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var badgeTicketAd: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var homeScreenText: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var warning: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var onPrimary: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var outline: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var overlay: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var badgeTicketFast: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var modalAlert: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var badgeTicketCheap: WLConfig.Color? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var error: WLConfig.Color? { get }
+  #endif
 }
 extension WLConfig.ColorSet {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var modalAppbar: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var skeletonSecondaryColor: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var primary: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var badgeTicketPopular: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var surfaceSuccess: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var success: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var modalTabbar: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var primaryDisable: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var system: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var onSurfaceDisable: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var badgeTicketWalk: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var onSurfacePrimary: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var surfaceTint: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var onPrimaryDisable: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var modalAppbarScroll: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var homeScreenOverlay: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var surfaceSecondary: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var skeletonBaseColor: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var primaryPressed: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var badgeTicketComfort: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var surfaceCardBackground: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var modalCard: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var searchbar: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var surfaceBackground: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var divider: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var onSurfaceSecondary: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var badgeTicketAd: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var homeScreenText: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var warning: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var onPrimary: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var outline: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var overlay: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var badgeTicketFast: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var modalAlert: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var badgeTicketCheap: WLConfig.Color? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var error: WLConfig.Color? {
     get
   }
+  #endif
 }
 public enum ColorVariant {
   case color(_: UIKit.UIColor)
@@ -227,7 +383,9 @@ extension WLConfig.Configuration.Advertising.Placements {
   public struct Flights {
     public let searchInterstitial: Swift.String?
     public let searchResultsBanner: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(searchInterstitial: Swift.String?, searchResultsBanner: Swift.String?)
+    #endif
   }
 }
 extension WLConfig.Configuration.Advertising {
@@ -261,7 +419,9 @@ extension WLConfig.Configuration {
     public let sharingLink: Swift.String?
     public let bookingReviewRequestFrequency: Swift.Int
     public let appStoreLink: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(marker: Swift.String = "", clientDeviceHost: Swift.String = "", apiKey: Swift.String = "", appStoreId: Swift.String? = nil, privacyUrl: WLConfig.LocalizedUrlContainer? = nil, feedbackEmail: Swift.String? = nil, feedbackTheme: Swift.String? = nil, sharingLink: Swift.String? = nil, bookingReviewRequestFrequency: Swift.Int = .zero, appStoreLink: Swift.String? = nil)
+    #endif
   }
 }
 extension WLConfig.Configuration {
@@ -303,7 +463,9 @@ public struct Configuration {
   public let constants: WLConfig.Configuration.Constants
   public let advertising: WLConfig.Configuration.Advertising?
   public let analytics: WLConfig.Configuration.Analytics?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(appearance: any WLConfig.BaseVersionAppearanceConfiguration, constants: WLConfig.Configuration.Constants, advertising: WLConfig.Configuration.Advertising? = nil, analytics: WLConfig.Configuration.Analytics? = nil)
+  #endif
 }
 extension WLConfig.Configuration {
   public var appearance: any WLConfig.AppearanceConfiguration {
@@ -331,716 +493,1424 @@ public enum CornerStyle : Swift.CaseIterable, Swift.Equatable, Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol IconSet {
-  var icTransferFast: UIKit.UIImage? { get }
-  var icRoomWifi: UIKit.UIImage? { get }
-  var icBeverages: UIKit.UIImage? { get }
-  var icMappin: UIKit.UIImage? { get }
-  var icRoomConditioner: UIKit.UIImage? { get }
-  var icRoomBathrobes: UIKit.UIImage? { get }
-  var icArrival: UIKit.UIImage? { get }
-  var icPlaceBusiness: UIKit.UIImage? { get }
-  var icClearField: UIKit.UIImage? { get }
-  var icInfo: UIKit.UIImage? { get }
-  var icStaffLanguagesEnglish: UIKit.UIImage? { get }
-  var icShareApp: UIKit.UIImage? { get }
-  var icPassenger: UIKit.UIImage? { get }
-  var icPlaceAirport: UIKit.UIImage? { get }
-  var icRoomInroomSafe: UIKit.UIImage? { get }
-  var icRoomBathtub: UIKit.UIImage? { get }
-  var icRoomDailyNewspaper: UIKit.UIImage? { get }
-  var icNoInternet: UIKit.UIImage? { get }
-  var icCheckboxGroupSelected: UIKit.UIImage? { get }
-  var icStarFill: UIKit.UIImage? { get }
-  var icActivitiesTours: UIKit.UIImage? { get }
-  var icRoomSharedBathroom: UIKit.UIImage? { get }
-  var icServicesBeautySalon: UIKit.UIImage? { get }
-  var icStaffLanguagesFrench: UIKit.UIImage? { get }
-  var icTune: UIKit.UIImage? { get }
-  var icActivitiesMiniGolf: UIKit.UIImage? { get }
-  var icPlaceSkiLift: UIKit.UIImage? { get }
-  var icCharger: UIKit.UIImage? { get }
-  var icRoomKitchenette: UIKit.UIImage? { get }
-  var icActivitiesOutdoorPool: UIKit.UIImage? { get }
-  var icRoomSeparateShower: UIKit.UIImage? { get }
-  var icPlaceBeach: UIKit.UIImage? { get }
-  var icRoomShower: UIKit.UIImage? { get }
-  var icRoomLocalBar: UIKit.UIImage? { get }
-  var icWifi: UIKit.UIImage? { get }
-  var icRoomMicrowave: UIKit.UIImage? { get }
-  var icSettings: UIKit.UIImage? { get }
-  var icMail: UIKit.UIImage? { get }
-  var icServicesFaxingFacilities: UIKit.UIImage? { get }
-  var icActivitiesKidsPool: UIKit.UIImage? { get }
-  var icSubairport: UIKit.UIImage? { get }
-  var icRoomBalcony: UIKit.UIImage? { get }
-  var icActivitiesNightclub: UIKit.UIImage? { get }
-  var icError: UIKit.UIImage? { get }
-  var icCheckboxSelected: UIKit.UIImage? { get }
-  var ic18Quote: UIKit.UIImage? { get }
-  var icActivitiesSolarium: UIKit.UIImage? { get }
-  var icServicesDoctorOnCall: UIKit.UIImage? { get }
-  var icActivitiesGamesRoom: UIKit.UIImage? { get }
-  var icArrowBack: UIKit.UIImage? { get }
-  var icStar40: UIKit.UIImage? { get }
-  var ic18AirplaneTicket: UIKit.UIImage? { get }
-  var ic18NoHandLuggage: UIKit.UIImage? { get }
-  var icChart: UIKit.UIImage? { get }
-  var icCurrency: UIKit.UIImage? { get }
-  var ic32StepperPlus: UIKit.UIImage? { get }
-  var icPlaceNotFound: UIKit.UIImage? { get }
-  var icWaringSquare: UIKit.UIImage? { get }
-  var icLanguageNotFound: UIKit.UIImage? { get }
-  var icTabInfo: UIKit.UIImage? { get }
-  var icClose: UIKit.UIImage? { get }
-  var icActivitiesBicycleRental: UIKit.UIImage? { get }
-  var icTuneCheked: UIKit.UIImage? { get }
-  var icServicesConcierge: UIKit.UIImage? { get }
-  var icActivitiesSpaMassage: UIKit.UIImage? { get }
-  var icActivitiesWaterSportsMotorized: UIKit.UIImage? { get }
-  var icPlaceMetroStation: UIKit.UIImage? { get }
-  var icNear: UIKit.UIImage? { get }
-  var icHandLuggageCircle32: UIKit.UIImage? { get }
-  var icActivitiesDiving: UIKit.UIImage? { get }
-  var icServicesRoomService: UIKit.UIImage? { get }
-  var icActivitiesJacuzzi: UIKit.UIImage? { get }
-  var icActivitiesAnimation: UIKit.UIImage? { get }
-  var icPlaceSight: UIKit.UIImage? { get }
-  var icPlaceShopping: UIKit.UIImage? { get }
-  var icServicesCopyingServices: UIKit.UIImage? { get }
-  var icRoomRadio: UIKit.UIImage? { get }
-  var icActivitiesCasino: UIKit.UIImage? { get }
-  var icServicesLuggageService: UIKit.UIImage? { get }
-  var icServicesMedicalService: UIKit.UIImage? { get }
-  var icAbout: UIKit.UIImage? { get }
-  var icFlight: UIKit.UIImage? { get }
-  var icBookmarkOn: UIKit.UIImage? { get }
-  var icPeriodEnd: UIKit.UIImage? { get }
-  var icRoomDvdPlayer: UIKit.UIImage? { get }
-  var icActivitiesSwimmingPool: UIKit.UIImage? { get }
-  var icStaffLanguagesRussian: UIKit.UIImage? { get }
-  var icRateApp: UIKit.UIImage? { get }
-  var icRoomRefrigerator: UIKit.UIImage? { get }
-  var icExpandMore: UIKit.UIImage? { get }
-  var icServicesWakeUpService: UIKit.UIImage? { get }
-  var icLegal: UIKit.UIImage? { get }
-  var icFlag: UIKit.UIImage? { get }
-  var icCurrencyNotFound: UIKit.UIImage? { get }
-  var icRoomBathroom: UIKit.UIImage? { get }
-  var icStaffLanguagesDeutsch: UIKit.UIImage? { get }
-  var icTransferAirportChange: UIKit.UIImage? { get }
-  var icNoLuggageCircle32: UIKit.UIImage? { get }
-  var icRoomCrib: UIKit.UIImage? { get }
-  var icRoomVoiceMail: UIKit.UIImage? { get }
-  var icMap: UIKit.UIImage? { get }
-  var icSurveyCompleted: UIKit.UIImage? { get }
-  var icActivitiesGolfCourse: UIKit.UIImage? { get }
-  var icPlaceRailway: UIKit.UIImage? { get }
-  var ic18Luggage: UIKit.UIImage? { get }
-  var icServicesBabysitting: UIKit.UIImage? { get }
-  var icRadioButtonUnchecked: UIKit.UIImage? { get }
-  var ic18NoLuggage: UIKit.UIImage? { get }
-  var icViewMap: UIKit.UIImage? { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var icDeparture: UIKit.UIImage? { get }
-  var icCalendar: UIKit.UIImage? { get }
-  var ic32StepperMin: UIKit.UIImage? { get }
-  var icActivitiesTennisCourts: UIKit.UIImage? { get }
-  var icActivitiesBilliard: UIKit.UIImage? { get }
-  var icNearMe: UIKit.UIImage? { get }
-  var icServicesBreakfastTogo: UIKit.UIImage? { get }
-  var icRoomNonsmokingRooms: UIKit.UIImage? { get }
-  var icRoomSlippers: UIKit.UIImage? { get }
-  var icChevronRight: UIKit.UIImage? { get }
-  var icFood: UIKit.UIImage? { get }
-  var icActivitiesSpa: UIKit.UIImage? { get }
-  var icRoomHandicappedRoom: UIKit.UIImage? { get }
-  var icServicesPorter: UIKit.UIImage? { get }
-  var icCheckbox: UIKit.UIImage? { get }
-  var icRoomTelephone: UIKit.UIImage? { get }
-  var icRoomTv: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var icServicesBusinessCenter: UIKit.UIImage? { get }
-  var icSwap: UIKit.UIImage? { get }
-  var icSearch: UIKit.UIImage? { get }
-  var icActivitiesIndoorPool: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCheckbox: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icClose: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var icViewCards: UIKit.UIImage? { get }
-  var icRoomCleaningServices: UIKit.UIImage? { get }
-  var icActivitiesPlayground: UIKit.UIImage? { get }
-  var icStar: UIKit.UIImage? { get }
-  var icLuggageCircle32: UIKit.UIImage? { get }
-  var icFavoritesMenu: UIKit.UIImage? { get }
-  var icRoomConnectingRooms: UIKit.UIImage? { get }
-  var icRoomCoffee: UIKit.UIImage? { get }
-  var icActivitiesHeatedPool: UIKit.UIImage? { get }
-  var icActivitiesBowling: UIKit.UIImage? { get }
-  var icTransferGuard: UIKit.UIImage? { get }
-  var icRoomElectronicKey: UIKit.UIImage? { get }
-  var icPlaceOther: UIKit.UIImage? { get }
-  var icActivitiesChildrenCare: UIKit.UIImage? { get }
-  var icEntertainment: UIKit.UIImage? { get }
-  var icCity: UIKit.UIImage? { get }
-  var icSupport: UIKit.UIImage? { get }
-  var icRoomDesk: UIKit.UIImage? { get }
-  var icTickets: UIKit.UIImage? { get }
-  var icShare: UIKit.UIImage? { get }
-  var icServices24RoomService: UIKit.UIImage? { get }
-  var icRoomInhouseMovies: UIKit.UIImage? { get }
-  var icOther: UIKit.UIImage? { get }
-  var icStaffLanguagesChinese: UIKit.UIImage? { get }
-  var icRoomHairdryer: UIKit.UIImage? { get }
-  var icRoomIroningBoard: UIKit.UIImage? { get }
-  var icBookmark: UIKit.UIImage? { get }
-  var icCheck: UIKit.UIImage? { get }
-  var icActivitiesGym: UIKit.UIImage? { get }
-  var icTransferTransfer: UIKit.UIImage? { get }
-  var icActivitiesHorseRiding: UIKit.UIImage? { get }
-  var icStaffLanguagesSpanish: UIKit.UIImage? { get }
-  var icMore: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic18Luggage: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomTv: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var icRadioButtonChecked: UIKit.UIImage? { get }
-  var icStarFill40: UIKit.UIImage? { get }
-  var icServicesFreeLocalCalls: UIKit.UIImage? { get }
-  var icActivitiesTableTennis: UIKit.UIImage? { get }
-  var icStaffLanguagesItalian: UIKit.UIImage? { get }
-  var icTransferNight: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesRoomService: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomShower: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesPorter: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var icRoomPrivateBathroom: UIKit.UIImage? { get }
-  var icActivitiesWaterSports: UIKit.UIImage? { get }
-  var icServicesSecretaryService: UIKit.UIImage? { get }
-  var icPeriodStart: UIKit.UIImage? { get }
-  var icStaffLanguagesArabic: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomTelephone: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic32StepperMin: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTransferFast: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCharger: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesMedicalService: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic18NoLuggage: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icWifi: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesTours: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomIroningBoard: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesIndoorPool: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTune: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icShareApp: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomInhouseMovies: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRadioButtonUnchecked: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomSlippers: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icEntertainment: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomSharedBathroom: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesLuggageService: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesItalian: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesSpanish: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icSurveyCompleted: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesDeutsch: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomCrib: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesConcierge: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesSolarium: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesChinese: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icMappin: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesSwimmingPool: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomConnectingRooms: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceOther: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icOther: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icNoLuggageCircle32: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icLuggageCircle32: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTuneCheked: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icFavoritesMenu: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icChevronRight: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icLegal: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesKidsPool: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceSkiLift: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCheckboxGroupSelected: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icBeverages: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesNightclub: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTickets: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesBeautySalon: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icNearMe: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTransferAirportChange: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesCopyingServices: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomElectronicKey: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomDailyNewspaper: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPeriodEnd: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomRefrigerator: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesCasino: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesGym: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesSecretaryService: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTransferTransfer: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomHandicappedRoom: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesFreeLocalCalls: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesDiving: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCheck: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icInfo: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTransferNight: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomBathrobes: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icHandLuggageCircle32: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCalendar: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icArrival: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceSight: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStarFill: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesSpa: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var icRoomCleaning: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomSeparateShower: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesBowling: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesDoctorOnCall: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomBathroom: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icFlag: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTabInfo: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesFaxingFacilities: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesFrench: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icNear: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icChart: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomInroomSafe: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesWaterSportsMotorized: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesBabysitting: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesGolfCourse: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icShare: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesTableTennis: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic18AirplaneTicket: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesMiniGolf: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceShopping: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesBicycleRental: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomBalcony: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServices24RoomService: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCheckboxSelected: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesHeatedPool: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomCleaningServices: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStarFill40: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPeriodStart: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icNoInternet: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomConditioner: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesBilliard: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icSubairport: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icMore: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icLanguageNotFound: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesSpaMassage: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesOutdoorPool: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icArrowBack: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icError: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceBusiness: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesHorseRiding: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesWakeUpService: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomVoiceMail: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icFood: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomMicrowave: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icServicesBreakfastTogo: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icExpandMore: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icViewMap: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var ic18HandLuggage: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icSupport: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceMetroStation: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomLocalBar: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRateApp: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesTennisCourts: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic32StepperPlus: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icTransferGuard: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icAbout: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icSettings: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icSwap: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceBeach: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCurrencyNotFound: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceNotFound: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPassenger: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStar40: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesAnimation: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomDesk: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic18Quote: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesPlayground: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomHairdryer: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icFlight: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icWaringSquare: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesGamesRoom: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomDvdPlayer: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icSearch: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ic18NoHandLuggage: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesChildrenCare: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceRailway: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomBathtub: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesArabic: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icBookmark: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomKitchenette: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomNonsmokingRooms: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesWaterSports: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icClearField: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesEnglish: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icBookmarkOn: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icPlaceAirport: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icMail: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomCoffee: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icMap: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomWifi: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCurrency: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icCity: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icActivitiesJacuzzi: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icRoomRadio: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStaffLanguagesRussian: UIKit.UIImage? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icStar: UIKit.UIImage? { get }
+  #endif
 }
 extension WLConfig.IconSet {
-  public var icTransferFast: UIKit.UIImage? {
-    get
-  }
-  public var icRoomWifi: UIKit.UIImage? {
-    get
-  }
-  public var icBeverages: UIKit.UIImage? {
-    get
-  }
-  public var icMappin: UIKit.UIImage? {
-    get
-  }
-  public var icRoomConditioner: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBathrobes: UIKit.UIImage? {
-    get
-  }
-  public var icArrival: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceBusiness: UIKit.UIImage? {
-    get
-  }
-  public var icClearField: UIKit.UIImage? {
-    get
-  }
-  public var icInfo: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesEnglish: UIKit.UIImage? {
-    get
-  }
-  public var icShareApp: UIKit.UIImage? {
-    get
-  }
-  public var icPassenger: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceAirport: UIKit.UIImage? {
-    get
-  }
-  public var icRoomInroomSafe: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBathtub: UIKit.UIImage? {
-    get
-  }
-  public var icRoomDailyNewspaper: UIKit.UIImage? {
-    get
-  }
-  public var icNoInternet: UIKit.UIImage? {
-    get
-  }
-  public var icCheckboxGroupSelected: UIKit.UIImage? {
-    get
-  }
-  public var icStarFill: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesTours: UIKit.UIImage? {
-    get
-  }
-  public var icRoomSharedBathroom: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBeautySalon: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesFrench: UIKit.UIImage? {
-    get
-  }
-  public var icTune: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesMiniGolf: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceSkiLift: UIKit.UIImage? {
-    get
-  }
-  public var icCharger: UIKit.UIImage? {
-    get
-  }
-  public var icRoomKitchenette: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesOutdoorPool: UIKit.UIImage? {
-    get
-  }
-  public var icRoomSeparateShower: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceBeach: UIKit.UIImage? {
-    get
-  }
-  public var icRoomShower: UIKit.UIImage? {
-    get
-  }
-  public var icRoomLocalBar: UIKit.UIImage? {
-    get
-  }
-  public var icWifi: UIKit.UIImage? {
-    get
-  }
-  public var icRoomMicrowave: UIKit.UIImage? {
-    get
-  }
-  public var icSettings: UIKit.UIImage? {
-    get
-  }
-  public var icMail: UIKit.UIImage? {
-    get
-  }
-  public var icServicesFaxingFacilities: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesKidsPool: UIKit.UIImage? {
-    get
-  }
-  public var icSubairport: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBalcony: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesNightclub: UIKit.UIImage? {
-    get
-  }
-  public var icError: UIKit.UIImage? {
-    get
-  }
-  public var icCheckboxSelected: UIKit.UIImage? {
-    get
-  }
-  public var ic18Quote: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSolarium: UIKit.UIImage? {
-    get
-  }
-  public var icServicesDoctorOnCall: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesGamesRoom: UIKit.UIImage? {
-    get
-  }
-  public var icArrowBack: UIKit.UIImage? {
-    get
-  }
-  public var icStar40: UIKit.UIImage? {
-    get
-  }
-  public var ic18AirplaneTicket: UIKit.UIImage? {
-    get
-  }
-  public var ic18NoHandLuggage: UIKit.UIImage? {
-    get
-  }
-  public var icChart: UIKit.UIImage? {
-    get
-  }
-  public var icCurrency: UIKit.UIImage? {
-    get
-  }
-  public var ic32StepperPlus: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceNotFound: UIKit.UIImage? {
-    get
-  }
-  public var icWaringSquare: UIKit.UIImage? {
-    get
-  }
-  public var icLanguageNotFound: UIKit.UIImage? {
-    get
-  }
-  public var icTabInfo: UIKit.UIImage? {
-    get
-  }
-  public var icClose: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesBicycleRental: UIKit.UIImage? {
-    get
-  }
-  public var icTuneCheked: UIKit.UIImage? {
-    get
-  }
-  public var icServicesConcierge: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSpaMassage: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceMetroStation: UIKit.UIImage? {
-    get
-  }
-  public var icNear: UIKit.UIImage? {
-    get
-  }
-  public var icHandLuggageCircle32: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesDiving: UIKit.UIImage? {
-    get
-  }
-  public var icServicesRoomService: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesJacuzzi: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesAnimation: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceSight: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceShopping: UIKit.UIImage? {
-    get
-  }
-  public var icServicesCopyingServices: UIKit.UIImage? {
-    get
-  }
-  public var icRoomRadio: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesCasino: UIKit.UIImage? {
-    get
-  }
-  public var icServicesLuggageService: UIKit.UIImage? {
-    get
-  }
-  public var icServicesMedicalService: UIKit.UIImage? {
-    get
-  }
-  public var icAbout: UIKit.UIImage? {
-    get
-  }
-  public var icFlight: UIKit.UIImage? {
-    get
-  }
-  public var icBookmarkOn: UIKit.UIImage? {
-    get
-  }
-  public var icPeriodEnd: UIKit.UIImage? {
-    get
-  }
-  public var icRoomDvdPlayer: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSwimmingPool: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesRussian: UIKit.UIImage? {
-    get
-  }
-  public var icRateApp: UIKit.UIImage? {
-    get
-  }
-  public var icRoomRefrigerator: UIKit.UIImage? {
-    get
-  }
-  public var icExpandMore: UIKit.UIImage? {
-    get
-  }
-  public var icServicesWakeUpService: UIKit.UIImage? {
-    get
-  }
-  public var icLegal: UIKit.UIImage? {
-    get
-  }
-  public var icFlag: UIKit.UIImage? {
-    get
-  }
-  public var icCurrencyNotFound: UIKit.UIImage? {
-    get
-  }
-  public var icRoomBathroom: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesDeutsch: UIKit.UIImage? {
-    get
-  }
-  public var icTransferAirportChange: UIKit.UIImage? {
-    get
-  }
-  public var icNoLuggageCircle32: UIKit.UIImage? {
-    get
-  }
-  public var icRoomCrib: UIKit.UIImage? {
-    get
-  }
-  public var icRoomVoiceMail: UIKit.UIImage? {
-    get
-  }
-  public var icMap: UIKit.UIImage? {
-    get
-  }
-  public var icSurveyCompleted: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesGolfCourse: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceRailway: UIKit.UIImage? {
-    get
-  }
-  public var ic18Luggage: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBabysitting: UIKit.UIImage? {
-    get
-  }
-  public var icRadioButtonUnchecked: UIKit.UIImage? {
-    get
-  }
-  public var ic18NoLuggage: UIKit.UIImage? {
-    get
-  }
-  public var icViewMap: UIKit.UIImage? {
-    get
-  }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icDeparture: UIKit.UIImage? {
     get
   }
-  public var icCalendar: UIKit.UIImage? {
-    get
-  }
-  public var ic32StepperMin: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesTennisCourts: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesBilliard: UIKit.UIImage? {
-    get
-  }
-  public var icNearMe: UIKit.UIImage? {
-    get
-  }
-  public var icServicesBreakfastTogo: UIKit.UIImage? {
-    get
-  }
-  public var icRoomNonsmokingRooms: UIKit.UIImage? {
-    get
-  }
-  public var icRoomSlippers: UIKit.UIImage? {
-    get
-  }
-  public var icChevronRight: UIKit.UIImage? {
-    get
-  }
-  public var icFood: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesSpa: UIKit.UIImage? {
-    get
-  }
-  public var icRoomHandicappedRoom: UIKit.UIImage? {
-    get
-  }
-  public var icServicesPorter: UIKit.UIImage? {
-    get
-  }
-  public var icCheckbox: UIKit.UIImage? {
-    get
-  }
-  public var icRoomTelephone: UIKit.UIImage? {
-    get
-  }
-  public var icRoomTv: UIKit.UIImage? {
-    get
-  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icServicesBusinessCenter: UIKit.UIImage? {
     get
   }
-  public var icSwap: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCheckbox: UIKit.UIImage? {
     get
   }
-  public var icSearch: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icClose: UIKit.UIImage? {
     get
   }
-  public var icActivitiesIndoorPool: UIKit.UIImage? {
-    get
-  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icViewCards: UIKit.UIImage? {
     get
   }
-  public var icRoomCleaningServices: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic18Luggage: UIKit.UIImage? {
     get
   }
-  public var icActivitiesPlayground: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomTv: UIKit.UIImage? {
     get
   }
-  public var icStar: UIKit.UIImage? {
-    get
-  }
-  public var icLuggageCircle32: UIKit.UIImage? {
-    get
-  }
-  public var icFavoritesMenu: UIKit.UIImage? {
-    get
-  }
-  public var icRoomConnectingRooms: UIKit.UIImage? {
-    get
-  }
-  public var icRoomCoffee: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesHeatedPool: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesBowling: UIKit.UIImage? {
-    get
-  }
-  public var icTransferGuard: UIKit.UIImage? {
-    get
-  }
-  public var icRoomElectronicKey: UIKit.UIImage? {
-    get
-  }
-  public var icPlaceOther: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesChildrenCare: UIKit.UIImage? {
-    get
-  }
-  public var icEntertainment: UIKit.UIImage? {
-    get
-  }
-  public var icCity: UIKit.UIImage? {
-    get
-  }
-  public var icSupport: UIKit.UIImage? {
-    get
-  }
-  public var icRoomDesk: UIKit.UIImage? {
-    get
-  }
-  public var icTickets: UIKit.UIImage? {
-    get
-  }
-  public var icShare: UIKit.UIImage? {
-    get
-  }
-  public var icServices24RoomService: UIKit.UIImage? {
-    get
-  }
-  public var icRoomInhouseMovies: UIKit.UIImage? {
-    get
-  }
-  public var icOther: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesChinese: UIKit.UIImage? {
-    get
-  }
-  public var icRoomHairdryer: UIKit.UIImage? {
-    get
-  }
-  public var icRoomIroningBoard: UIKit.UIImage? {
-    get
-  }
-  public var icBookmark: UIKit.UIImage? {
-    get
-  }
-  public var icCheck: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesGym: UIKit.UIImage? {
-    get
-  }
-  public var icTransferTransfer: UIKit.UIImage? {
-    get
-  }
-  public var icActivitiesHorseRiding: UIKit.UIImage? {
-    get
-  }
-  public var icStaffLanguagesSpanish: UIKit.UIImage? {
-    get
-  }
-  public var icMore: UIKit.UIImage? {
-    get
-  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icRadioButtonChecked: UIKit.UIImage? {
     get
   }
-  public var icStarFill40: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesRoomService: UIKit.UIImage? {
     get
   }
-  public var icServicesFreeLocalCalls: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomShower: UIKit.UIImage? {
     get
   }
-  public var icActivitiesTableTennis: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesPorter: UIKit.UIImage? {
     get
   }
-  public var icStaffLanguagesItalian: UIKit.UIImage? {
-    get
-  }
-  public var icTransferNight: UIKit.UIImage? {
-    get
-  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icRoomPrivateBathroom: UIKit.UIImage? {
     get
   }
-  public var icActivitiesWaterSports: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomTelephone: UIKit.UIImage? {
     get
   }
-  public var icServicesSecretaryService: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic32StepperMin: UIKit.UIImage? {
     get
   }
-  public var icPeriodStart: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTransferFast: UIKit.UIImage? {
     get
   }
-  public var icStaffLanguagesArabic: UIKit.UIImage? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCharger: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesMedicalService: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic18NoLuggage: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icWifi: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesTours: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomIroningBoard: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesIndoorPool: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTune: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icShareApp: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomInhouseMovies: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRadioButtonUnchecked: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomSlippers: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icEntertainment: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomSharedBathroom: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesLuggageService: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesItalian: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesSpanish: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icSurveyCompleted: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesDeutsch: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomCrib: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesConcierge: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesSolarium: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesChinese: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icMappin: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesSwimmingPool: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomConnectingRooms: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceOther: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icOther: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icNoLuggageCircle32: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icLuggageCircle32: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTuneCheked: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icFavoritesMenu: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icChevronRight: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icLegal: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesKidsPool: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceSkiLift: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCheckboxGroupSelected: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icBeverages: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesNightclub: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTickets: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesBeautySalon: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icNearMe: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTransferAirportChange: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesCopyingServices: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomElectronicKey: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomDailyNewspaper: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPeriodEnd: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomRefrigerator: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesCasino: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesGym: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesSecretaryService: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTransferTransfer: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomHandicappedRoom: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesFreeLocalCalls: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesDiving: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCheck: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icInfo: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTransferNight: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomBathrobes: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icHandLuggageCircle32: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCalendar: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icArrival: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceSight: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStarFill: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesSpa: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var icRoomCleaning: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomSeparateShower: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesBowling: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesDoctorOnCall: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomBathroom: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icFlag: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTabInfo: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesFaxingFacilities: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesFrench: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icNear: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icChart: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomInroomSafe: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesBabysitting: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesGolfCourse: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icShare: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesTableTennis: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic18AirplaneTicket: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesMiniGolf: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceShopping: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesBicycleRental: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomBalcony: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServices24RoomService: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCheckboxSelected: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesHeatedPool: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomCleaningServices: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStarFill40: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPeriodStart: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icNoInternet: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomConditioner: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesBilliard: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icSubairport: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icMore: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icLanguageNotFound: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesSpaMassage: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesOutdoorPool: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icArrowBack: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icError: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceBusiness: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesHorseRiding: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesWakeUpService: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomVoiceMail: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icFood: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomMicrowave: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icServicesBreakfastTogo: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icExpandMore: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icViewMap: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var ic18HandLuggage: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icSupport: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceMetroStation: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomLocalBar: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRateApp: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesTennisCourts: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic32StepperPlus: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icTransferGuard: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icAbout: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icSettings: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icSwap: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceBeach: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCurrencyNotFound: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceNotFound: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPassenger: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStar40: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesAnimation: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomDesk: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic18Quote: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesPlayground: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomHairdryer: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icFlight: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icWaringSquare: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesGamesRoom: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomDvdPlayer: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icSearch: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var ic18NoHandLuggage: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesChildrenCare: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceRailway: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomBathtub: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesArabic: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icBookmark: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomKitchenette: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomNonsmokingRooms: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesWaterSports: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icClearField: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesEnglish: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icBookmarkOn: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icPlaceAirport: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icMail: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomCoffee: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icMap: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomWifi: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCurrency: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icCity: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icActivitiesJacuzzi: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icRoomRadio: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStaffLanguagesRussian: UIKit.UIImage? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var icStar: UIKit.UIImage? {
+    get
+  }
+  #endif
 }
 public enum IconStyle : Swift.CaseIterable, Swift.Equatable, Swift.Codable {
   case filled
@@ -1070,9 +1940,11 @@ public struct LocalizedStringContainer : Swift.Codable, Swift.Equatable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct LocalizedUrlContainer : Swift.Codable, Swift.Equatable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var localized: Foundation.URL? {
     get
   }
+  #endif
   public init(fallback: Swift.String, storage: [Swift.String : Swift.String])
   public static func == (a: WLConfig.LocalizedUrlContainer, b: WLConfig.LocalizedUrlContainer) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -1080,114 +1952,186 @@ public struct LocalizedUrlContainer : Swift.Codable, Swift.Equatable {
 }
 extension WLConfig._R {
   public struct ConfigColors {
+    #if compiler(>=5.3) && $NonescapableTypes
     public var modalAppbar: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var skeletonSecondaryColor: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var primary: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var badgeTicketPopular: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var surfaceSuccess: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var success: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var modalTabbar: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var primaryDisable: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var system: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var onSurfaceDisable: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var badgeTicketWalk: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var onSurfacePrimary: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var surfaceTint: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var onPrimaryDisable: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var modalAppbarScroll: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var homeScreenOverlay: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var surfaceSecondary: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var skeletonBaseColor: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var primaryPressed: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var badgeTicketComfort: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var surfaceCardBackground: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var modalCard: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var searchbar: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var surfaceBackground: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var divider: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var onSurfaceSecondary: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var badgeTicketAd: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var homeScreenText: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var warning: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var onPrimary: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var outline: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var overlay: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var badgeTicketFast: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var modalAlert: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var badgeTicketCheap: UIKit.UIColor? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var error: UIKit.UIColor? {
       get
     }
+    #endif
   }
   public var configColors: WLConfig._R.ConfigColors {
     get
@@ -1195,537 +2139,891 @@ extension WLConfig._R {
 }
 extension WLConfig._R {
   public struct ConfigIconsResource {
-    public var icTransferFast: UIKit.UIImage? {
-      get
-    }
-    public var icRoomWifi: UIKit.UIImage? {
-      get
-    }
-    public var icBeverages: UIKit.UIImage? {
-      get
-    }
-    public var icMappin: UIKit.UIImage? {
-      get
-    }
-    public var icRoomConditioner: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBathrobes: UIKit.UIImage? {
-      get
-    }
-    public var icArrival: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceBusiness: UIKit.UIImage? {
-      get
-    }
-    public var icClearField: UIKit.UIImage? {
-      get
-    }
-    public var icInfo: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesEnglish: UIKit.UIImage? {
-      get
-    }
-    public var icShareApp: UIKit.UIImage? {
-      get
-    }
-    public var icPassenger: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceAirport: UIKit.UIImage? {
-      get
-    }
-    public var icRoomInroomSafe: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBathtub: UIKit.UIImage? {
-      get
-    }
-    public var icRoomDailyNewspaper: UIKit.UIImage? {
-      get
-    }
-    public var icNoInternet: UIKit.UIImage? {
-      get
-    }
-    public var icCheckboxGroupSelected: UIKit.UIImage? {
-      get
-    }
-    public var icStarFill: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesTours: UIKit.UIImage? {
-      get
-    }
-    public var icRoomSharedBathroom: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBeautySalon: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesFrench: UIKit.UIImage? {
-      get
-    }
-    public var icTune: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesMiniGolf: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceSkiLift: UIKit.UIImage? {
-      get
-    }
-    public var icCharger: UIKit.UIImage? {
-      get
-    }
-    public var icRoomKitchenette: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesOutdoorPool: UIKit.UIImage? {
-      get
-    }
-    public var icRoomSeparateShower: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceBeach: UIKit.UIImage? {
-      get
-    }
-    public var icRoomShower: UIKit.UIImage? {
-      get
-    }
-    public var icRoomLocalBar: UIKit.UIImage? {
-      get
-    }
-    public var icWifi: UIKit.UIImage? {
-      get
-    }
-    public var icRoomMicrowave: UIKit.UIImage? {
-      get
-    }
-    public var icSettings: UIKit.UIImage? {
-      get
-    }
-    public var icMail: UIKit.UIImage? {
-      get
-    }
-    public var icServicesFaxingFacilities: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesKidsPool: UIKit.UIImage? {
-      get
-    }
-    public var icSubairport: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBalcony: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesNightclub: UIKit.UIImage? {
-      get
-    }
-    public var icError: UIKit.UIImage? {
-      get
-    }
-    public var icCheckboxSelected: UIKit.UIImage? {
-      get
-    }
-    public var ic18Quote: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSolarium: UIKit.UIImage? {
-      get
-    }
-    public var icServicesDoctorOnCall: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesGamesRoom: UIKit.UIImage? {
-      get
-    }
-    public var icArrowBack: UIKit.UIImage? {
-      get
-    }
-    public var icStar40: UIKit.UIImage? {
-      get
-    }
-    public var ic18AirplaneTicket: UIKit.UIImage? {
-      get
-    }
-    public var ic18NoHandLuggage: UIKit.UIImage? {
-      get
-    }
-    public var icChart: UIKit.UIImage? {
-      get
-    }
-    public var icCurrency: UIKit.UIImage? {
-      get
-    }
-    public var ic32StepperPlus: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceNotFound: UIKit.UIImage? {
-      get
-    }
-    public var icWaringSquare: UIKit.UIImage? {
-      get
-    }
-    public var icLanguageNotFound: UIKit.UIImage? {
-      get
-    }
-    public var icTabInfo: UIKit.UIImage? {
-      get
-    }
-    public var icClose: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesBicycleRental: UIKit.UIImage? {
-      get
-    }
-    public var icTuneCheked: UIKit.UIImage? {
-      get
-    }
-    public var icServicesConcierge: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSpaMassage: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceMetroStation: UIKit.UIImage? {
-      get
-    }
-    public var icNear: UIKit.UIImage? {
-      get
-    }
-    public var icHandLuggageCircle32: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesDiving: UIKit.UIImage? {
-      get
-    }
-    public var icServicesRoomService: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesJacuzzi: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesAnimation: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceSight: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceShopping: UIKit.UIImage? {
-      get
-    }
-    public var icServicesCopyingServices: UIKit.UIImage? {
-      get
-    }
-    public var icRoomRadio: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesCasino: UIKit.UIImage? {
-      get
-    }
-    public var icServicesLuggageService: UIKit.UIImage? {
-      get
-    }
-    public var icServicesMedicalService: UIKit.UIImage? {
-      get
-    }
-    public var icAbout: UIKit.UIImage? {
-      get
-    }
-    public var icFlight: UIKit.UIImage? {
-      get
-    }
-    public var icBookmarkOn: UIKit.UIImage? {
-      get
-    }
-    public var icPeriodEnd: UIKit.UIImage? {
-      get
-    }
-    public var icRoomDvdPlayer: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSwimmingPool: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesRussian: UIKit.UIImage? {
-      get
-    }
-    public var icRateApp: UIKit.UIImage? {
-      get
-    }
-    public var icRoomRefrigerator: UIKit.UIImage? {
-      get
-    }
-    public var icExpandMore: UIKit.UIImage? {
-      get
-    }
-    public var icServicesWakeUpService: UIKit.UIImage? {
-      get
-    }
-    public var icLegal: UIKit.UIImage? {
-      get
-    }
-    public var icFlag: UIKit.UIImage? {
-      get
-    }
-    public var icCurrencyNotFound: UIKit.UIImage? {
-      get
-    }
-    public var icRoomBathroom: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesDeutsch: UIKit.UIImage? {
-      get
-    }
-    public var icTransferAirportChange: UIKit.UIImage? {
-      get
-    }
-    public var icNoLuggageCircle32: UIKit.UIImage? {
-      get
-    }
-    public var icRoomCrib: UIKit.UIImage? {
-      get
-    }
-    public var icRoomVoiceMail: UIKit.UIImage? {
-      get
-    }
-    public var icMap: UIKit.UIImage? {
-      get
-    }
-    public var icSurveyCompleted: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesGolfCourse: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceRailway: UIKit.UIImage? {
-      get
-    }
-    public var ic18Luggage: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBabysitting: UIKit.UIImage? {
-      get
-    }
-    public var icRadioButtonUnchecked: UIKit.UIImage? {
-      get
-    }
-    public var ic18NoLuggage: UIKit.UIImage? {
-      get
-    }
-    public var icViewMap: UIKit.UIImage? {
-      get
-    }
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icDeparture: UIKit.UIImage? {
       get
     }
-    public var icCalendar: UIKit.UIImage? {
-      get
-    }
-    public var ic32StepperMin: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesTennisCourts: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesBilliard: UIKit.UIImage? {
-      get
-    }
-    public var icNearMe: UIKit.UIImage? {
-      get
-    }
-    public var icServicesBreakfastTogo: UIKit.UIImage? {
-      get
-    }
-    public var icRoomNonsmokingRooms: UIKit.UIImage? {
-      get
-    }
-    public var icRoomSlippers: UIKit.UIImage? {
-      get
-    }
-    public var icChevronRight: UIKit.UIImage? {
-      get
-    }
-    public var icFood: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesSpa: UIKit.UIImage? {
-      get
-    }
-    public var icRoomHandicappedRoom: UIKit.UIImage? {
-      get
-    }
-    public var icServicesPorter: UIKit.UIImage? {
-      get
-    }
-    public var icCheckbox: UIKit.UIImage? {
-      get
-    }
-    public var icRoomTelephone: UIKit.UIImage? {
-      get
-    }
-    public var icRoomTv: UIKit.UIImage? {
-      get
-    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icServicesBusinessCenter: UIKit.UIImage? {
       get
     }
-    public var icSwap: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCheckbox: UIKit.UIImage? {
       get
     }
-    public var icSearch: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icClose: UIKit.UIImage? {
       get
     }
-    public var icActivitiesIndoorPool: UIKit.UIImage? {
-      get
-    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icViewCards: UIKit.UIImage? {
       get
     }
-    public var icRoomCleaningServices: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic18Luggage: UIKit.UIImage? {
       get
     }
-    public var icActivitiesPlayground: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomTv: UIKit.UIImage? {
       get
     }
-    public var icStar: UIKit.UIImage? {
-      get
-    }
-    public var icLuggageCircle32: UIKit.UIImage? {
-      get
-    }
-    public var icFavoritesMenu: UIKit.UIImage? {
-      get
-    }
-    public var icRoomConnectingRooms: UIKit.UIImage? {
-      get
-    }
-    public var icRoomCoffee: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesHeatedPool: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesBowling: UIKit.UIImage? {
-      get
-    }
-    public var icTransferGuard: UIKit.UIImage? {
-      get
-    }
-    public var icRoomElectronicKey: UIKit.UIImage? {
-      get
-    }
-    public var icPlaceOther: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesChildrenCare: UIKit.UIImage? {
-      get
-    }
-    public var icEntertainment: UIKit.UIImage? {
-      get
-    }
-    public var icCity: UIKit.UIImage? {
-      get
-    }
-    public var icSupport: UIKit.UIImage? {
-      get
-    }
-    public var icRoomDesk: UIKit.UIImage? {
-      get
-    }
-    public var icTickets: UIKit.UIImage? {
-      get
-    }
-    public var icShare: UIKit.UIImage? {
-      get
-    }
-    public var icServices24RoomService: UIKit.UIImage? {
-      get
-    }
-    public var icRoomInhouseMovies: UIKit.UIImage? {
-      get
-    }
-    public var icOther: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesChinese: UIKit.UIImage? {
-      get
-    }
-    public var icRoomHairdryer: UIKit.UIImage? {
-      get
-    }
-    public var icRoomIroningBoard: UIKit.UIImage? {
-      get
-    }
-    public var icBookmark: UIKit.UIImage? {
-      get
-    }
-    public var icCheck: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesGym: UIKit.UIImage? {
-      get
-    }
-    public var icTransferTransfer: UIKit.UIImage? {
-      get
-    }
-    public var icActivitiesHorseRiding: UIKit.UIImage? {
-      get
-    }
-    public var icStaffLanguagesSpanish: UIKit.UIImage? {
-      get
-    }
-    public var icMore: UIKit.UIImage? {
-      get
-    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icRadioButtonChecked: UIKit.UIImage? {
       get
     }
-    public var icStarFill40: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesRoomService: UIKit.UIImage? {
       get
     }
-    public var icServicesFreeLocalCalls: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomShower: UIKit.UIImage? {
       get
     }
-    public var icActivitiesTableTennis: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesPorter: UIKit.UIImage? {
       get
     }
-    public var icStaffLanguagesItalian: UIKit.UIImage? {
-      get
-    }
-    public var icTransferNight: UIKit.UIImage? {
-      get
-    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icRoomPrivateBathroom: UIKit.UIImage? {
       get
     }
-    public var icActivitiesWaterSports: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomTelephone: UIKit.UIImage? {
       get
     }
-    public var icServicesSecretaryService: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic32StepperMin: UIKit.UIImage? {
       get
     }
-    public var icPeriodStart: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTransferFast: UIKit.UIImage? {
       get
     }
-    public var icStaffLanguagesArabic: UIKit.UIImage? {
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCharger: UIKit.UIImage? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesMedicalService: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic18NoLuggage: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icWifi: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesTours: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomIroningBoard: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesIndoorPool: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTune: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icShareApp: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomInhouseMovies: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRadioButtonUnchecked: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomSlippers: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icEntertainment: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomSharedBathroom: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesLuggageService: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesItalian: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesSpanish: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icSurveyCompleted: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesDeutsch: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomCrib: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesConcierge: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesSolarium: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icActivitiesWaterSportsNonMotorized: UIKit.UIImage? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesChinese: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icMappin: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesSwimmingPool: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomConnectingRooms: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceOther: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icOther: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icNoLuggageCircle32: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icLuggageCircle32: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTuneCheked: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icFavoritesMenu: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icChevronRight: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icLegal: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesKidsPool: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceSkiLift: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCheckboxGroupSelected: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icBeverages: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesNightclub: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTickets: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesBeautySalon: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icNearMe: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTransferAirportChange: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesCopyingServices: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomElectronicKey: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomDailyNewspaper: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPeriodEnd: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomRefrigerator: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesCasino: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesGym: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesSecretaryService: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTransferTransfer: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomHandicappedRoom: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesFreeLocalCalls: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesDiving: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCheck: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icInfo: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTransferNight: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomBathrobes: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icHandLuggageCircle32: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCalendar: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icArrival: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceSight: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStarFill: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesSpa: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var icRoomCleaning: UIKit.UIImage? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomSeparateShower: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesBowling: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesDoctorOnCall: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomBathroom: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icFlag: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTabInfo: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesFaxingFacilities: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesFrench: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icNear: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icChart: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomInroomSafe: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesWaterSportsMotorized: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesBabysitting: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesGolfCourse: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icShare: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesTableTennis: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic18AirplaneTicket: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesMiniGolf: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceShopping: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesBicycleRental: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomBalcony: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServices24RoomService: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCheckboxSelected: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesHeatedPool: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomCleaningServices: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStarFill40: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPeriodStart: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icNoInternet: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomConditioner: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesBilliard: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icSubairport: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icMore: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icLanguageNotFound: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesSpaMassage: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesOutdoorPool: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icArrowBack: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icError: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceBusiness: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesHorseRiding: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesWakeUpService: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomVoiceMail: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icFood: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomMicrowave: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icServicesBreakfastTogo: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icExpandMore: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icViewMap: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var ic18HandLuggage: UIKit.UIImage? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icSupport: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceMetroStation: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomLocalBar: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRateApp: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesTennisCourts: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic32StepperPlus: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icTransferGuard: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icAbout: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icSettings: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icSwap: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceBeach: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCurrencyNotFound: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceNotFound: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPassenger: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStar40: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesAnimation: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomDesk: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic18Quote: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesPlayground: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomHairdryer: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icFlight: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icWaringSquare: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesGamesRoom: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomDvdPlayer: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icSearch: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var ic18NoHandLuggage: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesChildrenCare: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceRailway: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomBathtub: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesArabic: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icBookmark: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomKitchenette: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomNonsmokingRooms: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesWaterSports: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icClearField: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesEnglish: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icBookmarkOn: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icPlaceAirport: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icMail: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomCoffee: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icMap: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomWifi: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCurrency: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icCity: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icActivitiesJacuzzi: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icRoomRadio: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStaffLanguagesRussian: UIKit.UIImage? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var icStar: UIKit.UIImage? {
+      get
+    }
+    #endif
   }
   public var configIcons: WLConfig._R.ConfigIconsResource {
     get
@@ -4958,17 +6256,25 @@ public struct _R {
   }
 }
 public protocol UnlimitedVersionAppearanceConfiguration : WLConfig.AppearanceConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   var baseColorVariant: WLConfig.ColorVariant? { get }
+  #endif
   var cornerStyle: WLConfig.CornerStyle { get }
   var iconStyle: WLConfig.IconStyle { get }
   var palette: WLConfig.ColorPalette { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var overriddenColors: (any WLConfig.ColorSet)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var overriddenIcons: (any WLConfig.IconSet)? { get }
+  #endif
 }
 extension WLConfig.UnlimitedVersionAppearanceConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var overriddenIcons: (any WLConfig.IconSet)? {
     get
   }
+  #endif
 }
 extension WLConfig.ColorPalette : Swift.Equatable {}
 extension WLConfig.ColorPalette : Swift.Hashable {}

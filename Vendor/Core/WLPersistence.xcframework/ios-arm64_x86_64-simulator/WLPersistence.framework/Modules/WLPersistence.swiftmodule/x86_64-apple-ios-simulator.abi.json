@@ -5283,49 +5283,49 @@
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 487,
       "length": 19,
       "value": "\"CFBundleIconFiles\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
       "kind": "StringLiteral",
-      "offset": 462,
+      "offset": 461,
       "length": 21,
       "value": "\"CFBundlePrimaryIcon\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 579,
       "length": 15,
       "value": "\"CFBundleIcons\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 622,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 664,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 713,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 765,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },

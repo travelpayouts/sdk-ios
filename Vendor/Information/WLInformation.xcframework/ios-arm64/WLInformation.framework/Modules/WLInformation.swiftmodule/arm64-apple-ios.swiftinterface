@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WLInformation
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import Foundation
 import NeedleFoundation
@@ -21,7 +21,9 @@ import _SwiftConcurrencyShims
 public struct InformationScreenConfiguration {
   public var optionalItemsToDisplay: [WLInformation.InformationScreenConfiguration.OptionalItem]
   public var aboutAppInformation: WLInformation.InformationScreenConfiguration.AboutAppInformation?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(optionalItemsToDisplay: [WLInformation.InformationScreenConfiguration.OptionalItem] = OptionalItem.allCases, aboutAppInformation: WLInformation.InformationScreenConfiguration.AboutAppInformation? = nil)
+  #endif
 }
 extension WLInformation.InformationScreenConfiguration {
   public enum OptionalItem : Swift.CaseIterable, Swift.Equatable, Swift.Codable {
@@ -69,7 +71,9 @@ public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable
   case informationMain
   case informationPriceDisplay
   case informationRegionalSettings
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [WLInformation.LocalizationTable]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [WLInformation.LocalizationTable] {
@@ -80,7 +84,9 @@ public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable
   }
 }
 extension WLConfig.Configuration.Localization {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func register(bundle: Foundation.Bundle, informationTable table: WLInformation.LocalizationTable, overriddenTableName: Swift.String? = nil)
+  #endif
 }
 public let R: WLInformation._R
 public struct _R {
@@ -91,7 +97,9 @@ public struct _R {
   }
   public func string(bundle: Foundation.Bundle) -> WLInformation._R.string
   public func string(locale: Foundation.Locale) -> WLInformation._R.string
+  #if compiler(>=5.3) && $NonescapableTypes
   public func string(preferredLanguages: [Swift.String], locale: Foundation.Locale? = nil) -> WLInformation._R.string
+  #endif
   public func validate() throws
   public struct project {
     public let developmentRegion: Swift.String
@@ -100,7 +108,9 @@ public struct _R {
     public let bundle: Foundation.Bundle
     public let preferredLanguages: [Swift.String]?
     public let locale: Foundation.Locale?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(bundle: Foundation.Bundle, preferredLanguages: [Swift.String]? = nil, locale: Foundation.Locale? = nil)
+    #endif
     public var informationAboutApp: WLInformation._R.string.informationAboutApp {
       get
     }
