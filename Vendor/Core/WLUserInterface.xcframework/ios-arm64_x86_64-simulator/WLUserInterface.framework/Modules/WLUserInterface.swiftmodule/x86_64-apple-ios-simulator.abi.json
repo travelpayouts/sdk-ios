@@ -76223,31 +76223,6 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "dollar_name",
-                    "printedName": "dollar_name()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV19BaseCurrenciesTableV11dollar_nameSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV19BaseCurrenciesTableV11dollar_nameSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "ruble_name",
                     "printedName": "ruble_name()",
                     "children": [
@@ -76261,6 +76236,31 @@
                     "declKind": "Func",
                     "usr": "s:15WLUserInterface2_RV13ConfigStringsV19BaseCurrenciesTableV10ruble_nameSSyF",
                     "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV19BaseCurrenciesTableV10ruble_nameSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "dollar_name",
+                    "printedName": "dollar_name()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV19BaseCurrenciesTableV11dollar_nameSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV19BaseCurrenciesTableV11dollar_nameSSyF",
                     "moduleName": "WLUserInterface",
                     "declAttributes": [
                       "AccessControl",
@@ -76357,56 +76357,6 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "reset_button_title",
-                    "printedName": "reset_button_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV18reset_button_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV18reset_button_titleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "done",
-                    "printedName": "done()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV4doneSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV4doneSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "got_it",
                     "printedName": "got_it()",
                     "children": [
@@ -76445,6 +76395,56 @@
                     "declKind": "Func",
                     "usr": "s:15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV2okSSyF",
                     "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV2okSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "done",
+                    "printedName": "done()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV4doneSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV4doneSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "reset_button_title",
+                    "printedName": "reset_button_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV18reset_button_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV04BaseB5TableV18reset_button_titleSSyF",
                     "moduleName": "WLUserInterface",
                     "declAttributes": [
                       "AccessControl",
@@ -76587,8 +76587,8 @@
                 "children": [
                   {
                     "kind": "Function",
-                    "name": "locations_search_no_results_title",
-                    "printedName": "locations_search_no_results_title()",
+                    "name": "flights_search_no_results_subtitle",
+                    "printedName": "flights_search_no_results_subtitle()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -76598,208 +76598,8 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33locations_search_no_results_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33locations_search_no_results_titleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "no_network_subtitle",
-                    "printedName": "no_network_subtitle()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19no_network_subtitleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19no_network_subtitleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "no_network_title",
-                    "printedName": "no_network_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV16no_network_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV16no_network_titleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "retry_button_title",
-                    "printedName": "retry_button_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV18retry_button_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV18retry_button_titleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "repeat_button_title",
-                    "printedName": "repeat_button_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19repeat_button_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19repeat_button_titleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "locations_search_no_results_subtitle",
-                    "printedName": "locations_search_no_results_subtitle()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36locations_search_no_results_subtitleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36locations_search_no_results_subtitleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "flights_favorites_no_result_subtitle",
-                    "printedName": "flights_favorites_no_result_subtitle()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36flights_favorites_no_result_subtitleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36flights_favorites_no_result_subtitleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "something_went_wrong_title",
-                    "printedName": "something_went_wrong_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV26something_went_wrong_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV26something_went_wrong_titleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
-                    "name": "flights_favorites_no_result_title",
-                    "printedName": "flights_favorites_no_result_title()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33flights_favorites_no_result_titleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33flights_favorites_no_result_titleSSyF",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV34flights_search_no_results_subtitleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV34flights_search_no_results_subtitleSSyF",
                     "moduleName": "WLUserInterface",
                     "declAttributes": [
                       "AccessControl",
@@ -76837,31 +76637,6 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "flights_search_no_results_subtitle",
-                    "printedName": "flights_search_no_results_subtitle()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV34flights_search_no_results_subtitleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV34flights_search_no_results_subtitleSSyF",
-                    "moduleName": "WLUserInterface",
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "spi_group_names": [
-                      "CleverPumpkinInternal"
-                    ],
-                    "funcSelfKind": "NonMutating"
-                  },
-                  {
-                    "kind": "Function",
                     "name": "currency_search_no_results_title",
                     "printedName": "currency_search_no_results_title()",
                     "children": [
@@ -76875,6 +76650,181 @@
                     "declKind": "Func",
                     "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV32currency_search_no_results_titleSSyF",
                     "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV32currency_search_no_results_titleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "retry_button_title",
+                    "printedName": "retry_button_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV18retry_button_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV18retry_button_titleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "something_went_wrong_title",
+                    "printedName": "something_went_wrong_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV26something_went_wrong_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV26something_went_wrong_titleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "repeat_button_title",
+                    "printedName": "repeat_button_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19repeat_button_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19repeat_button_titleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "flights_favorites_no_result_title",
+                    "printedName": "flights_favorites_no_result_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33flights_favorites_no_result_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33flights_favorites_no_result_titleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "locations_search_no_results_subtitle",
+                    "printedName": "locations_search_no_results_subtitle()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36locations_search_no_results_subtitleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36locations_search_no_results_subtitleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "no_network_subtitle",
+                    "printedName": "no_network_subtitle()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19no_network_subtitleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV19no_network_subtitleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "currency_search_no_results_subtitle",
+                    "printedName": "currency_search_no_results_subtitle()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV35currency_search_no_results_subtitleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV35currency_search_no_results_subtitleSSyF",
                     "moduleName": "WLUserInterface",
                     "declAttributes": [
                       "AccessControl",
@@ -76912,6 +76862,31 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "flights_favorites_no_result_subtitle",
+                    "printedName": "flights_favorites_no_result_subtitle()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36flights_favorites_no_result_subtitleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV36flights_favorites_no_result_subtitleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "flights_search_no_results_title",
                     "printedName": "flights_search_no_results_title()",
                     "children": [
@@ -76937,8 +76912,8 @@
                   },
                   {
                     "kind": "Function",
-                    "name": "currency_search_no_results_subtitle",
-                    "printedName": "currency_search_no_results_subtitle()",
+                    "name": "locations_search_no_results_title",
+                    "printedName": "locations_search_no_results_title()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -76948,8 +76923,33 @@
                       }
                     ],
                     "declKind": "Func",
-                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV35currency_search_no_results_subtitleSSyF",
-                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV35currency_search_no_results_subtitleSSyF",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33locations_search_no_results_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV33locations_search_no_results_titleSSyF",
+                    "moduleName": "WLUserInterface",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "no_network_title",
+                    "printedName": "no_network_title()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV16no_network_titleSSyF",
+                    "mangledName": "$s15WLUserInterface2_RV13ConfigStringsV17BaseZeroDataTableV16no_network_titleSSyF",
                     "moduleName": "WLUserInterface",
                     "declAttributes": [
                       "AccessControl",
@@ -89073,6 +89073,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "WLUserInterface"
       },
       {
         "kind": "Import",
@@ -131385,6 +131392,41 @@
       "offset": 735,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLUserInterface\/Sources\/ViewControllers\/SegmentedControlVC\/View\/SegmentedControl\/SegmentedControlView.SegmentedControl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLUserInterface\/Sources\/ViewControllers\/SegmentedControlVC\/View\/SegmentedControl\/SegmentedControlView.SegmentedControl.swift",
+      "kind": "FloatLiteral",
+      "offset": 944,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLUserInterface\/Sources\/ViewControllers\/SegmentedControlVC\/View\/SegmentedControl\/SegmentedControlView.SegmentedControl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLUserInterface\/Sources\/ViewControllers\/SegmentedControlVC\/View\/SegmentedControl\/SegmentedControlView.SegmentedControl.swift",
+      "kind": "Array",
+      "offset": 1022,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLUserInterface\/Sources\/ViewControllers\/SegmentedControlVC\/View\/SegmentedControl\/SegmentedControlView.SegmentedControl.swift",
+      "kind": "Array",
+      "offset": 1061,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLUserInterface\/Sources\/CustomUI\/SelectionControl\/SelectionControl.swift",

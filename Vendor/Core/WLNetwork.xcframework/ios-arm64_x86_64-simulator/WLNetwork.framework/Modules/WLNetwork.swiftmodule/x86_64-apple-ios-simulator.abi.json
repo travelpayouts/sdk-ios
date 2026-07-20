@@ -66033,14 +66033,14 @@
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLNetwork\/Sources\/Flights\/Models\/Requests\/StartSearch\/Flights.Requests.StartSearch.Parameters.Directions.Direction.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1231,
       "length": 19,
       "value": "\"is_origin_airport\""
     },
     {
       "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLNetwork\/Sources\/Flights\/Models\/Requests\/StartSearch\/Flights.Requests.StartSearch.Parameters.Directions.Direction.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1281,
       "length": 24,
       "value": "\"is_destination_airport\""
     },
