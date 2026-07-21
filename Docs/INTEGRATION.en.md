@@ -4,7 +4,7 @@ The Travelpayouts SDK is distributed as a CocoaPods dependency from this
 repository. If you do not use CocoaPods, write to support@travelpayouts.com and
 we will send you instructions for integrating the SDK locally.
 
-> This guide was assembled from the podspec (`WLSDK`, version 1.7.0) and the
+> This guide was assembled from the podspec (`WLSDK`, version 1.8.0) and the
 > SDK's conventions.
 
 > **Important (migration).** Hotel search has been removed from the SDK (the
@@ -64,7 +64,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '14.0'
 
-travelpayouts_sdk_version = '1.7.0'
+travelpayouts_sdk_version = '1.8.0'
 travelpayouts_sdk_source = 'https://github.com/travelpayouts/sdk-ios'
 
 target 'MyApplication' do
