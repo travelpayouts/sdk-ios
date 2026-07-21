@@ -4,7 +4,7 @@ Travelpayouts SDK поставляется как зависимость CocoaPo
 Если вы не используете CocoaPods, напишите на support@travelpayouts.com — мы
 пришлём инструкцию по локальному подключению SDK.
 
-> Гайд собран из подспеки (`WLSDK`, версия 1.7.0) и по соглашениям SDK.
+> Гайд собран из подспеки (`WLSDK`, версия 1.8.0) и по соглашениям SDK.
 
 > **Важно (миграция).** Поиск отелей удалён из SDK (API Hotellook отключён
 > провайдером). Если в вашей интеграции использовались экраны или методы
@@ -63,7 +63,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '14.0'
 
-travelpayouts_sdk_version = '1.7.0'
+travelpayouts_sdk_version = '1.8.0'
 travelpayouts_sdk_source = 'https://github.com/travelpayouts/sdk-ios'
 
 target 'MyApplication' do
