@@ -4,7 +4,7 @@ Travelpayouts SDK поставляется как зависимость CocoaPo
 Если вы не используете CocoaPods, напишите на support@travelpayouts.com — мы
 пришлём инструкцию по локальному подключению SDK.
 
-> Гайд собран из подспеки (`WLSDK`, версия 1.8.0) и по соглашениям SDK.
+> Гайд собран из подспеки (`WLSDK`, версия 1.8.1) и по соглашениям SDK.
 
 > **Важно (миграция).** Поиск отелей удалён из SDK (API Hotellook отключён
 > провайдером). Если в вашей интеграции использовались экраны или методы
@@ -37,7 +37,7 @@ end
 Все модули по умолчанию (Core, Flights, Information):
 
 ```ruby
-pod 'WLSDK', :git => 'https://github.com/travelpayouts/sdk-ios'
+pod 'WLSDK', :git => 'https://github.com/travelpayouts/sdk-ios', :tag => '1.8.1'
 ```
 
 ### Подключение модулей по отдельности
@@ -45,13 +45,13 @@ pod 'WLSDK', :git => 'https://github.com/travelpayouts/sdk-ios'
 Авиабилеты (Flights):
 
 ```ruby
-pod 'WLSDK/Flights', :git => 'https://github.com/travelpayouts/sdk-ios'
+pod 'WLSDK/Flights', :git => 'https://github.com/travelpayouts/sdk-ios', :tag => '1.8.1'
 ```
 
 Модуль информации и настроек (Information):
 
 ```ruby
-pod 'WLSDK/Information', :git => 'https://github.com/travelpayouts/sdk-ios'
+pod 'WLSDK/Information', :git => 'https://github.com/travelpayouts/sdk-ios', :tag => '1.8.1'
 ```
 
 ## Пример Podfile
@@ -63,7 +63,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '14.0'
 
-travelpayouts_sdk_version = '1.8.0'
+travelpayouts_sdk_version = '1.8.1'
 travelpayouts_sdk_source = 'https://github.com/travelpayouts/sdk-ios'
 
 target 'MyApplication' do
