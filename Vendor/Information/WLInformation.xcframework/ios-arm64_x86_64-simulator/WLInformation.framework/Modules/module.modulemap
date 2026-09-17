@@ -1,4 +1,3 @@
 framework module WLInformation {
   header "WLInformation-Swift.h"
-  requires objc
 }

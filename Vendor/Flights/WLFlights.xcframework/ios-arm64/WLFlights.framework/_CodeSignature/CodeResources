@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/WLFlights-Swift.h</key>
 		<data>
-		tRzhwiDHBgPbOWkNUYpP89KtHX4=
+		95EB1PVKZWPOyy8kqXCcwIKTrJg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		C8PIKGSf5x4sPzvMRBWUG47k5/U=
+		zG0M/Pwh6ltvTL5vgrSxSsx0Hks=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		e6ZL92uVg+9ntQOzQggTyc/OzN4=
+		L4UW9D3w/cqntNipT8je6ceeU9k=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		np33o6tdgH6ieXigWOJLbVBcpKg=
+		eEYty+KXdwAsF6yx69kMpw0Iajk=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/qyjimLZjbGvntS4QCOX0rkcmtI=
+		OnH4of5jQljhbnySmr78wyiRGrQ=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		92FSNCFgp3vY1VC6CGAETv75zb8=
+		vHU48IJzNAb+GjhJDp/1huOFve0=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hOqbngRkk1rtLs95BQXuBxeO7QE=
+		TbpxAQtJI5X7RJdRGpZGHdAW/dI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		gUFhvRntA1Bnop38+zemgsFK7kk=
+		gXvmbMiPccKn2z5IT8Lp3xTLFfk=
 		</data>
 		<key>ar.lproj/FlightBooking.strings</key>
 		<dict>
@@ -4957,49 +4957,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tQLsG0x0jBBirfBNQQlQPzQu8L2wEFY44wMMd0xi/bM=
+			rz0VuzqV0e3o6j2PFr5EVAd1rPunVWgozJBtZMArz5M=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TJMMG4RSZBBvI7RHSDrlJmDDgkNhNSgMv2ewvd4yQI=
+			I6vUVpHqJATMmFDqIYjdbyAboOSI224xFlIUU8+D3WA=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sAAeNNlC0e+7G+BuO91Kb+TkFY7UZiWhK5UCmVf3yWU=
+			7YaOjkHD6ehWfPFnz/OtYbBM+iasudkuYsOj6Q+hpHs=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bakivV/sUPK7bdGI2q/SrFcmrfGtIXm7zmjGkviW0Ng=
+			c8yEOFczKGzyz+PKNOIdWmvcOrUDyvm9YU9lehTkxEk=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QvFag5h2I+DmUP1jo7TdlgxFF2baPrm3ZChPwIiVFds=
+			PVtJuiG0qsl9tYThlwTi3UMUWPyHx2f8omwjG11LB+c=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoZizmGHyZo2mU+qdKCkflWiB2Zrz1GNLCQVwL7F79M=
+			/G+XI5fuBOgWUZYm3TOGJzN1TYTujhVt9WeCuEY1ObA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DnolGaxbvWBYLAQDc6nA2KU7KDnqzQXzf8AKV0Sqvfc=
+			z/R86pYTagagHa+6RdT+jAGgOID7wnx70O40DxSjXFk=
 			</data>
 		</dict>
 		<key>ar.lproj/FlightBooking.strings</key>

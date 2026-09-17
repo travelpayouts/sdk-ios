@@ -1330,17 +1330,17 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
                     "name": "Decodable",
                     "printedName": "Decodable",
                     "usr": "s:Se",
                     "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
                   }
                 ]
               }
@@ -1363,17 +1363,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
                 "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           }
@@ -1399,17 +1399,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1821,17 +1821,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -3185,17 +3185,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4244,17 +4244,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -4477,17 +4477,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -4790,17 +4790,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -5040,17 +5040,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -5267,105 +5267,105 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/DebugSettings\/DebugSettings.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/DebugSettings\/DebugSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Services\/DeviceIdentificationService.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Services\/DeviceIdentificationService.swift",
       "kind": "IntegerLiteral",
       "offset": 1020,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/BundleIcon\/InfoPlist.BundleIcons.BundleIcon.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 19,
       "value": "\"CFBundleIconFiles\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/BundleIcons\/InfoPlist.BundleIcons.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 21,
       "value": "\"CFBundlePrimaryIcon\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 579,
       "length": 15,
       "value": "\"CFBundleIcons\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 713,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Entities\/InfoPlist\/InfoPlist.swift",
       "kind": "StringLiteral",
       "offset": 765,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/Keychain\/KeychainKey\/KeychainKey.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/Keychain\/KeychainKey\/KeychainKey.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 8,
       "value": "\"common\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1021,
       "length": 13,
       "value": "\"UserDefault\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1064,
       "length": 12,
       "value": "\"FlightsKey\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 15,
       "value": "\"DebugSettings\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1156,
       "length": 11,
       "value": "\"CommonKey\""
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLPersistence\/Sources\/UserDefault\/Key\/UserDefaultKey.swift",
       "kind": "StringLiteral",
       "offset": 1206,
       "length": 18,

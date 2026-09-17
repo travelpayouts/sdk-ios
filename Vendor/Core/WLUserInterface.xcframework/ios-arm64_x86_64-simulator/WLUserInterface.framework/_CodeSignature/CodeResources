@@ -14,35 +14,35 @@
 		</data>
 		<key>Headers/WLUserInterface-Swift.h</key>
 		<data>
-		JG1ZeoZ4nPSKyn9P79w7PQGzsBc=
+		6pgpX+4y0hBTUhpGS4xHiGeFcdw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PnauJnmhBt0cB6hapxGAb/N3Ntk=
+		GHrLXawhW9nN8sVU2XLn4MhCx6I=
 		</data>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XIJVEohBCg5veSXk5mTYj9JyD1s=
+		o1UtduEMv1IsVZofjFHONxHtwno=
 		</data>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BZuL9v5PSPesOUdnyoAq6bwQnBA=
+		Y1ELpP8iUisvM6WhJlwsfC1+3Mc=
 		</data>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Kjj58J5D6/tBPR5mluqL9w2i8a8=
+		cUtvmsnuhJZOO6XcphkeP/eu/2g=
 		</data>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5ibZs+pE43e6VIXCmW8Slp40kOo=
+		IAoTGyovys24vYVNC801gfeRCxc=
 		</data>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yfKfaoeYbn909jTUymIjbFbFJHA=
+		eLZz5/j85/k5vQBhPyfamRM36NA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		nIreCfrEaEq3Qqb6XkwbktB9ivI=
+		3LJzNdSMpCFrdP1V4fFQfR5esfQ=
 		</data>
 		<key>ar.lproj/BaseCurrencies.strings</key>
 		<dict>
@@ -1001,49 +1001,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZOOZCqubQOvSOzNcz596b9P0mlW0sJK4PujUhEI5lnI=
+			Kc6aGR+z4NO9+TxOCPxG7QJEOCSziJBakge5fECAPsI=
 			</data>
 		</dict>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ll31R2WTAPEkk9WKL8SycgRSIUgU1slwCPMisqq68U=
+			7OvoXRsReQ/6bmEaZ//XqSeiuvLQdCrEjlZe53AA7KQ=
 			</data>
 		</dict>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0nl3VFyugDMfRhzTYb0scFwxeGBcK7WV6rn3I80AQLM=
+			BSLmceOGYtMXEjfSM5PX9/uxGYIoRaiJpUj3Lt6B/MM=
 			</data>
 		</dict>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYmboF4djI8uyXVc/948HPDqzsjFGX2gr2xuDOl2RXE=
+			8iEuCt7mM4c35xmFVrRtmTgAetTkl4XEzV7giAJ+hro=
 			</data>
 		</dict>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zPG3BL+DKz7Gw989bU/l/2l39Xoz5d9pDPGGwAvNUPI=
+			cNU2pqgj1KhWfwbGoLVcuzqs8DriFqbTclqBrvEY7p8=
 			</data>
 		</dict>
 		<key>Modules/WLUserInterface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jurwurm1Fu8zFPMtjcwmUSD0g/6MMzBiC09b4eIPGp8=
+			+jOQ1KjeYSMpFY2O6i49yP5jlZ4EIzDXtbr29z6ogKc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ftNKY9CUzwzmSgE5dcsd88vqGZqIVttEWZ20lIcwstI=
+			3Ldnd6ATtNBy4Q+kyqefusxUzf2Jq+s4MZD+5KN4DEQ=
 			</data>
 		</dict>
 		<key>ar.lproj/BaseCurrencies.strings</key>

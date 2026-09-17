@@ -2228,21 +2228,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
       "kind": "Array",
       "offset": 733,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/waikiki\/TeamTownBuildAgent\/work\/6fe0451d95f44e0c\/Modules\/WLShared\/Sources\/Generated\/R.generated.swift",
+      "filePath": "\/Users\/mofas\/Projects\/travel-app\/ios-src\/Modules\/WLShared\/Sources\/Generated\/R.generated.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 4,

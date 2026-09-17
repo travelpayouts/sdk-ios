@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/WLPersistence-Swift.h</key>
 		<data>
-		G9DDs+S2gI6icYL1chF6hLHVm5w=
+		xQbP+TqWylYG4EibNbjqkN9Lsg0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JklYNvNvwmei4dYr/2d7lvk+94Y=
+		kmXjoYc5QQz+zqUIgmP7kW/b6gY=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NPZ9yDvxKC+sKBtveMX9ikhVR6A=
+		jYtS8ihvolb07IR0ukHnPpTAEiQ=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SPCskfAZmMoBPx80RnN4DWjTDmA=
+		OCPlXfXSGvX+ldWCdQhCbMVKO04=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Q5cFbtKqQO+m56BcmnrQlG2QpCk=
+		vUPBx51PCtvdkFYXm2CAqX9hcQQ=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ehKeZ/1G7NxsZFWCu0q0mD6ilzk=
+		Ksdk2dpCA/5Zp3fLJ+EUFkQYiPQ=
 		</data>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2zichoSx0bqOvwJB3+wsqvmGRZQ=
+		4RhXPM0aTbaGvlJ2YS/HiLTYRgE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		CWgFGnnSG4nk33p7LISmM09CrPU=
+		rxj8bZWNufYbCD17elMzxUU9E0k=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -47,49 +47,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1A5wU/TAiTlKLE/WVWwJIQhWt5yeHSCOmcYEe6wFGz8=
+			w4uhxlbdkAFXmmAk9DSbjHdYp2NLZj2DaWIIUQ0W0jA=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Co1VzBYZgXZb7BJ+X++3/BebZKrujlt+b6N/LdwNRHM=
+			6K4HyOLcQ3B5Spr/tfLZkrRGxbJVyzxiDL9EGzSD85E=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXaV47yYcq3khsIVtIab2siiZVoYjcOa3hRmXeQw0EU=
+			4/5qXck2oZ7XB4gxKyByPZuvYlWsHUTilxib0zg1QZQ=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+434pVRW0N4ANUicxdoqJQ7Ne+gWAk0MXokCFmv+Pag=
+			jDrv127ZhL5upupzXFGG61P2BOzdu2VU6td8Q4SrkFw=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8a9WTK13b30Q0DknJCIYlBkGMSngNYf3ASn4UEJqs4=
+			kNW/P0W/5kyBUxh8Vinu3K87UFCtGpgOAhrkHqLX3gM=
 			</data>
 		</dict>
 		<key>Modules/WLPersistence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			73NEv7sd+0AnskgyEqT/hDCfYNr5vWh67pn5To4uMRw=
+			+GUC/G5clpGBMUcHEis0In6TSrXRguQIDQ+yKWx/Vfs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CMtO3gwt4ugzGAI/5qOrHN/Qw4zs30O7Dbt6i5jl5po=
+			sVVWa/IiYP9FO7Wl6SN249NeLXRceVs/o9kLns//qs4=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
